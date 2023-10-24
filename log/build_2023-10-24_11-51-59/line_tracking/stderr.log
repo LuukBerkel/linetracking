@@ -1,0 +1,14 @@
+/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection.cpp.o: warning: relocation against `gsl_interp_cspline' in read-only section `.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]'
+/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection.cpp.o: in function `LineDetection::imageCallback(std::shared_ptr<sensor_msgs::msg::CompressedImage_<std::allocator<void> > >)':
+line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x5d6): undefined reference to `gsl_interp_accel_alloc'
+/usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x5f6): undefined reference to `gsl_interp_cspline'
+/usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x601): undefined reference to `gsl_spline_alloc'
+/usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x653): undefined reference to `gsl_spline_init'
+/usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x750): undefined reference to `gsl_spline_eval'
+/usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x7a1): undefined reference to `gsl_spline_free'
+/usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x7b0): undefined reference to `gsl_interp_accel_free'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:181: line_detection] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

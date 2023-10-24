@@ -1,0 +1,17 @@
+/home/luuk/linetracking/install/line_tracking/lib/line_tracking/compressed_viewer
+/home/luuk/linetracking/install/line_tracking/lib/line_tracking/line_detection
+/home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/package_run_dependencies/line_tracking
+/home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/parent_prefix_path/line_tracking
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.sh
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.dsv
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.sh
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.dsv
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.bash
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.sh
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.zsh
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.dsv
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/package.dsv
+/home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/packages/line_tracking
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig.cmake
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig-version.cmake
+/home/luuk/linetracking/install/line_tracking/share/line_tracking/package.xml

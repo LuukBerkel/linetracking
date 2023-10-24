@@ -1,0 +1,11 @@
+[0.051s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.242s] [ 33%] Built target compressed_viewer
+[0.258s] [ 50%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o[0m
+[0.285s] [01m[K/home/luuk/linetracking/src/line_detection/param_parser.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kparam_parser.hpp: No such file or directory
+[0.285s]     1 | #include [01;31m[K<param_parser.hpp>[m[K
+[0.285s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.286s] compilation terminated.
+[0.288s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:90: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o] Error 1
+[0.288s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+[0.288s] gmake: *** [Makefile:146: all] Error 2
+[0.298s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[ 50%] Built target compressed_viewer
+[ 75%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+In file included from [01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:6[m[K:
+[01m[K/home/luuk/linetracking/src/line_detection/param_parser.hpp:35:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   35 |     std::string ToString(NodeConfig* config[01;31m[K)[m[K
+      |                                            [01;31m[K^[m[K
+      |                                             [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

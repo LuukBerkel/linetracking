@@ -1,0 +1,11 @@
+linetracking:
+  debug: true
+  output: "contour"
+  profiles:
+    blue:
+      hue_up: 140
+      sat_up: 255
+      val_up: 255
+      hue_low: 90
+      sat_low: 50
+      val_low: 50

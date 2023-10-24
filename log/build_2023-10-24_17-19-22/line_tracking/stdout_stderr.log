@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[ 40%] Built target compressed_viewer
+[ 60%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:1[m[K:
+[01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:[m[K In constructor ‘[01m[KLineDetection::LineDetection()[m[K’:
+[01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:26:105:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K"params_file"[m[K’, which is of non-class type ‘[01m[Kconst char [12][m[K’
+   26 |             RCLCPP_WARN(this->get_logger(), "Parameter '%s' not set, using default value.", PARAMS_FILE.[01;31m[Kc_str[m[K());
+      |                                                                                                         [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

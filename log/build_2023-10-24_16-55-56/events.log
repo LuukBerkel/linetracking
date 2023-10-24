@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.008840] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.009184] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.075799] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.076023] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.076109] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/linetracking/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1207,unix/luuk-virtual-machine:/tmp/.ICE-unix/1207'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8121275a_f76d_4fc0_994e_ec00b9e6b494'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MTKMD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/luuk/linetracking/install/turtle3_control:/home/luuk/linetracking/install/line_tracking:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luuk/linetracking/install/turtle3_control:/home/luuk/linetracking/install/line_tracking:/opt/ros/humble')]), 'shell': False}
+[0.099723] (-) TimerEvent: {}
+[0.160803] (line_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200506] (-) TimerEvent: {}
+[0.301169] (-) TimerEvent: {}
+[0.402176] (-) TimerEvent: {}
+[0.504209] (-) TimerEvent: {}
+[0.532476] (line_tracking) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.604590] (-) TimerEvent: {}
+[0.626281] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.631711] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.655791] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.686742] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.705087] (-) TimerEvent: {}
+[0.730549] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.809533] (-) TimerEvent: {}
+[0.897089] (line_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.900891] (line_tracking) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.910783] (-) TimerEvent: {}
+[1.012073] (-) TimerEvent: {}
+[1.112898] (-) TimerEvent: {}
+[1.233519] (-) TimerEvent: {}
+[1.277242] (line_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.335459] (-) TimerEvent: {}
+[1.438902] (-) TimerEvent: {}
+[1.539378] (-) TimerEvent: {}
+[1.639848] (-) TimerEvent: {}
+[1.694430] (line_tracking) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.740076] (-) TimerEvent: {}
+[1.840894] (-) TimerEvent: {}
+[1.942615] (-) TimerEvent: {}
+[2.027430] (line_tracking) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.057587] (-) TimerEvent: {}
+[2.158623] (-) TimerEvent: {}
+[2.254165] (line_tracking) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.258773] (-) TimerEvent: {}
+[2.297700] (line_tracking) StdoutLine: {'line': b'-- Generating done\n'}
+[2.317203] (line_tracking) StdoutLine: {'line': b'-- Build files have been written to: /home/luuk/linetracking/build/line_tracking\n'}
+[2.359268] (-) TimerEvent: {}
+[2.394789] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target compressed_viewer\x1b[0m\n'}
+[2.396928] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_detection\x1b[0m\n'}
+[2.466708] (-) TimerEvent: {}
+[2.490692] (line_tracking) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o\x1b[0m\n'}
+[2.497121] (line_tracking) StdoutLine: {'line': b'[ 60%] Built target compressed_viewer\n'}
+[2.566875] (-) TimerEvent: {}
+[2.667520] (-) TimerEvent: {}
+[2.770535] (-) TimerEvent: {}
+[2.871306] (-) TimerEvent: {}
+[2.973283] (-) TimerEvent: {}
+[3.074041] (-) TimerEvent: {}
+[3.175896] (-) TimerEvent: {}
+[3.277622] (-) TimerEvent: {}
+[3.378804] (-) TimerEvent: {}
+[3.494768] (-) TimerEvent: {}
+[3.595761] (-) TimerEvent: {}
+[3.696673] (-) TimerEvent: {}
+[3.797478] (-) TimerEvent: {}
+[3.898439] (-) TimerEvent: {}
+[3.999199] (-) TimerEvent: {}
+[4.099944] (-) TimerEvent: {}
+[4.200638] (-) TimerEvent: {}
+[4.301262] (-) TimerEvent: {}
+[4.401980] (-) TimerEvent: {}
+[4.507275] (-) TimerEvent: {}
+[4.608898] (-) TimerEvent: {}
+[4.709775] (-) TimerEvent: {}
+[4.810813] (-) TimerEvent: {}
+[4.911532] (-) TimerEvent: {}
+[5.012814] (-) TimerEvent: {}
+[5.113410] (-) TimerEvent: {}
+[5.215577] (-) TimerEvent: {}
+[5.316577] (-) TimerEvent: {}
+[5.418917] (-) TimerEvent: {}
+[5.520064] (-) TimerEvent: {}
+[5.621487] (-) TimerEvent: {}
+[5.722402] (-) TimerEvent: {}
+[5.824488] (-) TimerEvent: {}
+[5.925435] (-) TimerEvent: {}
+[6.029089] (-) TimerEvent: {}
+[6.132327] (-) TimerEvent: {}
+[6.238706] (-) TimerEvent: {}
+[6.339358] (-) TimerEvent: {}
+[6.444262] (-) TimerEvent: {}
+[6.545994] (-) TimerEvent: {}
+[6.646867] (-) TimerEvent: {}
+[6.747542] (-) TimerEvent: {}
+[6.848208] (-) TimerEvent: {}
+[6.951079] (-) TimerEvent: {}
+[7.051944] (-) TimerEvent: {}
+[7.152751] (-) TimerEvent: {}
+[7.253516] (-) TimerEvent: {}
+[7.354985] (-) TimerEvent: {}
+[7.456577] (-) TimerEvent: {}
+[7.557244] (-) TimerEvent: {}
+[7.658312] (-) TimerEvent: {}
+[7.768620] (-) TimerEvent: {}
+[7.869322] (-) TimerEvent: {}
+[7.976257] (-) TimerEvent: {}
+[8.076971] (-) TimerEvent: {}
+[8.177917] (-) TimerEvent: {}
+[8.278686] (-) TimerEvent: {}
+[8.381974] (-) TimerEvent: {}
+[8.493044] (-) TimerEvent: {}
+[8.594106] (-) TimerEvent: {}
+[8.695292] (-) TimerEvent: {}
+[8.796059] (-) TimerEvent: {}
+[8.898423] (-) TimerEvent: {}
+[8.999132] (-) TimerEvent: {}
+[9.102080] (-) TimerEvent: {}
+[9.203099] (-) TimerEvent: {}
+[9.303862] (-) TimerEvent: {}
+[9.404705] (-) TimerEvent: {}
+[9.470437] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LineDetection::imageCompressedCallback(sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.471004] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:37:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_bridge\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[9.471195] (line_tracking) StderrLine: {'line': b'   37 |             \x1b[01;31m\x1b[Kcv_bridge\x1b[m\x1b[K::CvImagePtr cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);\n'}
+[9.471369] (line_tracking) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.480451] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:39:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_bridge\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.481166] (line_tracking) StderrLine: {'line': b'   39 |         } catch (\x1b[01;31m\x1b[Kcv_bridge\x1b[m\x1b[K::Exception& e) {\n'}
+[9.481506] (line_tracking) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.481821] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:39:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.482103] (line_tracking) StderrLine: {'line': b'   39 |         } catch (cv_bridge::Exception\x1b[01;31m\x1b[K&\x1b[m\x1b[K e) {\n'}
+[9.482344] (line_tracking) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.482690] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:39:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.483511] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:39:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.483814] (line_tracking) StderrLine: {'line': b'   39 |         } catch \x1b[01;36m\x1b[K(\x1b[m\x1b[Kcv_bridge::Exception& e) {\n'}
+[9.484037] (line_tracking) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.484251] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:39:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.484468] (line_tracking) StderrLine: {'line': b'   39 |         } catch (cv_bridge::Exception\x1b[01;31m\x1b[K&\x1b[m\x1b[K e) {\n'}
+[9.484680] (line_tracking) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.494428] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:39:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ke\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.495128] (line_tracking) StderrLine: {'line': b'   39 |         } catch (cv_bridge::Exception& \x1b[01;31m\x1b[Ke\x1b[m\x1b[K) {\n'}
+[9.495444] (line_tracking) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.496180] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:35:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.496571] (line_tracking) StderrLine: {'line': b'   35 |     void imageCompressedCallback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::CompressedImage::SharedPtr msg\x1b[m\x1b[K) {\n'}
+[9.496850] (line_tracking) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[9.503268] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LineDetection::imageRawCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.503798] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:47:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_bridge\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[9.504237] (line_tracking) StderrLine: {'line': b'   47 |             \x1b[01;31m\x1b[Kcv_bridge\x1b[m\x1b[K::CvImagePtr cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);\n'}
+[9.504409] (line_tracking) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.504934] (-) TimerEvent: {}
+[9.507060] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:49:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_bridge\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.507493] (line_tracking) StderrLine: {'line': b'   49 |         } catch (\x1b[01;31m\x1b[Kcv_bridge\x1b[m\x1b[K::Exception& e) {\n'}
+[9.507887] (line_tracking) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.508217] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:49:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.508580] (line_tracking) StderrLine: {'line': b'   49 |         } catch (cv_bridge::Exception\x1b[01;31m\x1b[K&\x1b[m\x1b[K e) {\n'}
+[9.508841] (line_tracking) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.509110] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:49:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.509340] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:49:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.509577] (line_tracking) StderrLine: {'line': b'   49 |         } catch \x1b[01;36m\x1b[K(\x1b[m\x1b[Kcv_bridge::Exception& e) {\n'}
+[9.509800] (line_tracking) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.510014] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:49:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.510228] (line_tracking) StderrLine: {'line': b'   49 |         } catch (cv_bridge::Exception\x1b[01;31m\x1b[K&\x1b[m\x1b[K e) {\n'}
+[9.510459] (line_tracking) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.517768] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:49:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ke\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.518954] (line_tracking) StderrLine: {'line': b'   49 |         } catch (cv_bridge::Exception& \x1b[01;31m\x1b[Ke\x1b[m\x1b[K) {\n'}
+[9.519287] (line_tracking) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.519448] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:45:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.519654] (line_tracking) StderrLine: {'line': b'   45 |     void imageRawCallback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::Image::SharedPtr msg\x1b[m\x1b[K) {\n'}
+[9.519867] (line_tracking) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[9.605591] (-) TimerEvent: {}
+[9.707292] (-) TimerEvent: {}
+[9.813155] (-) TimerEvent: {}
+[9.914101] (-) TimerEvent: {}
+[10.014949] (-) TimerEvent: {}
+[10.116512] (-) TimerEvent: {}
+[10.217287] (-) TimerEvent: {}
+[10.318067] (-) TimerEvent: {}
+[10.418957] (-) TimerEvent: {}
+[10.519561] (-) TimerEvent: {}
+[10.620849] (-) TimerEvent: {}
+[10.722799] (-) TimerEvent: {}
+[10.825237] (-) TimerEvent: {}
+[10.926812] (-) TimerEvent: {}
+[11.028971] (-) TimerEvent: {}
+[11.134199] (-) TimerEvent: {}
+[11.236317] (-) TimerEvent: {}
+[11.336988] (-) TimerEvent: {}
+[11.437775] (-) TimerEvent: {}
+[11.538935] (-) TimerEvent: {}
+[11.640194] (-) TimerEvent: {}
+[11.740931] (-) TimerEvent: {}
+[11.841846] (-) TimerEvent: {}
+[11.944205] (-) TimerEvent: {}
+[12.054498] (-) TimerEvent: {}
+[12.156359] (-) TimerEvent: {}
+[12.257826] (-) TimerEvent: {}
+[12.359071] (-) TimerEvent: {}
+[12.459985] (-) TimerEvent: {}
+[12.560695] (-) TimerEvent: {}
+[12.661846] (-) TimerEvent: {}
+[12.762935] (-) TimerEvent: {}
+[12.866706] (-) TimerEvent: {}
+[12.968246] (-) TimerEvent: {}
+[13.069005] (-) TimerEvent: {}
+[13.178529] (-) TimerEvent: {}
+[13.279404] (-) TimerEvent: {}
+[13.382187] (-) TimerEvent: {}
+[13.483164] (-) TimerEvent: {}
+[13.584009] (-) TimerEvent: {}
+[13.690438] (-) TimerEvent: {}
+[13.792373] (-) TimerEvent: {}
+[13.895163] (-) TimerEvent: {}
+[13.997113] (-) TimerEvent: {}
+[14.097954] (-) TimerEvent: {}
+[14.205046] (-) TimerEvent: {}
+[14.305925] (-) TimerEvent: {}
+[14.412580] (-) TimerEvent: {}
+[14.518436] (-) TimerEvent: {}
+[14.619335] (-) TimerEvent: {}
+[14.721980] (-) TimerEvent: {}
+[14.824373] (-) TimerEvent: {}
+[14.926726] (-) TimerEvent: {}
+[15.030867] (-) TimerEvent: {}
+[15.132013] (-) TimerEvent: {}
+[15.239646] (-) TimerEvent: {}
+[15.340548] (-) TimerEvent: {}
+[15.441572] (-) TimerEvent: {}
+[15.547052] (-) TimerEvent: {}
+[15.650434] (-) TimerEvent: {}
+[15.753339] (-) TimerEvent: {}
+[15.854276] (-) TimerEvent: {}
+[15.955571] (-) TimerEvent: {}
+[16.056423] (-) TimerEvent: {}
+[16.157424] (-) TimerEvent: {}
+[16.258413] (-) TimerEvent: {}
+[16.359575] (-) TimerEvent: {}
+[16.461207] (-) TimerEvent: {}
+[16.562693] (-) TimerEvent: {}
+[16.666087] (-) TimerEvent: {}
+[16.769463] (-) TimerEvent: {}
+[16.873638] (-) TimerEvent: {}
+[16.978080] (-) TimerEvent: {}
+[17.079673] (-) TimerEvent: {}
+[17.180932] (-) TimerEvent: {}
+[17.281970] (-) TimerEvent: {}
+[17.385236] (-) TimerEvent: {}
+[17.486034] (-) TimerEvent: {}
+[17.586664] (-) TimerEvent: {}
+[17.687339] (-) TimerEvent: {}
+[17.790675] (-) TimerEvent: {}
+[17.892371] (-) TimerEvent: {}
+[17.993703] (-) TimerEvent: {}
+[18.096185] (-) TimerEvent: {}
+[18.197158] (-) TimerEvent: {}
+[18.299181] (-) TimerEvent: {}
+[18.400259] (-) TimerEvent: {}
+[18.504817] (-) TimerEvent: {}
+[18.611643] (-) TimerEvent: {}
+[18.714916] (-) TimerEvent: {}
+[18.779637] (line_tracking) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1\n'}
+[18.781064] (line_tracking) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2\n'}
+[18.781335] (line_tracking) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.787761] (line_tracking) CommandEnded: {'returncode': 2}
+[18.815217] (-) TimerEvent: {}
+[18.916380] (-) TimerEvent: {}
+[19.019742] (-) TimerEvent: {}
+[19.031088] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 2}
+[19.042342] (-) EventReactorShutdown: {}

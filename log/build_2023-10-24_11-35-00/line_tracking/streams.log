@@ -1,0 +1,23 @@
+[0.067s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.303s] [35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[0.333s] [ 50%] Built target compressed_viewer
+[0.393s] [ 75%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection.cpp.o[0m
+[9.531s] [01m[K/home/luuk/linetracking/src/line_detection.cpp:64:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+[9.531s]    64 |         } [01;31m[Kcatch[m[K (cv_bridge::Exception& e) {
+[9.531s]       |           [01;31m[K^~~~~[m[K
+[9.555s] [01m[K/home/luuk/linetracking/src/line_detection.cpp:[m[K In constructor ‘[01m[KLineDetection::LineDetection()[m[K’:
+[9.556s] [01m[K/home/luuk/linetracking/src/line_detection.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[9.556s]     9 |         [01;31m[Ksubscription_[m[K = create_subscription<sensor_msgs::msg::CompressedImage>(
+[9.556s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[9.556s]       |         [32m[Krmw_subscription_t[m[K
+[9.746s] [01m[K/home/luuk/linetracking/src/line_detection.cpp:[m[K At global scope:
+[9.746s] [01m[K/home/luuk/linetracking/src/line_detection.cpp:69:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::CompressedImage_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::CompressedImage_<std::allocator<void> >, sensor_msgs::msg::CompressedImage_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::CompressedImage_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+[9.747s]    69 |     [01;31m[Krclcpp[m[K::Subscription<sensor_msgs::msg::CompressedImage>::SharedPtr subscription_;
+[9.747s]       |     [01;31m[K^~~~~~[m[K
+[9.747s] [01m[K/home/luuk/linetracking/src/line_detection.cpp:70:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[9.747s]    70 | [01;31m[K}[m[K;
+[9.748s]       | [01;31m[K^[m[K
+[16.755s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection.cpp.o] Error 1
+[16.756s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+[16.758s] gmake: *** [Makefile:146: all] Error 2
+[16.764s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

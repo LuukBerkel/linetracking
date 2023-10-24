@@ -5,7 +5,10 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/humble/include/**",
-                "/usr/include/opencv4"
+                "/usr/include/opencv4",
+                "/opt/ros/humble/include/cv_bridge",
+                "${workspaceFolder}/src/line_detection/*",
+                "/opt/ros/humble/include/sensor_msgs"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

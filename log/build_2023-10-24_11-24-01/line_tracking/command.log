@@ -1,0 +1,2 @@
+Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luuk/linetracking -DCMAKE_INSTALL_PREFIX=/home/luuk/linetracking/install/line_tracking
+Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luuk/linetracking -DCMAKE_INSTALL_PREFIX=/home/luuk/linetracking/install/line_tracking

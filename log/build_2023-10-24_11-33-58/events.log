@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.000601] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.002776] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.049675] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.065728] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.065942] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/linetracking/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1207,unix/luuk-virtual-machine:/tmp/.ICE-unix/1207'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8121275a_f76d_4fc0_994e_ec00b9e6b494'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MTKMD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/luuk/linetracking/install/turtle3_control:/home/luuk/linetracking/install/line_tracking:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luuk/linetracking/install/turtle3_control:/home/luuk/linetracking/install/line_tracking:/opt/ros/humble')]), 'shell': False}
+[0.097892] (-) TimerEvent: {}
+[0.200777] (-) TimerEvent: {}
+[0.302388] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target compressed_viewer\x1b[0m\n'}
+[0.302845] (-) TimerEvent: {}
+[0.322368] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_detection\x1b[0m\n'}
+[0.404552] (-) TimerEvent: {}
+[0.406672] (line_tracking) StdoutLine: {'line': b'[ 50%] Built target compressed_viewer\n'}
+[0.419027] (line_tracking) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection.cpp.o\x1b[0m\n'}
+[0.519119] (-) TimerEvent: {}
+[0.619789] (-) TimerEvent: {}
+[0.720437] (-) TimerEvent: {}
+[0.821030] (-) TimerEvent: {}
+[0.921700] (-) TimerEvent: {}
+[1.022468] (-) TimerEvent: {}
+[1.123215] (-) TimerEvent: {}
+[1.223847] (-) TimerEvent: {}
+[1.324503] (-) TimerEvent: {}
+[1.425053] (-) TimerEvent: {}
+[1.525768] (-) TimerEvent: {}
+[1.626581] (-) TimerEvent: {}
+[1.727054] (-) TimerEvent: {}
+[1.827600] (-) TimerEvent: {}
+[1.928285] (-) TimerEvent: {}
+[2.028932] (-) TimerEvent: {}
+[2.134589] (-) TimerEvent: {}
+[2.237689] (-) TimerEvent: {}
+[2.338764] (-) TimerEvent: {}
+[2.439604] (-) TimerEvent: {}
+[2.540616] (-) TimerEvent: {}
+[2.642514] (-) TimerEvent: {}
+[2.747438] (-) TimerEvent: {}
+[2.848434] (-) TimerEvent: {}
+[2.949337] (-) TimerEvent: {}
+[3.050458] (-) TimerEvent: {}
+[3.151418] (-) TimerEvent: {}
+[3.252670] (-) TimerEvent: {}
+[3.353612] (-) TimerEvent: {}
+[3.454940] (-) TimerEvent: {}
+[3.555915] (-) TimerEvent: {}
+[3.656643] (-) TimerEvent: {}
+[3.757542] (-) TimerEvent: {}
+[3.858483] (-) TimerEvent: {}
+[3.959206] (-) TimerEvent: {}
+[4.060103] (-) TimerEvent: {}
+[4.162820] (-) TimerEvent: {}
+[4.263916] (-) TimerEvent: {}
+[4.364712] (-) TimerEvent: {}
+[4.465609] (-) TimerEvent: {}
+[4.566370] (-) TimerEvent: {}
+[4.667117] (-) TimerEvent: {}
+[4.768314] (-) TimerEvent: {}
+[4.869459] (-) TimerEvent: {}
+[4.970853] (-) TimerEvent: {}
+[5.072101] (-) TimerEvent: {}
+[5.173278] (-) TimerEvent: {}
+[5.274543] (-) TimerEvent: {}
+[5.376456] (-) TimerEvent: {}
+[5.477538] (-) TimerEvent: {}
+[5.578480] (-) TimerEvent: {}
+[5.679611] (-) TimerEvent: {}
+[5.781044] (-) TimerEvent: {}
+[5.882533] (-) TimerEvent: {}
+[5.983590] (-) TimerEvent: {}
+[6.084384] (-) TimerEvent: {}
+[6.185301] (-) TimerEvent: {}
+[6.286594] (-) TimerEvent: {}
+[6.388103] (-) TimerEvent: {}
+[6.489260] (-) TimerEvent: {}
+[6.590583] (-) TimerEvent: {}
+[6.691616] (-) TimerEvent: {}
+[6.792543] (-) TimerEvent: {}
+[6.893807] (-) TimerEvent: {}
+[6.995038] (-) TimerEvent: {}
+[7.096103] (-) TimerEvent: {}
+[7.197601] (-) TimerEvent: {}
+[7.298585] (-) TimerEvent: {}
+[7.399697] (-) TimerEvent: {}
+[7.501530] (-) TimerEvent: {}
+[7.602675] (-) TimerEvent: {}
+[7.703805] (-) TimerEvent: {}
+[7.805028] (-) TimerEvent: {}
+[7.906398] (-) TimerEvent: {}
+[8.007182] (-) TimerEvent: {}
+[8.108636] (-) TimerEvent: {}
+[8.209298] (-) TimerEvent: {}
+[8.311372] (-) TimerEvent: {}
+[8.412659] (-) TimerEvent: {}
+[8.522142] (-) TimerEvent: {}
+[8.623261] (-) TimerEvent: {}
+[8.724114] (-) TimerEvent: {}
+[8.825487] (-) TimerEvent: {}
+[8.927155] (-) TimerEvent: {}
+[9.031117] (-) TimerEvent: {}
+[9.132942] (-) TimerEvent: {}
+[9.234647] (-) TimerEvent: {}
+[9.336398] (-) TimerEvent: {}
+[9.437587] (-) TimerEvent: {}
+[9.539320] (-) TimerEvent: {}
+[9.640252] (-) TimerEvent: {}
+[9.744403] (-) TimerEvent: {}
+[9.860045] (-) TimerEvent: {}
+[9.975021] (-) TimerEvent: {}
+[10.075984] (-) TimerEvent: {}
+[10.179397] (-) TimerEvent: {}
+[10.281085] (-) TimerEvent: {}
+[10.382374] (-) TimerEvent: {}
+[10.483906] (-) TimerEvent: {}
+[10.584921] (-) TimerEvent: {}
+[10.686350] (-) TimerEvent: {}
+[10.787253] (-) TimerEvent: {}
+[10.888743] (-) TimerEvent: {}
+[10.990180] (-) TimerEvent: {}
+[11.091585] (-) TimerEvent: {}
+[11.192614] (-) TimerEvent: {}
+[11.294527] (-) TimerEvent: {}
+[11.397015] (-) TimerEvent: {}
+[11.500715] (-) TimerEvent: {}
+[11.601726] (-) TimerEvent: {}
+[11.703093] (-) TimerEvent: {}
+[11.804572] (-) TimerEvent: {}
+[11.893258] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection.cpp:58:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kcatch\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.893748] (line_tracking) StderrLine: {'line': b'   58 |         } \x1b[01;31m\x1b[Kcatch\x1b[m\x1b[K (cv_bridge::Exception& e) {\n'}
+[11.893925] (line_tracking) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.905066] (-) TimerEvent: {}
+[11.924399] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLineDetection::LineDetection()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.925349] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.925562] (line_tracking) StderrLine: {'line': b'    9 |         \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = create_subscription<sensor_msgs::msg::CompressedImage>(\n'}
+[11.925726] (line_tracking) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.925943] (line_tracking) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[12.005289] (-) TimerEvent: {}
+[12.106706] (-) TimerEvent: {}
+[12.207642] (-) TimerEvent: {}
+[12.239218] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LineDetection::imageCallback(sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.240263] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection.cpp:32:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontours\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.240786] (line_tracking) StderrLine: {'line': b'   32 |             if (!\x1b[01;31m\x1b[Kcontours\x1b[m\x1b[K.empty()) {\n'}
+[12.241396] (line_tracking) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.245049] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection.cpp:\x1b[m\x1b[K At global scope:\n'}
+[12.246044] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection.cpp:63:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kspecializing member \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<sensor_msgs::msg::CompressedImage_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::CompressedImage_<std::allocator<void> >, sensor_msgs::msg::CompressedImage_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::CompressedImage_<std::allocator<void> >, std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 requires \xe2\x80\x98\x1b[01m\x1b[Ktemplate<>\x1b[m\x1b[K\xe2\x80\x99 syntax\n'}
+[12.246867] (line_tracking) StderrLine: {'line': b'   63 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Subscription<sensor_msgs::msg::CompressedImage>::SharedPtr subscription_;\n'}
+[12.247389] (line_tracking) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[12.248095] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection.cpp:64:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.248555] (line_tracking) StderrLine: {'line': b'   64 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[12.248746] (line_tracking) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.308467] (-) TimerEvent: {}
+[12.410508] (-) TimerEvent: {}
+[12.511830] (-) TimerEvent: {}
+[12.612880] (-) TimerEvent: {}
+[12.714372] (-) TimerEvent: {}
+[12.815469] (-) TimerEvent: {}
+[12.916434] (-) TimerEvent: {}
+[13.017429] (-) TimerEvent: {}
+[13.119415] (-) TimerEvent: {}
+[13.220661] (-) TimerEvent: {}
+[13.321995] (-) TimerEvent: {}
+[13.423019] (-) TimerEvent: {}
+[13.523814] (-) TimerEvent: {}
+[13.624652] (-) TimerEvent: {}
+[13.725613] (-) TimerEvent: {}
+[13.829940] (-) TimerEvent: {}
+[13.931439] (-) TimerEvent: {}
+[14.032673] (-) TimerEvent: {}
+[14.134079] (-) TimerEvent: {}
+[14.235595] (-) TimerEvent: {}
+[14.337284] (-) TimerEvent: {}
+[14.438620] (-) TimerEvent: {}
+[14.539710] (-) TimerEvent: {}
+[14.640766] (-) TimerEvent: {}
+[14.742135] (-) TimerEvent: {}
+[14.843274] (-) TimerEvent: {}
+[14.944668] (-) TimerEvent: {}
+[15.046398] (-) TimerEvent: {}
+[15.147456] (-) TimerEvent: {}
+[15.248901] (-) TimerEvent: {}
+[15.350570] (-) TimerEvent: {}
+[15.451462] (-) TimerEvent: {}
+[15.553116] (-) TimerEvent: {}
+[15.654989] (-) TimerEvent: {}
+[15.757900] (-) TimerEvent: {}
+[15.860170] (-) TimerEvent: {}
+[15.962036] (-) TimerEvent: {}
+[16.063201] (-) TimerEvent: {}
+[16.164272] (-) TimerEvent: {}
+[16.265205] (-) TimerEvent: {}
+[16.366025] (-) TimerEvent: {}
+[16.467781] (-) TimerEvent: {}
+[16.569990] (-) TimerEvent: {}
+[16.671499] (-) TimerEvent: {}
+[16.772460] (-) TimerEvent: {}
+[16.873334] (-) TimerEvent: {}
+[16.974922] (-) TimerEvent: {}
+[17.076262] (-) TimerEvent: {}
+[17.177841] (-) TimerEvent: {}
+[17.279021] (-) TimerEvent: {}
+[17.380014] (-) TimerEvent: {}
+[17.481093] (-) TimerEvent: {}
+[17.582145] (-) TimerEvent: {}
+[17.683179] (-) TimerEvent: {}
+[17.784257] (-) TimerEvent: {}
+[17.885419] (-) TimerEvent: {}
+[17.986682] (-) TimerEvent: {}
+[18.088708] (-) TimerEvent: {}
+[18.189739] (-) TimerEvent: {}
+[18.291554] (-) TimerEvent: {}
+[18.392715] (-) TimerEvent: {}
+[18.493537] (-) TimerEvent: {}
+[18.594880] (-) TimerEvent: {}
+[18.696269] (-) TimerEvent: {}
+[18.797777] (-) TimerEvent: {}
+[18.899396] (-) TimerEvent: {}
+[19.002812] (-) TimerEvent: {}
+[19.104888] (-) TimerEvent: {}
+[19.206309] (-) TimerEvent: {}
+[19.307220] (-) TimerEvent: {}
+[19.408243] (-) TimerEvent: {}
+[19.509226] (-) TimerEvent: {}
+[19.610784] (-) TimerEvent: {}
+[19.712774] (-) TimerEvent: {}
+[19.814250] (-) TimerEvent: {}
+[19.915279] (-) TimerEvent: {}
+[20.016244] (-) TimerEvent: {}
+[20.117989] (-) TimerEvent: {}
+[20.220043] (-) TimerEvent: {}
+[20.321240] (-) TimerEvent: {}
+[20.422565] (-) TimerEvent: {}
+[20.524058] (-) TimerEvent: {}
+[20.625422] (-) TimerEvent: {}
+[20.727202] (-) TimerEvent: {}
+[20.828582] (-) TimerEvent: {}
+[20.929664] (-) TimerEvent: {}
+[21.030566] (-) TimerEvent: {}
+[21.131391] (-) TimerEvent: {}
+[21.232547] (-) TimerEvent: {}
+[21.333928] (-) TimerEvent: {}
+[21.435239] (-) TimerEvent: {}
+[21.536253] (-) TimerEvent: {}
+[21.637136] (-) TimerEvent: {}
+[21.738089] (-) TimerEvent: {}
+[21.838922] (-) TimerEvent: {}
+[21.939794] (-) TimerEvent: {}
+[22.040909] (-) TimerEvent: {}
+[22.142494] (-) TimerEvent: {}
+[22.243825] (-) TimerEvent: {}
+[22.345347] (-) TimerEvent: {}
+[22.446573] (-) TimerEvent: {}
+[22.547519] (-) TimerEvent: {}
+[22.648785] (-) TimerEvent: {}
+[22.749723] (-) TimerEvent: {}
+[22.850762] (-) TimerEvent: {}
+[22.952208] (-) TimerEvent: {}
+[23.053154] (-) TimerEvent: {}
+[23.154399] (-) TimerEvent: {}
+[23.255360] (-) TimerEvent: {}
+[23.356378] (-) TimerEvent: {}
+[23.453292] (line_tracking) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection.cpp.o] Error 1\n'}
+[23.455609] (line_tracking) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2\n'}
+[23.456774] (-) TimerEvent: {}
+[23.457336] (line_tracking) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.464659] (line_tracking) CommandEnded: {'returncode': 2}
+[23.556968] (-) TimerEvent: {}
+[23.657765] (-) TimerEvent: {}
+[23.742037] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 2}
+[23.754148] (-) EventReactorShutdown: {}

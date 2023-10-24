@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.001872] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.002007] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.089727] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.099999] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.100281] (-) TimerEvent: {}
+[0.102370] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/linetracking/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1207,unix/luuk-virtual-machine:/tmp/.ICE-unix/1207'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8121275a_f76d_4fc0_994e_ec00b9e6b494'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MTKMD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/luuk/linetracking/install/turtle3_control:/home/luuk/linetracking/install/line_tracking:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luuk/linetracking/install/turtle3_control:/home/luuk/linetracking/install/line_tracking:/opt/ros/humble')]), 'shell': False}
+[0.200625] (-) TimerEvent: {}
+[0.301178] (-) TimerEvent: {}
+[0.402733] (-) TimerEvent: {}
+[0.504422] (-) TimerEvent: {}
+[0.606328] (-) TimerEvent: {}
+[0.707500] (-) TimerEvent: {}
+[0.808682] (-) TimerEvent: {}
+[0.840514] (line_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.908913] (-) TimerEvent: {}
+[1.009771] (-) TimerEvent: {}
+[1.110685] (-) TimerEvent: {}
+[1.211857] (-) TimerEvent: {}
+[1.321525] (-) TimerEvent: {}
+[1.423493] (-) TimerEvent: {}
+[1.518982] (line_tracking) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.523828] (-) TimerEvent: {}
+[1.624939] (-) TimerEvent: {}
+[1.725718] (-) TimerEvent: {}
+[1.773316] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.787879] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.818207] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.825912] (-) TimerEvent: {}
+[1.866313] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.928577] (-) TimerEvent: {}
+[1.940979] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.028899] (-) TimerEvent: {}
+[2.130439] (-) TimerEvent: {}
+[2.154830] (line_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.180567] (line_tracking) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.231073] (-) TimerEvent: {}
+[2.332538] (-) TimerEvent: {}
+[2.433935] (-) TimerEvent: {}
+[2.537042] (-) TimerEvent: {}
+[2.600602] (line_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.637425] (-) TimerEvent: {}
+[2.739111] (-) TimerEvent: {}
+[2.839859] (-) TimerEvent: {}
+[2.940580] (-) TimerEvent: {}
+[3.041462] (-) TimerEvent: {}
+[3.142566] (-) TimerEvent: {}
+[3.204044] (line_tracking) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.243062] (-) TimerEvent: {}
+[3.345461] (-) TimerEvent: {}
+[3.446629] (-) TimerEvent: {}
+[3.558745] (-) TimerEvent: {}
+[3.659973] (line_tracking) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.661145] (-) TimerEvent: {}
+[3.768698] (-) TimerEvent: {}
+[3.869577] (-) TimerEvent: {}
+[3.951139] (line_tracking) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.969986] (-) TimerEvent: {}
+[4.071000] (-) TimerEvent: {}
+[4.173400] (line_tracking) StdoutLine: {'line': b'-- Generating done\n'}
+[4.173810] (-) TimerEvent: {}
+[4.191030] (line_tracking) StdoutLine: {'line': b'-- Build files have been written to: /home/luuk/linetracking/build/line_tracking\n'}
+[4.276676] (-) TimerEvent: {}
+[4.383376] (-) TimerEvent: {}
+[4.392057] (line_tracking) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/compressed_viewer.dir/src/compress_viewer/compressed_viewer.cpp.o\x1b[0m\n'}
+[4.399405] (line_tracking) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o\x1b[0m\n'}
+[4.486953] (-) TimerEvent: {}
+[4.587956] (-) TimerEvent: {}
+[4.691555] (-) TimerEvent: {}
+[4.800942] (-) TimerEvent: {}
+[4.902672] (-) TimerEvent: {}
+[5.004004] (-) TimerEvent: {}
+[5.104988] (-) TimerEvent: {}
+[5.205924] (-) TimerEvent: {}
+[5.307883] (-) TimerEvent: {}
+[5.409363] (-) TimerEvent: {}
+[5.510422] (-) TimerEvent: {}
+[5.611173] (-) TimerEvent: {}
+[5.721159] (-) TimerEvent: {}
+[5.823104] (-) TimerEvent: {}
+[5.858730] (line_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:8\x1b[m\x1b[K:\n'}
+[5.862730] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/param_parser.hpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kboolean: No such file or directory\n'}
+[5.864333] (line_tracking) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K<boolean>\x1b[m\x1b[K\n'}
+[5.864970] (line_tracking) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.865391] (line_tracking) StderrLine: {'line': b'compilation terminated.\n'}
+[5.869272] (line_tracking) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1\n'}
+[5.871030] (line_tracking) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2\n'}
+[5.871439] (line_tracking) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.923288] (-) TimerEvent: {}
+[6.024587] (-) TimerEvent: {}
+[6.127420] (-) TimerEvent: {}
+[6.228462] (-) TimerEvent: {}
+[6.330032] (-) TimerEvent: {}
+[6.431865] (-) TimerEvent: {}
+[6.534014] (-) TimerEvent: {}
+[6.636169] (-) TimerEvent: {}
+[6.741045] (-) TimerEvent: {}
+[6.849322] (-) TimerEvent: {}
+[6.950265] (-) TimerEvent: {}
+[7.054611] (-) TimerEvent: {}
+[7.155452] (-) TimerEvent: {}
+[7.256249] (-) TimerEvent: {}
+[7.359123] (-) TimerEvent: {}
+[7.459841] (-) TimerEvent: {}
+[7.560611] (-) TimerEvent: {}
+[7.698410] (-) TimerEvent: {}
+[7.799638] (-) TimerEvent: {}
+[7.902315] (-) TimerEvent: {}
+[8.006984] (-) TimerEvent: {}
+[8.112046] (-) TimerEvent: {}
+[8.213493] (-) TimerEvent: {}
+[8.315413] (-) TimerEvent: {}
+[8.418390] (-) TimerEvent: {}
+[8.521370] (-) TimerEvent: {}
+[8.624897] (-) TimerEvent: {}
+[8.730512] (-) TimerEvent: {}
+[8.832971] (-) TimerEvent: {}
+[8.934649] (-) TimerEvent: {}
+[9.035777] (-) TimerEvent: {}
+[9.141354] (-) TimerEvent: {}
+[9.243986] (-) TimerEvent: {}
+[9.344636] (-) TimerEvent: {}
+[9.445302] (-) TimerEvent: {}
+[9.546626] (-) TimerEvent: {}
+[9.647528] (-) TimerEvent: {}
+[9.763138] (-) TimerEvent: {}
+[9.864274] (-) TimerEvent: {}
+[9.965366] (-) TimerEvent: {}
+[10.066856] (-) TimerEvent: {}
+[10.168100] (-) TimerEvent: {}
+[10.268872] (-) TimerEvent: {}
+[10.369779] (-) TimerEvent: {}
+[10.471067] (-) TimerEvent: {}
+[10.571963] (-) TimerEvent: {}
+[10.675249] (-) TimerEvent: {}
+[10.776505] (-) TimerEvent: {}
+[10.877575] (-) TimerEvent: {}
+[10.980621] (-) TimerEvent: {}
+[11.082155] (-) TimerEvent: {}
+[11.183350] (-) TimerEvent: {}
+[11.284115] (-) TimerEvent: {}
+[11.385017] (-) TimerEvent: {}
+[11.485879] (-) TimerEvent: {}
+[11.588663] (-) TimerEvent: {}
+[11.689317] (-) TimerEvent: {}
+[11.790355] (-) TimerEvent: {}
+[11.891314] (-) TimerEvent: {}
+[11.991950] (-) TimerEvent: {}
+[12.092856] (-) TimerEvent: {}
+[12.193423] (-) TimerEvent: {}
+[12.294145] (-) TimerEvent: {}
+[12.394779] (-) TimerEvent: {}
+[12.495904] (-) TimerEvent: {}
+[12.597943] (-) TimerEvent: {}
+[12.698712] (-) TimerEvent: {}
+[12.800138] (-) TimerEvent: {}
+[12.900842] (-) TimerEvent: {}
+[13.001341] (-) TimerEvent: {}
+[13.102233] (-) TimerEvent: {}
+[13.203684] (-) TimerEvent: {}
+[13.305090] (-) TimerEvent: {}
+[13.405867] (-) TimerEvent: {}
+[13.506776] (-) TimerEvent: {}
+[13.608614] (-) TimerEvent: {}
+[13.709399] (-) TimerEvent: {}
+[13.809863] (-) TimerEvent: {}
+[13.910406] (-) TimerEvent: {}
+[14.019420] (-) TimerEvent: {}
+[14.120414] (-) TimerEvent: {}
+[14.224817] (-) TimerEvent: {}
+[14.332609] (-) TimerEvent: {}
+[14.433330] (-) TimerEvent: {}
+[14.543427] (-) TimerEvent: {}
+[14.648505] (-) TimerEvent: {}
+[14.749983] (-) TimerEvent: {}
+[14.850627] (-) TimerEvent: {}
+[14.858550] (line_tracking) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/compressed_viewer.dir/build.make:76: CMakeFiles/compressed_viewer.dir/src/compress_viewer/compressed_viewer.cpp.o] Interrupt\n'}
+[14.859130] (line_tracking) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/compressed_viewer.dir/all] Interrupt\n'}
+[14.859458] (line_tracking) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[14.911501] (line_tracking) CommandEnded: {'returncode': -2}
+[14.950927] (-) TimerEvent: {}
+[15.051934] (-) TimerEvent: {}
+[15.152811] (-) TimerEvent: {}
+[15.226672] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 'SIGINT'}
+[15.238910] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o: in function `LineDetection::LineDetection()':
+line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x784): undefined reference to `VisionProcess::VisionProcess(NodeConfig*)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:214: line_detection] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

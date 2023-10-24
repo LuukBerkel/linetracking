@@ -1,0 +1,15 @@
+[ 50%] Built target compressed_viewer
+[ 75%] [32m[1mLinking CXX executable line_detection[0m
+/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o: in function `LineDetection::LineDetection()':
+line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x571): undefined reference to `ParamParser::ParamParser(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x5a4): undefined reference to `ParamParser::Parse()'
+/usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x6e4): undefined reference to `ParamParser::ToString[abi:cxx11](NodeConfig*)'
+/usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x784): undefined reference to `VisionProcess::VisionProcess(NodeConfig*)'
+/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o: in function `LineDetection::imageCompressedCallback(std::shared_ptr<sensor_msgs::msg::CompressedImage_<std::allocator<void> > >)':
+line_detection.cpp:(.text._ZN13LineDetection23imageCompressedCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection23imageCompressedCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x100): undefined reference to `VisionProcess::Decode(std::shared_ptr<cv_bridge::CvImage>)'
+/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o: in function `LineDetection::imageRawCallback(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+line_detection.cpp:(.text._ZN13LineDetection16imageRawCallbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN13LineDetection16imageRawCallbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x100): undefined reference to `VisionProcess::Decode(std::shared_ptr<cv_bridge::CvImage>)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:181: line_detection] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

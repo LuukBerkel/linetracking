@@ -1,0 +1,29 @@
+[0.080s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.165s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.593s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.689s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.697s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.717s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.759s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.004s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.007s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.854s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.235s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.277s] -- Source Files: src/line_detection/param_parser.cpp;src/line_detection/param_parser.hpp;src/line_detection/vision_process.cpp;src/line_detection/vision_process.hpp;src/line_detection/line_detection.cpp
+[2.475s] -- Configuring done
+[2.533s] -- Generating done
+[2.543s] -- Build files have been written to: /home/luuk/linetracking/build/line_tracking
+[2.648s] [35m[1mConsolidate compiler generated dependencies of target compressed_viewer[0m
+[2.652s] [35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[2.711s] [ 33%] Built target compressed_viewer
+[2.724s] [ 50%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o[0m
+[2.756s] [01m[K/home/luuk/linetracking/src/line_detection/param_parser.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kparam_parser.hpp: No such file or directory
+[2.756s]     1 | #include [01;31m[K<param_parser.hpp>[m[K
+[2.756s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.756s] compilation terminated.
+[2.757s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o] Error 1
+[2.758s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+[2.758s] gmake: *** [Makefile:146: all] Error 2
+[2.771s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

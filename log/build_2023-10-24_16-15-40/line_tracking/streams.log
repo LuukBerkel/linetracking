@@ -1,0 +1,13 @@
+[0.127s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.497s] [35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[0.553s] [ 50%] Built target compressed_viewer
+[0.614s] [ 75%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+[9.567s] In file included from [01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:6[m[K:
+[9.568s] [01m[K/home/luuk/linetracking/src/line_detection/param_parser.hpp:35:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[9.568s]    35 |     std::string ToString(NodeConfig* config[01;31m[K)[m[K
+[9.568s]       |                                            [01;31m[K^[m[K
+[9.569s]       |                                             [32m[K;[m[K
+[21.025s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1
+[21.026s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+[21.026s] gmake: *** [Makefile:146: all] Error 2
+[21.026s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

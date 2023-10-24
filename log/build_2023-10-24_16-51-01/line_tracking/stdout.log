@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[35m[1mConsolidate compiler generated dependencies of target compressed_viewer[0m
+[ 33%] Built target compressed_viewer
+[ 50%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable line_detection[0m

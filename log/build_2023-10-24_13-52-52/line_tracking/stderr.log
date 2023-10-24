@@ -1,0 +1,11 @@
+In file included from [01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:8[m[K:
+[01m[K/home/luuk/linetracking/src/line_detection/param_parser.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kboolean: No such file or directory
+    7 | #include [01;31m[K<boolean>[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/compressed_viewer.dir/build.make:76: CMakeFiles/compressed_viewer.dir/src/compress_viewer/compressed_viewer.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/compressed_viewer.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

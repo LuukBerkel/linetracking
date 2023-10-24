@@ -1,0 +1,84 @@
+[0.843s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.843s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f40724cf100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4072cb5630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4072cb5630>>)
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.927s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luuk/linetracking'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.972s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'line_tracking'
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.040s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/luuk/linetracking/install
+[1.051s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'line_tracking' build argument 'cmake_args' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'line_tracking' build argument 'cmake_target' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'line_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'line_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'line_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'line_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'line_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'line_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'line_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.254s] DEBUG:colcon.colcon_core.verb:Building package 'line_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luuk/linetracking/build/line_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luuk/linetracking/install/line_tracking', 'merge_install': False, 'path': '/home/luuk/linetracking', 'symlink_install': False, 'test_result_base': None}
+[1.255s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luuk/linetracking' with build type 'ament_cmake'
+[1.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luuk/linetracking'
+[1.278s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[3.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[3.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_tracking)
+[4.001s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/linetracking/install/line_tracking' for CMake module files
+[4.003s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/linetracking/install/line_tracking' for CMake config files
+[4.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_tracking', 'cmake_prefix_path')
+[4.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luuk/linetracking/install/line_tracking/share/line_tracking/hook/cmake_prefix_path.ps1'
+[4.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luuk/linetracking/install/line_tracking/share/line_tracking/hook/cmake_prefix_path.dsv'
+[4.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luuk/linetracking/install/line_tracking/share/line_tracking/hook/cmake_prefix_path.sh'
+[4.014s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/linetracking/install/line_tracking/lib'
+[4.014s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/linetracking/install/line_tracking/bin'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/linetracking/install/line_tracking/lib/pkgconfig/line_tracking.pc'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/linetracking/install/line_tracking/lib/python3.10/site-packages'
+[4.016s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/linetracking/install/line_tracking/bin'
+[4.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/luuk/linetracking/install/line_tracking/share/line_tracking/package.ps1'
+[4.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luuk/linetracking/install/line_tracking/share/line_tracking/package.dsv'
+[4.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/luuk/linetracking/install/line_tracking/share/line_tracking/package.sh'
+[4.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/luuk/linetracking/install/line_tracking/share/line_tracking/package.bash'
+[4.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/luuk/linetracking/install/line_tracking/share/line_tracking/package.zsh'
+[4.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luuk/linetracking/install/line_tracking/share/colcon-core/packages/line_tracking)
+[4.034s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.034s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.034s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[4.035s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.052s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.053s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.053s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.099s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luuk/linetracking/install/local_setup.ps1'
+[4.106s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luuk/linetracking/install/_local_setup_util_ps1.py'
+[4.111s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luuk/linetracking/install/setup.ps1'
+[4.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luuk/linetracking/install/local_setup.sh'
+[4.119s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luuk/linetracking/install/_local_setup_util_sh.py'
+[4.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luuk/linetracking/install/setup.sh'
+[4.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luuk/linetracking/install/local_setup.bash'
+[4.128s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luuk/linetracking/install/setup.bash'
+[4.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luuk/linetracking/install/local_setup.zsh'
+[4.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luuk/linetracking/install/setup.zsh'

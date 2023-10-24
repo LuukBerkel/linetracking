@@ -1,0 +1,19 @@
+[0.053s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.239s] [35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[0.294s] [ 50%] Built target compressed_viewer
+[0.343s] [ 75%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+[36.314s] [100%] [32m[1mLinking CXX executable line_detection[0m
+[40.467s] /usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o: in function `LineDetection::LineDetection()':
+[40.469s] line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x571): undefined reference to `ParamParser::ParamParser(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[40.473s] /usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x5a4): undefined reference to `ParamParser::Parse()'
+[40.478s] /usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x6e4): undefined reference to `ParamParser::ToString[abi:cxx11](NodeConfig*)'
+[40.482s] /usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x784): undefined reference to `VisionProcess::VisionProcess(NodeConfig*)'
+[40.485s] /usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o: in function `LineDetection::imageCompressedCallback(std::shared_ptr<sensor_msgs::msg::CompressedImage_<std::allocator<void> > >)':
+[40.486s] line_detection.cpp:(.text._ZN13LineDetection23imageCompressedCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection23imageCompressedCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x100): undefined reference to `VisionProcess::Decode(std::shared_ptr<cv_bridge::CvImage>)'
+[40.489s] /usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o: in function `LineDetection::imageRawCallback(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+[40.490s] line_detection.cpp:(.text._ZN13LineDetection16imageRawCallbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN13LineDetection16imageRawCallbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x100): undefined reference to `VisionProcess::Decode(std::shared_ptr<cv_bridge::CvImage>)'
+[40.776s] collect2: error: ld returned 1 exit status
+[40.785s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:181: line_detection] Error 1
+[40.786s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+[40.787s] gmake: *** [Makefile:146: all] Error 2
+[40.794s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

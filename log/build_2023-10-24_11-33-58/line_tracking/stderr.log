@@ -1,0 +1,22 @@
+[01m[K/home/luuk/linetracking/src/line_detection.cpp:58:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+   58 |         } [01;31m[Kcatch[m[K (cv_bridge::Exception& e) {
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/luuk/linetracking/src/line_detection.cpp:[m[K In constructor ‘[01m[KLineDetection::LineDetection()[m[K’:
+[01m[K/home/luuk/linetracking/src/line_detection.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+    9 |         [01;31m[Ksubscription_[m[K = create_subscription<sensor_msgs::msg::CompressedImage>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/home/luuk/linetracking/src/line_detection.cpp:[m[K In member function ‘[01m[Kvoid LineDetection::imageCallback(sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/luuk/linetracking/src/line_detection.cpp:32:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontours[m[K’ was not declared in this scope
+   32 |             if (![01;31m[Kcontours[m[K.empty()) {
+      |                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/luuk/linetracking/src/line_detection.cpp:[m[K At global scope:
+[01m[K/home/luuk/linetracking/src/line_detection.cpp:63:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::CompressedImage_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::CompressedImage_<std::allocator<void> >, sensor_msgs::msg::CompressedImage_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::CompressedImage_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+   63 |     [01;31m[Krclcpp[m[K::Subscription<sensor_msgs::msg::CompressedImage>::SharedPtr subscription_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/luuk/linetracking/src/line_detection.cpp:64:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   64 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

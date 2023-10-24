@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'line_detection'
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:211: line_detection] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

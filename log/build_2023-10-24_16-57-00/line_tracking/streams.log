@@ -1,0 +1,29 @@
+[0.054s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[0.354s] [ 40%] Built target compressed_viewer
+[0.355s] [ 60%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+[33.134s] [ 80%] [32m[1mLinking CXX executable line_detection[0m
+[36.270s] [100%] Built target line_detection
+[36.308s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[36.662s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luuk/linetracking/build/line_tracking
+[36.717s] -- Install configuration: ""
+[36.728s] -- Installing: /home/luuk/linetracking/install/line_tracking/lib/line_tracking/compressed_viewer
+[36.761s] -- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/line_tracking/compressed_viewer" to ""
+[36.767s] -- Installing: /home/luuk/linetracking/install/line_tracking/lib/line_tracking/line_detection
+[37.269s] -- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/line_tracking/line_detection" to ""
+[37.270s] -- Installing: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/package_run_dependencies/line_tracking
+[37.270s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/parent_prefix_path/line_tracking
+[37.271s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.sh
+[37.271s] -- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.dsv
+[37.275s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.sh
+[37.275s] -- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.dsv
+[37.276s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.bash
+[37.276s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.sh
+[37.276s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.zsh
+[37.276s] -- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.dsv
+[37.276s] -- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/package.dsv
+[37.276s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/packages/line_tracking
+[37.277s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig.cmake
+[37.277s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig-version.cmake
+[37.278s] -- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/package.xml
+[37.287s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luuk/linetracking/build/line_tracking

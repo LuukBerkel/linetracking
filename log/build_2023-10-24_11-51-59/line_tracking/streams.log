@@ -1,0 +1,20 @@
+[0.037s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[0.222s] [ 50%] Built target compressed_viewer
+[0.243s] [ 75%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection.cpp.o[0m
+[27.319s] [100%] [32m[1mLinking CXX executable line_detection[0m
+[28.928s] /usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection.cpp.o: warning: relocation against `gsl_interp_cspline' in read-only section `.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]'
+[29.135s] /usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection.cpp.o: in function `LineDetection::imageCallback(std::shared_ptr<sensor_msgs::msg::CompressedImage_<std::allocator<void> > >)':
+[29.136s] line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x5d6): undefined reference to `gsl_interp_accel_alloc'
+[29.138s] /usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x5f6): undefined reference to `gsl_interp_cspline'
+[29.138s] /usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x601): undefined reference to `gsl_spline_alloc'
+[29.138s] /usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x653): undefined reference to `gsl_spline_init'
+[29.139s] /usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x750): undefined reference to `gsl_spline_eval'
+[29.140s] /usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x7a1): undefined reference to `gsl_spline_free'
+[29.141s] /usr/bin/ld: line_detection.cpp:(.text._ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN13LineDetection13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x7b0): undefined reference to `gsl_interp_accel_free'
+[29.353s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[29.370s] collect2: error: ld returned 1 exit status
+[29.374s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:181: line_detection] Error 1
+[29.374s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+[29.375s] gmake: *** [Makefile:146: all] Error 2
+[29.380s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

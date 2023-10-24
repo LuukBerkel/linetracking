@@ -1,0 +1,43 @@
+[0.111s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luuk/linetracking -DCMAKE_INSTALL_PREFIX=/home/luuk/linetracking/install/line_tracking
+[1.097s] -- The C compiler identification is GNU 11.4.0
+[1.706s] -- The CXX compiler identification is GNU 11.4.0
+[1.768s] -- Detecting C compiler ABI info
+[2.151s] -- Detecting C compiler ABI info - done
+[2.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.175s] -- Detecting C compile features
+[2.181s] -- Detecting C compile features - done
+[2.213s] -- Detecting CXX compiler ABI info
+[2.538s] -- Detecting CXX compiler ABI info - done
+[2.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.563s] -- Detecting CXX compile features
+[2.564s] -- Detecting CXX compile features - done
+[2.663s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.354s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.921s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[4.372s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.437s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.510s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.141s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.158s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.677s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.774s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.979s] -- Looking for pthread.h
+[6.280s] -- Looking for pthread.h - found
+[6.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.590s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.595s] -- Found Threads: TRUE  
+[7.343s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.984s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[8.056s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[8.056s]   ament_target_dependencies() the passed package name 'line_detection' was
+[8.057s]   not found before
+[8.057s] Call Stack (most recent call first):
+[8.057s]   CMakeLists.txt:21 (ament_target_dependencies)
+[8.057s] 
+[8.058s] [0m
+[8.058s] -- Configuring incomplete, errors occurred!
+[8.058s] See also "/home/luuk/linetracking/build/line_tracking/CMakeFiles/CMakeOutput.log".
+[8.106s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luuk/linetracking -DCMAKE_INSTALL_PREFIX=/home/luuk/linetracking/install/line_tracking

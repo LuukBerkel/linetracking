@@ -1,0 +1,11 @@
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/uninstall.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/line_tracking_uninstall.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/compressed_viewer.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/line_detection.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/test.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/edit_cache.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/rebuild_cache.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/list_install_components.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/install.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/install/local.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/install/strip.dir

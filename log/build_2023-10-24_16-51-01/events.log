@@ -1,0 +1,461 @@
+[0.000000] (-) TimerEvent: {}
+[0.009668] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.010687] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.057291] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.062121] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.066258] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/linetracking/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1207,unix/luuk-virtual-machine:/tmp/.ICE-unix/1207'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8121275a_f76d_4fc0_994e_ec00b9e6b494'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MTKMD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/luuk/linetracking/install/turtle3_control:/home/luuk/linetracking/install/line_tracking:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luuk/linetracking/install/turtle3_control:/home/luuk/linetracking/install/line_tracking:/opt/ros/humble')]), 'shell': False}
+[0.100484] (-) TimerEvent: {}
+[0.201781] (-) TimerEvent: {}
+[0.210652] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_detection\x1b[0m\n'}
+[0.233797] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target compressed_viewer\x1b[0m\n'}
+[0.297894] (line_tracking) StdoutLine: {'line': b'[ 33%] Built target compressed_viewer\n'}
+[0.302299] (-) TimerEvent: {}
+[0.305429] (line_tracking) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o\x1b[0m\n'}
+[0.403205] (-) TimerEvent: {}
+[0.506910] (-) TimerEvent: {}
+[0.610979] (-) TimerEvent: {}
+[0.717700] (-) TimerEvent: {}
+[0.818200] (-) TimerEvent: {}
+[0.919457] (-) TimerEvent: {}
+[1.023719] (-) TimerEvent: {}
+[1.130954] (-) TimerEvent: {}
+[1.231595] (-) TimerEvent: {}
+[1.332042] (-) TimerEvent: {}
+[1.440240] (-) TimerEvent: {}
+[1.543224] (-) TimerEvent: {}
+[1.644204] (-) TimerEvent: {}
+[1.746798] (-) TimerEvent: {}
+[1.851401] (-) TimerEvent: {}
+[1.952013] (-) TimerEvent: {}
+[2.052607] (-) TimerEvent: {}
+[2.154262] (-) TimerEvent: {}
+[2.261206] (-) TimerEvent: {}
+[2.363354] (-) TimerEvent: {}
+[2.466083] (-) TimerEvent: {}
+[2.567044] (-) TimerEvent: {}
+[2.671203] (-) TimerEvent: {}
+[2.775563] (-) TimerEvent: {}
+[2.881669] (-) TimerEvent: {}
+[2.984876] (-) TimerEvent: {}
+[3.085832] (-) TimerEvent: {}
+[3.186864] (-) TimerEvent: {}
+[3.287492] (-) TimerEvent: {}
+[3.389139] (-) TimerEvent: {}
+[3.490982] (-) TimerEvent: {}
+[3.606845] (-) TimerEvent: {}
+[3.708776] (-) TimerEvent: {}
+[3.810923] (-) TimerEvent: {}
+[3.911509] (-) TimerEvent: {}
+[4.013721] (-) TimerEvent: {}
+[4.114482] (-) TimerEvent: {}
+[4.215190] (-) TimerEvent: {}
+[4.316822] (-) TimerEvent: {}
+[4.417806] (-) TimerEvent: {}
+[4.518419] (-) TimerEvent: {}
+[4.620745] (-) TimerEvent: {}
+[4.721649] (-) TimerEvent: {}
+[4.825496] (-) TimerEvent: {}
+[4.926926] (-) TimerEvent: {}
+[5.027481] (-) TimerEvent: {}
+[5.128429] (-) TimerEvent: {}
+[5.229344] (-) TimerEvent: {}
+[5.330749] (-) TimerEvent: {}
+[5.432921] (-) TimerEvent: {}
+[5.533763] (-) TimerEvent: {}
+[5.636630] (-) TimerEvent: {}
+[5.743040] (-) TimerEvent: {}
+[5.846767] (-) TimerEvent: {}
+[5.949230] (-) TimerEvent: {}
+[6.050025] (-) TimerEvent: {}
+[6.151333] (-) TimerEvent: {}
+[6.251983] (-) TimerEvent: {}
+[6.353076] (-) TimerEvent: {}
+[6.460420] (-) TimerEvent: {}
+[6.563148] (-) TimerEvent: {}
+[6.664379] (-) TimerEvent: {}
+[6.765635] (-) TimerEvent: {}
+[6.866351] (-) TimerEvent: {}
+[6.968630] (-) TimerEvent: {}
+[7.070783] (-) TimerEvent: {}
+[7.171728] (-) TimerEvent: {}
+[7.272333] (-) TimerEvent: {}
+[7.376517] (-) TimerEvent: {}
+[7.477671] (-) TimerEvent: {}
+[7.580538] (-) TimerEvent: {}
+[7.684282] (-) TimerEvent: {}
+[7.785041] (-) TimerEvent: {}
+[7.885877] (-) TimerEvent: {}
+[7.987176] (-) TimerEvent: {}
+[8.088928] (-) TimerEvent: {}
+[8.189775] (-) TimerEvent: {}
+[8.290502] (-) TimerEvent: {}
+[8.391702] (-) TimerEvent: {}
+[8.494778] (-) TimerEvent: {}
+[8.595684] (-) TimerEvent: {}
+[8.698114] (-) TimerEvent: {}
+[8.798855] (-) TimerEvent: {}
+[8.899619] (-) TimerEvent: {}
+[9.000299] (-) TimerEvent: {}
+[9.101380] (-) TimerEvent: {}
+[9.202422] (-) TimerEvent: {}
+[9.305336] (-) TimerEvent: {}
+[9.410801] (-) TimerEvent: {}
+[9.515196] (-) TimerEvent: {}
+[9.616631] (-) TimerEvent: {}
+[9.717376] (-) TimerEvent: {}
+[9.818695] (-) TimerEvent: {}
+[9.922691] (-) TimerEvent: {}
+[10.023629] (-) TimerEvent: {}
+[10.125764] (-) TimerEvent: {}
+[10.226447] (-) TimerEvent: {}
+[10.329800] (-) TimerEvent: {}
+[10.431327] (-) TimerEvent: {}
+[10.532875] (-) TimerEvent: {}
+[10.634621] (-) TimerEvent: {}
+[10.736166] (-) TimerEvent: {}
+[10.836813] (-) TimerEvent: {}
+[10.938631] (-) TimerEvent: {}
+[11.039442] (-) TimerEvent: {}
+[11.140561] (-) TimerEvent: {}
+[11.241459] (-) TimerEvent: {}
+[11.342765] (-) TimerEvent: {}
+[11.444080] (-) TimerEvent: {}
+[11.545048] (-) TimerEvent: {}
+[11.645957] (-) TimerEvent: {}
+[11.749237] (-) TimerEvent: {}
+[11.850452] (-) TimerEvent: {}
+[11.953785] (-) TimerEvent: {}
+[12.058091] (-) TimerEvent: {}
+[12.162374] (-) TimerEvent: {}
+[12.263423] (-) TimerEvent: {}
+[12.370406] (-) TimerEvent: {}
+[12.471205] (-) TimerEvent: {}
+[12.579911] (-) TimerEvent: {}
+[12.680752] (-) TimerEvent: {}
+[12.785804] (-) TimerEvent: {}
+[12.886889] (-) TimerEvent: {}
+[12.988108] (-) TimerEvent: {}
+[13.090140] (-) TimerEvent: {}
+[13.191843] (-) TimerEvent: {}
+[13.297714] (-) TimerEvent: {}
+[13.400504] (-) TimerEvent: {}
+[13.503110] (-) TimerEvent: {}
+[13.609149] (-) TimerEvent: {}
+[13.710279] (-) TimerEvent: {}
+[13.814081] (-) TimerEvent: {}
+[13.918721] (-) TimerEvent: {}
+[14.027990] (-) TimerEvent: {}
+[14.130437] (-) TimerEvent: {}
+[14.232019] (-) TimerEvent: {}
+[14.341703] (-) TimerEvent: {}
+[14.449740] (-) TimerEvent: {}
+[14.554910] (-) TimerEvent: {}
+[14.656626] (-) TimerEvent: {}
+[14.760075] (-) TimerEvent: {}
+[14.862972] (-) TimerEvent: {}
+[14.964094] (-) TimerEvent: {}
+[15.068115] (-) TimerEvent: {}
+[15.169003] (-) TimerEvent: {}
+[15.270093] (-) TimerEvent: {}
+[15.372626] (-) TimerEvent: {}
+[15.473384] (-) TimerEvent: {}
+[15.574824] (-) TimerEvent: {}
+[15.677525] (-) TimerEvent: {}
+[15.778560] (-) TimerEvent: {}
+[15.888820] (-) TimerEvent: {}
+[15.990163] (-) TimerEvent: {}
+[16.100443] (-) TimerEvent: {}
+[16.201129] (-) TimerEvent: {}
+[16.302709] (-) TimerEvent: {}
+[16.403620] (-) TimerEvent: {}
+[16.504410] (-) TimerEvent: {}
+[16.606308] (-) TimerEvent: {}
+[16.708020] (-) TimerEvent: {}
+[16.809589] (-) TimerEvent: {}
+[16.910399] (-) TimerEvent: {}
+[17.015937] (-) TimerEvent: {}
+[17.116558] (-) TimerEvent: {}
+[17.217017] (-) TimerEvent: {}
+[17.318000] (-) TimerEvent: {}
+[17.420252] (-) TimerEvent: {}
+[17.521754] (-) TimerEvent: {}
+[17.622475] (-) TimerEvent: {}
+[17.725186] (-) TimerEvent: {}
+[17.826284] (-) TimerEvent: {}
+[17.928044] (-) TimerEvent: {}
+[18.029082] (-) TimerEvent: {}
+[18.130800] (-) TimerEvent: {}
+[18.231530] (-) TimerEvent: {}
+[18.338786] (-) TimerEvent: {}
+[18.440978] (-) TimerEvent: {}
+[18.542098] (-) TimerEvent: {}
+[18.649713] (-) TimerEvent: {}
+[18.758677] (-) TimerEvent: {}
+[18.862190] (-) TimerEvent: {}
+[18.967427] (-) TimerEvent: {}
+[19.069273] (-) TimerEvent: {}
+[19.170427] (-) TimerEvent: {}
+[19.275841] (-) TimerEvent: {}
+[19.381180] (-) TimerEvent: {}
+[19.482482] (-) TimerEvent: {}
+[19.587391] (-) TimerEvent: {}
+[19.688657] (-) TimerEvent: {}
+[19.789526] (-) TimerEvent: {}
+[19.890673] (-) TimerEvent: {}
+[19.997768] (-) TimerEvent: {}
+[20.098982] (-) TimerEvent: {}
+[20.199725] (-) TimerEvent: {}
+[20.300576] (-) TimerEvent: {}
+[20.401306] (-) TimerEvent: {}
+[20.502279] (-) TimerEvent: {}
+[20.602938] (-) TimerEvent: {}
+[20.703534] (-) TimerEvent: {}
+[20.804203] (-) TimerEvent: {}
+[20.905180] (-) TimerEvent: {}
+[21.007799] (-) TimerEvent: {}
+[21.109489] (-) TimerEvent: {}
+[21.210260] (-) TimerEvent: {}
+[21.311320] (-) TimerEvent: {}
+[21.412556] (-) TimerEvent: {}
+[21.529731] (-) TimerEvent: {}
+[21.638805] (-) TimerEvent: {}
+[21.764379] (-) TimerEvent: {}
+[21.865056] (-) TimerEvent: {}
+[21.965760] (-) TimerEvent: {}
+[22.066601] (-) TimerEvent: {}
+[22.169267] (-) TimerEvent: {}
+[22.270415] (-) TimerEvent: {}
+[22.371395] (-) TimerEvent: {}
+[22.473085] (-) TimerEvent: {}
+[22.573742] (-) TimerEvent: {}
+[22.675803] (-) TimerEvent: {}
+[22.777931] (-) TimerEvent: {}
+[22.880428] (-) TimerEvent: {}
+[22.981277] (-) TimerEvent: {}
+[23.087659] (-) TimerEvent: {}
+[23.188499] (-) TimerEvent: {}
+[23.289688] (-) TimerEvent: {}
+[23.390836] (-) TimerEvent: {}
+[23.492822] (-) TimerEvent: {}
+[23.594418] (-) TimerEvent: {}
+[23.695345] (-) TimerEvent: {}
+[23.797633] (-) TimerEvent: {}
+[23.898811] (-) TimerEvent: {}
+[23.999722] (-) TimerEvent: {}
+[24.100421] (-) TimerEvent: {}
+[24.201286] (-) TimerEvent: {}
+[24.302354] (-) TimerEvent: {}
+[24.403168] (-) TimerEvent: {}
+[24.504325] (-) TimerEvent: {}
+[24.605253] (-) TimerEvent: {}
+[24.708403] (-) TimerEvent: {}
+[24.809616] (-) TimerEvent: {}
+[24.910582] (-) TimerEvent: {}
+[25.012350] (-) TimerEvent: {}
+[25.116046] (-) TimerEvent: {}
+[25.225169] (-) TimerEvent: {}
+[25.326143] (-) TimerEvent: {}
+[25.427360] (-) TimerEvent: {}
+[25.528584] (-) TimerEvent: {}
+[25.630515] (-) TimerEvent: {}
+[25.731291] (-) TimerEvent: {}
+[25.833841] (-) TimerEvent: {}
+[25.941286] (-) TimerEvent: {}
+[26.041953] (-) TimerEvent: {}
+[26.142499] (-) TimerEvent: {}
+[26.243381] (-) TimerEvent: {}
+[26.344723] (-) TimerEvent: {}
+[26.448121] (-) TimerEvent: {}
+[26.548766] (-) TimerEvent: {}
+[26.654111] (-) TimerEvent: {}
+[26.757016] (-) TimerEvent: {}
+[26.863667] (-) TimerEvent: {}
+[26.965573] (-) TimerEvent: {}
+[27.066636] (-) TimerEvent: {}
+[27.167993] (-) TimerEvent: {}
+[27.269374] (-) TimerEvent: {}
+[27.371440] (-) TimerEvent: {}
+[27.472696] (-) TimerEvent: {}
+[27.573637] (-) TimerEvent: {}
+[27.674318] (-) TimerEvent: {}
+[27.774964] (-) TimerEvent: {}
+[27.875763] (-) TimerEvent: {}
+[27.976886] (-) TimerEvent: {}
+[28.078030] (-) TimerEvent: {}
+[28.179020] (-) TimerEvent: {}
+[28.279886] (-) TimerEvent: {}
+[28.380409] (-) TimerEvent: {}
+[28.481888] (-) TimerEvent: {}
+[28.582769] (-) TimerEvent: {}
+[28.683294] (-) TimerEvent: {}
+[28.788408] (-) TimerEvent: {}
+[28.890480] (-) TimerEvent: {}
+[28.994005] (-) TimerEvent: {}
+[29.094866] (-) TimerEvent: {}
+[29.196104] (-) TimerEvent: {}
+[29.296875] (-) TimerEvent: {}
+[29.397886] (-) TimerEvent: {}
+[29.498631] (-) TimerEvent: {}
+[29.600533] (-) TimerEvent: {}
+[29.702210] (-) TimerEvent: {}
+[29.808811] (-) TimerEvent: {}
+[29.910000] (-) TimerEvent: {}
+[30.010560] (-) TimerEvent: {}
+[30.111046] (-) TimerEvent: {}
+[30.211625] (-) TimerEvent: {}
+[30.313157] (-) TimerEvent: {}
+[30.414139] (-) TimerEvent: {}
+[30.518020] (-) TimerEvent: {}
+[30.618689] (-) TimerEvent: {}
+[30.720506] (-) TimerEvent: {}
+[30.821673] (-) TimerEvent: {}
+[30.928756] (-) TimerEvent: {}
+[31.029940] (-) TimerEvent: {}
+[31.137939] (-) TimerEvent: {}
+[31.238683] (-) TimerEvent: {}
+[31.339600] (-) TimerEvent: {}
+[31.441162] (-) TimerEvent: {}
+[31.542672] (-) TimerEvent: {}
+[31.648974] (-) TimerEvent: {}
+[31.749857] (-) TimerEvent: {}
+[31.851272] (-) TimerEvent: {}
+[31.951920] (-) TimerEvent: {}
+[32.052642] (-) TimerEvent: {}
+[32.115327] (line_tracking) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable line_detection\x1b[0m\n'}
+[32.153472] (-) TimerEvent: {}
+[32.256263] (-) TimerEvent: {}
+[32.357866] (-) TimerEvent: {}
+[32.468464] (-) TimerEvent: {}
+[32.569262] (-) TimerEvent: {}
+[32.676024] (-) TimerEvent: {}
+[32.777947] (-) TimerEvent: {}
+[32.879528] (-) TimerEvent: {}
+[32.980851] (-) TimerEvent: {}
+[33.081492] (-) TimerEvent: {}
+[33.182237] (-) TimerEvent: {}
+[33.283276] (-) TimerEvent: {}
+[33.384313] (-) TimerEvent: {}
+[33.485677] (-) TimerEvent: {}
+[33.586619] (-) TimerEvent: {}
+[33.687333] (-) TimerEvent: {}
+[33.765766] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: warning: relocation against `_ZTVN4YAML11InvalidNodeE' in read-only section `.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]'\n"}
+[33.789171] (-) TimerEvent: {}
+[33.891138] (-) TimerEvent: {}
+[33.955507] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o: in function `LineDetection::LineDetection()':\n"}
+[33.956387] (line_tracking) StderrLine: {'line': b"line_detection.cpp:(.text._ZN13LineDetectionC2Ev[_ZN13LineDetectionC5Ev]+0x784): undefined reference to `VisionProcess::VisionProcess(NodeConfig*)'\n"}
+[33.991310] (-) TimerEvent: {}
+[34.091845] (-) TimerEvent: {}
+[34.094687] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `ParamParser::Parse()':\n"}
+[34.095176] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text+0x59): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[34.095883] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[34.096987] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'\n"}
+[34.098511] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[34.099825] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[34.100115] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::InvalidNode::InvalidNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[34.100348] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x71): undefined reference to `vtable for YAML::InvalidNode'\n"}
+[34.100575] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::BadConversion::BadConversion(YAML::Mark const&)':\n"}
+[34.100793] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x7c): undefined reference to `vtable for YAML::BadConversion'\n"}
+[34.101010] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::memory_holder::create_node()':\n"}
+[34.101227] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'\n"}
+[34.101444] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node_ref::mark_defined()':\n"}
+[34.101711] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[34.101967] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node_ref::set_null()':\n"}
+[34.102192] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'\n"}
+[34.102420] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node_ref::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[34.102649] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2e): undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[34.102880] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node_ref::begin()':\n"}
+[34.103093] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x3d): undefined reference to `YAML::detail::node_data::begin()'\n"}
+[34.103306] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node_ref::end()':\n"}
+[34.103525] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x3d): undefined reference to `YAML::detail::node_data::end()'\n"}
+[34.106014] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::Node::EnsureNodeExists() const':\n"}
+[34.106476] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[34.106833] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[34.107083] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::Node::Mark() const':\n"}
+[34.107303] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[34.107519] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[34.107738] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::Node::Type() const':\n"}
+[34.107975] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[34.108196] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[34.108410] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::Node::Scalar[abi:cxx11]() const':\n"}
+[34.108628] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[34.108803] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[34.109645] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x7d): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]()'\n"}
+[34.110049] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `bool YAML::Node::as<bool>() const':\n"}
+[34.110527] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML4Node2asIbEET_v[_ZNK4YAML4Node2asIbEET_v]+0x53): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[34.110854] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML4Node2asIbEET_v[_ZNK4YAML4Node2asIbEET_v]+0x5d): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[34.111121] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > YAML::Node::as<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >() const':\n"}
+[34.111323] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x57): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[34.111506] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x61): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[34.111696] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `short YAML::Node::as<short>() const':\n"}
+[34.111838] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML4Node2asIsEET_v[_ZNK4YAML4Node2asIsEET_v]+0x53): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[34.111981] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML4Node2asIsEET_v[_ZNK4YAML4Node2asIsEET_v]+0x5d): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[34.112127] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::TypedBadConversion<bool>::~TypedBadConversion()':\n"}
+[34.112267] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML18TypedBadConversionIbED2Ev[_ZN4YAML18TypedBadConversionIbED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'\n"}
+[34.112408] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::as_if<bool, void>::operator()() const':\n"}
+[34.112547] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML5as_ifIbvEclEv[_ZNK4YAML5as_ifIbvEclEv]+0x9a): undefined reference to `YAML::convert<bool>::decode(YAML::Node const&, bool&)'\n"}
+[34.112687] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::TypedBadConversion<short>::~TypedBadConversion()':\n"}
+[34.112829] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML18TypedBadConversionIsED2Ev[_ZN4YAML18TypedBadConversionIsED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'\n"}
+[34.112969] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [13]>(char const (&) [13], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[34.113109] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[34.113260] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[34.113403] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[34.113569] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[34.113736] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [6]>(char const (&) [6], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[34.113880] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[34.114030] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[34.114173] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[34.114313] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[34.114459] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [7]>(char const (&) [7], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[34.114605] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[34.114760] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[34.114905] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[34.115053] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[34.115729] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[34.116135] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[34.116394] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[34.116620] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[34.116840] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[34.117058] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<char [7]>(char const (&) [7], std::shared_ptr<YAML::detail::memory_holder>) const':\n"}
+[34.117293] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML6detail9node_data3getIA7_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA7_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xf7): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[34.117509] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML6detail9node_data3getIA7_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA7_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x101): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[34.117745] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<char [8]>(char const (&) [8], std::shared_ptr<YAML::detail::memory_holder>) const':\n"}
+[34.117975] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZNK4YAML6detail9node_data3getIA8_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA8_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xf7): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[34.118190] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: param_parser.cpp:(.text._ZNK4YAML6detail9node_data3getIA8_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA8_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x101): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[34.118422] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [13]>(YAML::Mark const&, char const (&) [13])':\n"}
+[34.118636] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML12BadSubscriptC2IA13_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA13_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[34.118859] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [13]>(char const (&) [13], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[34.119075] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[34.119291] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [6]>(YAML::Mark const&, char const (&) [6])':\n"}
+[34.119502] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML12BadSubscriptC2IA6_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA6_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[34.119714] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [6]>(char const (&) [6], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[34.119925] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA6_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[34.120137] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [7]>(YAML::Mark const&, char const (&) [7])':\n"}
+[34.120348] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML12BadSubscriptC2IA7_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA7_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[34.120557] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [7]>(char const (&) [7], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[34.120778] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[34.120991] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [9]>(YAML::Mark const&, char const (&) [9])':\n"}
+[34.121203] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML12BadSubscriptC2IA9_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA9_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[34.121433] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[34.121683] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[34.121907] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [8]>(YAML::Mark const&, char const (&) [8])':\n"}
+[34.122117] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML12BadSubscriptC2IA8_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA8_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[34.122335] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o: in function `YAML::TypedBadConversion<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~TypedBadConversion()':\n"}
+[34.122547] (line_tracking) StderrLine: {'line': b"param_parser.cpp:(.text._ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev[_ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'\n"}
+[34.122760] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIsEE[_ZTIN4YAML18TypedBadConversionIsEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'\n"}
+[34.122970] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIbEE[_ZTIN4YAML18TypedBadConversionIbEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'\n"}
+[34.123179] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE[_ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'\n"}
+[34.123777] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: in function `VisionProcess::Decode(std::shared_ptr<cv_bridge::CvImage>)':\n"}
+[34.123995] (line_tracking) StderrLine: {'line': b"vision_process.cpp:(.text+0x305): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'\n"}
+[34.124161] (line_tracking) StderrLine: {'line': b"/usr/bin/ld: vision_process.cpp:(.text+0x33c): undefined reference to `cv::waitKey(int)'\n"}
+[34.192228] (-) TimerEvent: {}
+[34.244855] (line_tracking) StderrLine: {'line': b'/usr/bin/ld: warning: creating DT_TEXTREL in a PIE\n'}
+[34.262869] (line_tracking) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[34.266238] (line_tracking) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:211: line_detection] Error 1\n'}
+[34.266675] (line_tracking) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2\n'}
+[34.266920] (line_tracking) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[34.270247] (line_tracking) CommandEnded: {'returncode': 2}
+[34.294160] (-) TimerEvent: {}
+[34.394816] (-) TimerEvent: {}
+[34.498848] (-) TimerEvent: {}
+[34.533708] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 2}
+[34.547275] (-) EventReactorShutdown: {}
