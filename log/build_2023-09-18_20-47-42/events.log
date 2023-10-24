@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000440] (turtle3_control) JobQueued: {'identifier': 'turtle3_control', 'dependencies': OrderedDict()}
+[0.000589] (turtle3_control) JobStarted: {'identifier': 'turtle3_control'}
+[0.029646] (turtle3_control) JobProgress: {'identifier': 'turtle3_control', 'progress': 'cmake'}
+[0.032409] (turtle3_control) JobProgress: {'identifier': 'turtle3_control', 'progress': 'build'}
+[0.032937] (turtle3_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/turtle3_control/build/turtle3_control', '--', '-j8', '-l8'], 'cwd': '/home/luuk/turtle3_control/build/turtle3_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '47694'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1049,unix/luuk-virtual-machine:/tmp/.ICE-unix/1049'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b175ffbe_4442_4696_bb68_f107cadad103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CJQBB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/turtle3_control/build/turtle3_control'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097110] (-) TimerEvent: {}
+[0.155083] (turtle3_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diff_node\x1b[0m\n'}
+[0.197593] (-) TimerEvent: {}
+[0.218872] (turtle3_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diff_node.dir/src/diff_node.cpp.o\x1b[0m\n'}
+[0.297722] (-) TimerEvent: {}
+[0.398542] (-) TimerEvent: {}
+[0.499461] (-) TimerEvent: {}
+[0.600242] (-) TimerEvent: {}
+[0.701024] (-) TimerEvent: {}
+[0.802167] (-) TimerEvent: {}
+[0.903255] (-) TimerEvent: {}
+[1.004215] (-) TimerEvent: {}
+[1.104918] (-) TimerEvent: {}
+[1.205588] (-) TimerEvent: {}
+[1.306373] (-) TimerEvent: {}
+[1.407173] (-) TimerEvent: {}
+[1.508081] (-) TimerEvent: {}
+[1.608696] (-) TimerEvent: {}
+[1.709307] (-) TimerEvent: {}
+[1.810217] (-) TimerEvent: {}
+[1.910871] (-) TimerEvent: {}
+[2.011432] (-) TimerEvent: {}
+[2.116525] (-) TimerEvent: {}
+[2.218068] (-) TimerEvent: {}
+[2.318967] (-) TimerEvent: {}
+[2.419890] (-) TimerEvent: {}
+[2.521751] (-) TimerEvent: {}
+[2.622577] (-) TimerEvent: {}
+[2.723998] (-) TimerEvent: {}
+[2.825520] (-) TimerEvent: {}
+[2.927588] (-) TimerEvent: {}
+[3.028455] (-) TimerEvent: {}
+[3.130073] (-) TimerEvent: {}
+[3.231541] (-) TimerEvent: {}
+[3.332954] (-) TimerEvent: {}
+[3.435872] (-) TimerEvent: {}
+[3.537471] (-) TimerEvent: {}
+[3.638075] (-) TimerEvent: {}
+[3.740130] (-) TimerEvent: {}
+[3.841478] (-) TimerEvent: {}
+[3.942904] (-) TimerEvent: {}
+[4.052520] (-) TimerEvent: {}
+[4.163344] (-) TimerEvent: {}
+[4.264443] (-) TimerEvent: {}
+[4.365127] (-) TimerEvent: {}
+[4.468646] (-) TimerEvent: {}
+[4.572136] (-) TimerEvent: {}
+[4.673017] (-) TimerEvent: {}
+[4.774782] (-) TimerEvent: {}
+[4.876781] (-) TimerEvent: {}
+[4.979223] (-) TimerEvent: {}
+[5.082371] (-) TimerEvent: {}
+[5.188236] (-) TimerEvent: {}
+[5.296569] (-) TimerEvent: {}
+[5.400987] (-) TimerEvent: {}
+[5.501852] (-) TimerEvent: {}
+[5.604069] (-) TimerEvent: {}
+[5.711093] (-) TimerEvent: {}
+[5.812055] (-) TimerEvent: {}
+[5.913766] (-) TimerEvent: {}
+[6.015757] (-) TimerEvent: {}
+[6.118646] (-) TimerEvent: {}
+[6.223729] (-) TimerEvent: {}
+[6.324776] (-) TimerEvent: {}
+[6.425505] (-) TimerEvent: {}
+[6.527801] (-) TimerEvent: {}
+[6.536318] (turtle3_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.536630] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.536799] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.537034] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.537224] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.537502] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.537668] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.537822] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.537983] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.538132] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.538278] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.538422] (turtle3_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luuk/turtle3_control/src/diff_node.cpp:3\x1b[m\x1b[K:\n'}
+[6.538579] (turtle3_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/turtle3_control/src/diff_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DiffNode::topic_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.538742] (turtle3_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/turtle3_control/src/diff_node.cpp:20:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct sensor_msgs::msg::Joy_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct sensor_msgs::msg::Joy_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.538902] (turtle3_control) StderrLine: {'line': b'   20 |       RCLCPP_INFO(this->get_logger(), "I heard: \'%s\'", msg->\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.c_str());\n'}
+[6.539118] (turtle3_control) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.628181] (-) TimerEvent: {}
+[6.730429] (-) TimerEvent: {}
+[6.831161] (-) TimerEvent: {}
+[6.932044] (-) TimerEvent: {}
+[7.032866] (-) TimerEvent: {}
+[7.133748] (-) TimerEvent: {}
+[7.234559] (-) TimerEvent: {}
+[7.340193] (-) TimerEvent: {}
+[7.441101] (-) TimerEvent: {}
+[7.547883] (-) TimerEvent: {}
+[7.648779] (-) TimerEvent: {}
+[7.749699] (-) TimerEvent: {}
+[7.850635] (-) TimerEvent: {}
+[7.951493] (-) TimerEvent: {}
+[8.052363] (-) TimerEvent: {}
+[8.153743] (-) TimerEvent: {}
+[8.255539] (-) TimerEvent: {}
+[8.356521] (-) TimerEvent: {}
+[8.458095] (-) TimerEvent: {}
+[8.559095] (-) TimerEvent: {}
+[8.659770] (-) TimerEvent: {}
+[8.760990] (-) TimerEvent: {}
+[8.862186] (-) TimerEvent: {}
+[8.963135] (-) TimerEvent: {}
+[9.064268] (-) TimerEvent: {}
+[9.165165] (-) TimerEvent: {}
+[9.266982] (-) TimerEvent: {}
+[9.367889] (-) TimerEvent: {}
+[9.472455] (-) TimerEvent: {}
+[9.573605] (-) TimerEvent: {}
+[9.674325] (-) TimerEvent: {}
+[9.777385] (-) TimerEvent: {}
+[9.878132] (-) TimerEvent: {}
+[9.979064] (-) TimerEvent: {}
+[10.079894] (-) TimerEvent: {}
+[10.186619] (-) TimerEvent: {}
+[10.287618] (-) TimerEvent: {}
+[10.391750] (-) TimerEvent: {}
+[10.493993] (-) TimerEvent: {}
+[10.595050] (-) TimerEvent: {}
+[10.696203] (-) TimerEvent: {}
+[10.796949] (-) TimerEvent: {}
+[10.900286] (-) TimerEvent: {}
+[11.001650] (-) TimerEvent: {}
+[11.107947] (-) TimerEvent: {}
+[11.209214] (-) TimerEvent: {}
+[11.316924] (-) TimerEvent: {}
+[11.418062] (-) TimerEvent: {}
+[11.520544] (-) TimerEvent: {}
+[11.621560] (-) TimerEvent: {}
+[11.725902] (-) TimerEvent: {}
+[11.826782] (-) TimerEvent: {}
+[11.929519] (-) TimerEvent: {}
+[12.030920] (-) TimerEvent: {}
+[12.132679] (-) TimerEvent: {}
+[12.234367] (-) TimerEvent: {}
+[12.335287] (-) TimerEvent: {}
+[12.437461] (-) TimerEvent: {}
+[12.539717] (-) TimerEvent: {}
+[12.640417] (-) TimerEvent: {}
+[12.744917] (-) TimerEvent: {}
+[12.851579] (-) TimerEvent: {}
+[12.861350] (turtle3_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/diff_node.dir/build.make:76: CMakeFiles/diff_node.dir/src/diff_node.cpp.o] Error 1\n'}
+[12.862316] (turtle3_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diff_node.dir/all] Error 2\n'}
+[12.864726] (turtle3_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.874518] (turtle3_control) CommandEnded: {'returncode': 2}
+[12.952396] (-) TimerEvent: {}
+[13.058408] (-) TimerEvent: {}
+[13.061065] (turtle3_control) JobEnded: {'identifier': 'turtle3_control', 'rc': 2}
+[13.075300] (-) EventReactorShutdown: {}

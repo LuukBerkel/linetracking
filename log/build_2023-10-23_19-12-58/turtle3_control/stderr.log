@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/testtt_node.dir/src/testtt_node.cpp.o: in function `CompressedImageViewer::imageCallback(std::shared_ptr<sensor_msgs::msg::CompressedImage_<std::allocator<void> > >)':
+testtt_node.cpp:(.text._ZN21CompressedImageViewer13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN21CompressedImageViewer13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x146): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+/usr/bin/ld: testtt_node.cpp:(.text._ZN21CompressedImageViewer13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE[_ZN21CompressedImageViewer13imageCallbackESt10shared_ptrIN11sensor_msgs3msg16CompressedImage_ISaIvEEEE]+0x17d): undefined reference to `cv::waitKey(int)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/testtt_node.dir/build.make:179: testtt_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/testtt_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

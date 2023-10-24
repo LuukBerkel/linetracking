@@ -1,0 +1,26 @@
+[0.279s] Invoking command in '/home/luuk/turtle3_control/build/turtle3_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/turtle3_control/build/turtle3_control -- -j8 -l8
+[0.711s] [35m[1mConsolidate compiler generated dependencies of target diff_node[0m
+[0.920s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_node.dir/src/diff_node.cpp.o[0m
+[31.112s] [100%] [32m[1mLinking CXX executable diff_node[0m
+[32.144s] [100%] Built target diff_node
+[32.170s] Invoked command in '/home/luuk/turtle3_control/build/turtle3_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/turtle3_control/build/turtle3_control -- -j8 -l8
+[32.280s] Invoking command in '/home/luuk/turtle3_control/build/turtle3_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luuk/turtle3_control/build/turtle3_control
+[32.298s] -- Install configuration: ""
+[32.302s] -- Installing: /home/luuk/turtle3_control/install/turtle3_control/lib/turtle3_control/diff_node
+[32.317s] -- Set runtime path of "/home/luuk/turtle3_control/install/turtle3_control/lib/turtle3_control/diff_node" to ""
+[32.317s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/package_run_dependencies/turtle3_control
+[32.317s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/parent_prefix_path/turtle3_control
+[32.318s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/ament_prefix_path.sh
+[32.319s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/ament_prefix_path.dsv
+[32.320s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/path.sh
+[32.320s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/path.dsv
+[32.321s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.bash
+[32.321s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.sh
+[32.321s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.zsh
+[32.323s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.dsv
+[32.325s] -- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.dsv
+[32.325s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/packages/turtle3_control
+[32.325s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/cmake/turtle3_controlConfig.cmake
+[32.326s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/cmake/turtle3_controlConfig-version.cmake
+[32.326s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.xml
+[32.326s] Invoked command in '/home/luuk/turtle3_control/build/turtle3_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luuk/turtle3_control/build/turtle3_control

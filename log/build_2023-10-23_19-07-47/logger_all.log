@@ -1,0 +1,83 @@
+[0.791s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.791s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fca7b0cf160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fca7b8656c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fca7b8656c0>>)
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.881s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luuk/turtle3_control'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.932s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'turtle3_control'
+[0.932s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.933s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.933s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.933s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.990s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.990s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.001s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[1.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'turtle3_control' build argument 'cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'turtle3_control' build argument 'cmake_target' from command line to 'None'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'turtle3_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'turtle3_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'turtle3_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'turtle3_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'turtle3_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'turtle3_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'turtle3_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.200s] DEBUG:colcon.colcon_core.verb:Building package 'turtle3_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luuk/turtle3_control/build/turtle3_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luuk/turtle3_control/install/turtle3_control', 'merge_install': False, 'path': '/home/luuk/turtle3_control', 'symlink_install': False, 'test_result_base': None}
+[1.201s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luuk/turtle3_control' with build type 'ament_cmake'
+[1.210s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luuk/turtle3_control'
+[1.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luuk/turtle3_control/build/turtle3_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/turtle3_control/build/turtle3_control -- -j8 -l8
+[5.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luuk/turtle3_control/build/turtle3_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/turtle3_control/build/turtle3_control -- -j8 -l8
+[5.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle3_control)
+[5.955s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/turtle3_control/install/turtle3_control' for CMake module files
+[5.958s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/turtle3_control/install/turtle3_control' for CMake config files
+[5.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle3_control', 'cmake_prefix_path')
+[5.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/hook/cmake_prefix_path.ps1'
+[5.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/hook/cmake_prefix_path.dsv'
+[5.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/hook/cmake_prefix_path.sh'
+[5.972s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/turtle3_control/install/turtle3_control/lib'
+[5.973s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/turtle3_control/install/turtle3_control/bin'
+[5.973s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/turtle3_control/install/turtle3_control/lib/pkgconfig/turtle3_control.pc'
+[5.974s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/turtle3_control/install/turtle3_control/lib/python3.10/site-packages'
+[5.974s] Level 1:colcon.colcon_core.environment:checking '/home/luuk/turtle3_control/install/turtle3_control/bin'
+[5.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.ps1'
+[5.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.dsv'
+[5.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.sh'
+[5.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.bash'
+[5.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.zsh'
+[5.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luuk/turtle3_control/install/turtle3_control/share/colcon-core/packages/turtle3_control)
+[5.992s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.993s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[5.996s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.012s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.054s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luuk/turtle3_control/install/local_setup.ps1'
+[6.059s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luuk/turtle3_control/install/_local_setup_util_ps1.py'
+[6.064s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luuk/turtle3_control/install/setup.ps1'
+[6.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luuk/turtle3_control/install/local_setup.sh'
+[6.071s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luuk/turtle3_control/install/_local_setup_util_sh.py'
+[6.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luuk/turtle3_control/install/setup.sh'
+[6.076s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luuk/turtle3_control/install/local_setup.bash'
+[6.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luuk/turtle3_control/install/setup.bash'
+[6.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luuk/turtle3_control/install/local_setup.zsh'
+[6.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luuk/turtle3_control/install/setup.zsh'

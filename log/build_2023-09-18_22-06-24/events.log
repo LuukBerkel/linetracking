@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.001387] (turtle3_control) JobQueued: {'identifier': 'turtle3_control', 'dependencies': OrderedDict()}
+[0.001516] (turtle3_control) JobStarted: {'identifier': 'turtle3_control'}
+[0.035448] (turtle3_control) JobProgress: {'identifier': 'turtle3_control', 'progress': 'cmake'}
+[0.039116] (turtle3_control) JobProgress: {'identifier': 'turtle3_control', 'progress': 'build'}
+[0.040440] (turtle3_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/turtle3_control/build/turtle3_control', '--', '-j8', '-l8'], 'cwd': '/home/luuk/turtle3_control/build/turtle3_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '47694'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/turtle3_control/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1049,unix/luuk-virtual-machine:/tmp/.ICE-unix/1049'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b175ffbe_4442_4696_bb68_f107cadad103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CJQBB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/luuk/turtle3_control/install/turtle3_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/turtle3_control/build/turtle3_control'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luuk/turtle3_control/install/turtle3_control:/opt/ros/humble')]), 'shell': False}
+[0.097072] (-) TimerEvent: {}
+[0.118672] (turtle3_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197385] (-) TimerEvent: {}
+[0.300058] (-) TimerEvent: {}
+[0.400813] (-) TimerEvent: {}
+[0.487585] (turtle3_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.501096] (-) TimerEvent: {}
+[0.559067] (turtle3_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.565661] (turtle3_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.582051] (turtle3_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.601306] (-) TimerEvent: {}
+[0.610191] (turtle3_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.654821] (turtle3_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701488] (-) TimerEvent: {}
+[0.791592] (turtle3_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.793136] (turtle3_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801629] (-) TimerEvent: {}
+[0.902265] (-) TimerEvent: {}
+[1.002932] (-) TimerEvent: {}
+[1.012913] (turtle3_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.103116] (-) TimerEvent: {}
+[1.203792] (-) TimerEvent: {}
+[1.304505] (-) TimerEvent: {}
+[1.358072] (turtle3_control) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.404942] (-) TimerEvent: {}
+[1.505791] (-) TimerEvent: {}
+[1.606662] (-) TimerEvent: {}
+[1.707558] (-) TimerEvent: {}
+[1.808153] (-) TimerEvent: {}
+[1.808920] (turtle3_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.836328] (turtle3_control) StdoutLine: {'line': b'-- Generating done\n'}
+[1.840642] (turtle3_control) StdoutLine: {'line': b'-- Build files have been written to: /home/luuk/turtle3_control/build/turtle3_control\n'}
+[1.908396] (-) TimerEvent: {}
+[1.910662] (turtle3_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diff_node\x1b[0m\n'}
+[1.974320] (turtle3_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diff_node.dir/src/diff_node.cpp.o\x1b[0m\n'}
+[2.008541] (-) TimerEvent: {}
+[2.146295] (-) TimerEvent: {}
+[2.246938] (-) TimerEvent: {}
+[2.350458] (-) TimerEvent: {}
+[2.452235] (-) TimerEvent: {}
+[2.552861] (-) TimerEvent: {}
+[2.671308] (-) TimerEvent: {}
+[2.772211] (-) TimerEvent: {}
+[2.880349] (-) TimerEvent: {}
+[2.981100] (-) TimerEvent: {}
+[3.081603] (-) TimerEvent: {}
+[3.183860] (-) TimerEvent: {}
+[3.290140] (-) TimerEvent: {}
+[3.391488] (-) TimerEvent: {}
+[3.495602] (-) TimerEvent: {}
+[3.596936] (-) TimerEvent: {}
+[3.698296] (-) TimerEvent: {}
+[3.799018] (-) TimerEvent: {}
+[3.900333] (-) TimerEvent: {}
+[4.022692] (-) TimerEvent: {}
+[4.123976] (-) TimerEvent: {}
+[4.225059] (-) TimerEvent: {}
+[4.326237] (-) TimerEvent: {}
+[4.438193] (-) TimerEvent: {}
+[4.542451] (-) TimerEvent: {}
+[4.644447] (-) TimerEvent: {}
+[4.748915] (-) TimerEvent: {}
+[4.852182] (-) TimerEvent: {}
+[4.953613] (-) TimerEvent: {}
+[5.071536] (-) TimerEvent: {}
+[5.174362] (-) TimerEvent: {}
+[5.290942] (-) TimerEvent: {}
+[5.399034] (-) TimerEvent: {}
+[5.509580] (-) TimerEvent: {}
+[5.610321] (-) TimerEvent: {}
+[5.711221] (-) TimerEvent: {}
+[5.814170] (-) TimerEvent: {}
+[5.917343] (-) TimerEvent: {}
+[6.020237] (-) TimerEvent: {}
+[6.134030] (-) TimerEvent: {}
+[6.253402] (-) TimerEvent: {}
+[6.354388] (-) TimerEvent: {}
+[6.462194] (-) TimerEvent: {}
+[6.566354] (-) TimerEvent: {}
+[6.669030] (-) TimerEvent: {}
+[6.771773] (-) TimerEvent: {}
+[6.881028] (-) TimerEvent: {}
+[6.981865] (-) TimerEvent: {}
+[7.086371] (-) TimerEvent: {}
+[7.188144] (-) TimerEvent: {}
+[7.298027] (-) TimerEvent: {}
+[7.400057] (-) TimerEvent: {}
+[7.505870] (-) TimerEvent: {}
+[7.608096] (-) TimerEvent: {}
+[7.711985] (-) TimerEvent: {}
+[7.815468] (-) TimerEvent: {}
+[7.917969] (-) TimerEvent: {}
+[8.037405] (-) TimerEvent: {}
+[8.152459] (-) TimerEvent: {}
+[8.253395] (-) TimerEvent: {}
+[8.354988] (-) TimerEvent: {}
+[8.464665] (-) TimerEvent: {}
+[8.567822] (-) TimerEvent: {}
+[8.668732] (-) TimerEvent: {}
+[8.769714] (-) TimerEvent: {}
+[8.872642] (-) TimerEvent: {}
+[8.973115] (-) TimerEvent: {}
+[9.073657] (-) TimerEvent: {}
+[9.174415] (-) TimerEvent: {}
+[9.275037] (-) TimerEvent: {}
+[9.375972] (-) TimerEvent: {}
+[9.476602] (-) TimerEvent: {}
+[9.578850] (-) TimerEvent: {}
+[9.679852] (-) TimerEvent: {}
+[9.781064] (-) TimerEvent: {}
+[9.883632] (-) TimerEvent: {}
+[9.984945] (-) TimerEvent: {}
+[10.086031] (-) TimerEvent: {}
+[10.186914] (-) TimerEvent: {}
+[10.297734] (-) TimerEvent: {}
+[10.404124] (-) TimerEvent: {}
+[10.507831] (-) TimerEvent: {}
+[10.608404] (-) TimerEvent: {}
+[10.709227] (-) TimerEvent: {}
+[10.810445] (-) TimerEvent: {}
+[10.911209] (-) TimerEvent: {}
+[11.017959] (-) TimerEvent: {}
+[11.118709] (-) TimerEvent: {}
+[11.219735] (-) TimerEvent: {}
+[11.327769] (-) TimerEvent: {}
+[11.433155] (-) TimerEvent: {}
+[11.534392] (-) TimerEvent: {}
+[11.641102] (-) TimerEvent: {}
+[11.749731] (-) TimerEvent: {}
+[11.855562] (-) TimerEvent: {}
+[11.958925] (-) TimerEvent: {}
+[12.060417] (-) TimerEvent: {}
+[12.163001] (-) TimerEvent: {}
+[12.271168] (-) TimerEvent: {}
+[12.372409] (-) TimerEvent: {}
+[12.475109] (-) TimerEvent: {}
+[12.582146] (-) TimerEvent: {}
+[12.683013] (-) TimerEvent: {}
+[12.784100] (-) TimerEvent: {}
+[12.890230] (-) TimerEvent: {}
+[12.992662] (-) TimerEvent: {}
+[13.102825] (-) TimerEvent: {}
+[13.204883] (-) TimerEvent: {}
+[13.311089] (-) TimerEvent: {}
+[13.413030] (-) TimerEvent: {}
+[13.517119] (-) TimerEvent: {}
+[13.624963] (-) TimerEvent: {}
+[13.728860] (-) TimerEvent: {}
+[13.831802] (-) TimerEvent: {}
+[13.936073] (-) TimerEvent: {}
+[14.044282] (-) TimerEvent: {}
+[14.145240] (-) TimerEvent: {}
+[14.246356] (-) TimerEvent: {}
+[14.349239] (-) TimerEvent: {}
+[14.449960] (-) TimerEvent: {}
+[14.557691] (-) TimerEvent: {}
+[14.659278] (-) TimerEvent: {}
+[14.763144] (-) TimerEvent: {}
+[14.868027] (-) TimerEvent: {}
+[14.969111] (-) TimerEvent: {}
+[15.069973] (-) TimerEvent: {}
+[15.170796] (-) TimerEvent: {}
+[15.272744] (-) TimerEvent: {}
+[15.373594] (-) TimerEvent: {}
+[15.474483] (-) TimerEvent: {}
+[15.575526] (-) TimerEvent: {}
+[15.676233] (-) TimerEvent: {}
+[15.777237] (-) TimerEvent: {}
+[15.878288] (-) TimerEvent: {}
+[15.979219] (-) TimerEvent: {}
+[16.079930] (-) TimerEvent: {}
+[16.181111] (-) TimerEvent: {}
+[16.285341] (-) TimerEvent: {}
+[16.392063] (-) TimerEvent: {}
+[16.492773] (-) TimerEvent: {}
+[16.593748] (-) TimerEvent: {}
+[16.694689] (-) TimerEvent: {}
+[16.795439] (-) TimerEvent: {}
+[16.896408] (-) TimerEvent: {}
+[16.997253] (-) TimerEvent: {}
+[17.098180] (-) TimerEvent: {}
+[17.199148] (-) TimerEvent: {}
+[17.299938] (-) TimerEvent: {}
+[17.400832] (-) TimerEvent: {}
+[17.501788] (-) TimerEvent: {}
+[17.602654] (-) TimerEvent: {}
+[17.703579] (-) TimerEvent: {}
+[17.804504] (-) TimerEvent: {}
+[17.909821] (-) TimerEvent: {}
+[18.019532] (-) TimerEvent: {}
+[18.120342] (-) TimerEvent: {}
+[18.224435] (-) TimerEvent: {}
+[18.325388] (-) TimerEvent: {}
+[18.426419] (-) TimerEvent: {}
+[18.527320] (-) TimerEvent: {}
+[18.628125] (-) TimerEvent: {}
+[18.728984] (-) TimerEvent: {}
+[18.829699] (-) TimerEvent: {}
+[18.930585] (-) TimerEvent: {}
+[19.031289] (-) TimerEvent: {}
+[19.132259] (-) TimerEvent: {}
+[19.239813] (-) TimerEvent: {}
+[19.340824] (-) TimerEvent: {}
+[19.460552] (-) TimerEvent: {}
+[19.561309] (-) TimerEvent: {}
+[19.662084] (-) TimerEvent: {}
+[19.762961] (-) TimerEvent: {}
+[19.863817] (-) TimerEvent: {}
+[19.964670] (-) TimerEvent: {}
+[20.065590] (-) TimerEvent: {}
+[20.166840] (-) TimerEvent: {}
+[20.267901] (-) TimerEvent: {}
+[20.368569] (-) TimerEvent: {}
+[20.469569] (-) TimerEvent: {}
+[20.571341] (-) TimerEvent: {}
+[20.672022] (-) TimerEvent: {}
+[20.772845] (-) TimerEvent: {}
+[20.873786] (-) TimerEvent: {}
+[20.984133] (-) TimerEvent: {}
+[21.085151] (-) TimerEvent: {}
+[21.186016] (-) TimerEvent: {}
+[21.301785] (-) TimerEvent: {}
+[21.404081] (-) TimerEvent: {}
+[21.504907] (-) TimerEvent: {}
+[21.606047] (-) TimerEvent: {}
+[21.707040] (-) TimerEvent: {}
+[21.808670] (-) TimerEvent: {}
+[21.909567] (-) TimerEvent: {}
+[22.011506] (-) TimerEvent: {}
+[22.116454] (-) TimerEvent: {}
+[22.217313] (-) TimerEvent: {}
+[22.318192] (-) TimerEvent: {}
+[22.419063] (-) TimerEvent: {}
+[22.519722] (-) TimerEvent: {}
+[22.633062] (-) TimerEvent: {}
+[22.733974] (-) TimerEvent: {}
+[22.834663] (-) TimerEvent: {}
+[22.943344] (-) TimerEvent: {}
+[23.046531] (-) TimerEvent: {}
+[23.159896] (-) TimerEvent: {}
+[23.260984] (-) TimerEvent: {}
+[23.362859] (-) TimerEvent: {}
+[23.467068] (-) TimerEvent: {}
+[23.567848] (-) TimerEvent: {}
+[23.668580] (-) TimerEvent: {}
+[23.777025] (-) TimerEvent: {}
+[23.877880] (-) TimerEvent: {}
+[23.978771] (-) TimerEvent: {}
+[24.079750] (-) TimerEvent: {}
+[24.180632] (-) TimerEvent: {}
+[24.283873] (-) TimerEvent: {}
+[24.384842] (-) TimerEvent: {}
+[24.486873] (-) TimerEvent: {}
+[24.587470] (-) TimerEvent: {}
+[24.688873] (-) TimerEvent: {}
+[24.789646] (-) TimerEvent: {}
+[24.890525] (-) TimerEvent: {}
+[24.997100] (-) TimerEvent: {}
+[25.099812] (-) TimerEvent: {}
+[25.200641] (-) TimerEvent: {}
+[25.301449] (-) TimerEvent: {}
+[25.402422] (-) TimerEvent: {}
+[25.503436] (-) TimerEvent: {}
+[25.613793] (-) TimerEvent: {}
+[25.714623] (-) TimerEvent: {}
+[25.815939] (-) TimerEvent: {}
+[25.916542] (-) TimerEvent: {}
+[26.018358] (-) TimerEvent: {}
+[26.120072] (-) TimerEvent: {}
+[26.228608] (-) TimerEvent: {}
+[26.329534] (-) TimerEvent: {}
+[26.430522] (-) TimerEvent: {}
+[26.539787] (-) TimerEvent: {}
+[26.640874] (-) TimerEvent: {}
+[26.743093] (-) TimerEvent: {}
+[26.846001] (-) TimerEvent: {}
+[26.965671] (-) TimerEvent: {}
+[27.066859] (-) TimerEvent: {}
+[27.167908] (-) TimerEvent: {}
+[27.192541] (turtle3_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable diff_node\x1b[0m\n'}
+[27.306018] (-) TimerEvent: {}
+[27.406729] (-) TimerEvent: {}
+[27.511351] (-) TimerEvent: {}
+[27.613661] (-) TimerEvent: {}
+[27.716000] (-) TimerEvent: {}
+[27.818216] (-) TimerEvent: {}
+[27.918733] (-) TimerEvent: {}
+[28.021951] (-) TimerEvent: {}
+[28.123036] (-) TimerEvent: {}
+[28.223874] (-) TimerEvent: {}
+[28.281991] (turtle3_control) StdoutLine: {'line': b'[100%] Built target diff_node\n'}
+[28.316352] (turtle3_control) CommandEnded: {'returncode': 0}
+[28.324006] (-) TimerEvent: {}
+[28.425480] (-) TimerEvent: {}
+[28.472540] (turtle3_control) JobProgress: {'identifier': 'turtle3_control', 'progress': 'install'}
+[28.488240] (turtle3_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luuk/turtle3_control/build/turtle3_control'], 'cwd': '/home/luuk/turtle3_control/build/turtle3_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '47694'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/turtle3_control/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1049,unix/luuk-virtual-machine:/tmp/.ICE-unix/1049'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b175ffbe_4442_4696_bb68_f107cadad103'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CJQBB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/luuk/turtle3_control/install/turtle3_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/turtle3_control/build/turtle3_control'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luuk/turtle3_control/install/turtle3_control:/opt/ros/humble')]), 'shell': False}
+[28.508946] (turtle3_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.509283] (turtle3_control) StdoutLine: {'line': b'-- Installing: /home/luuk/turtle3_control/install/turtle3_control/lib/turtle3_control/diff_node\n'}
+[28.521398] (turtle3_control) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/turtle3_control/install/turtle3_control/lib/turtle3_control/diff_node" to ""\n'}
+[28.521723] (turtle3_control) StdoutLine: {'line': b'-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/package_run_dependencies/turtle3_control\n'}
+[28.521909] (turtle3_control) StdoutLine: {'line': b'-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/parent_prefix_path/turtle3_control\n'}
+[28.522362] (turtle3_control) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/ament_prefix_path.sh\n'}
+[28.522548] (turtle3_control) StdoutLine: {'line': b'-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/ament_prefix_path.dsv\n'}
+[28.522772] (turtle3_control) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/path.sh\n'}
+[28.522972] (turtle3_control) StdoutLine: {'line': b'-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/path.dsv\n'}
+[28.523131] (turtle3_control) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.bash\n'}
+[28.523287] (turtle3_control) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.sh\n'}
+[28.523715] (turtle3_control) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.zsh\n'}
+[28.523899] (turtle3_control) StdoutLine: {'line': b'-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.dsv\n'}
+[28.525123] (turtle3_control) StdoutLine: {'line': b'-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.dsv\n'}
+[28.525470] (turtle3_control) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/packages/turtle3_control\n'}
+[28.526309] (-) TimerEvent: {}
+[28.526988] (turtle3_control) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/cmake/turtle3_controlConfig.cmake\n'}
+[28.532097] (turtle3_control) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/cmake/turtle3_controlConfig-version.cmake\n'}
+[28.532412] (turtle3_control) StdoutLine: {'line': b'-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.xml\n'}
+[28.532754] (turtle3_control) CommandEnded: {'returncode': 0}
+[28.627446] (-) TimerEvent: {}
+[28.734972] (-) TimerEvent: {}
+[28.747265] (turtle3_control) JobEnded: {'identifier': 'turtle3_control', 'rc': 0}
+[28.751222] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[0.058s] Invoking command in '/home/luuk/turtle3_control/build/turtle3_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/turtle3_control/build/turtle3_control -- -j8 -l8
+[0.299s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.500s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[1.586s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.593s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.610s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.646s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.884s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.889s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.075s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.076s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.875s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.581s] -- Configuring done
+[4.612s] -- Generating done
+[4.616s] -- Build files have been written to: /home/luuk/turtle3_control/build/turtle3_control
+[4.718s] [ 50%] [32mBuilding CXX object CMakeFiles/testtt_node.dir/src/testtt_node.cpp.o[0m
+[6.268s] [01m[K/home/luuk/turtle3_control/src/testtt_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[6.268s]     4 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[6.268s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.268s] compilation terminated.
+[6.369s] gmake[2]: *** [CMakeFiles/testtt_node.dir/build.make:76: CMakeFiles/testtt_node.dir/src/testtt_node.cpp.o] Error 1
+[6.371s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/testtt_node.dir/all] Error 2
+[6.373s] gmake: *** [Makefile:146: all] Error 2
+[6.384s] Invoked command in '/home/luuk/turtle3_control/build/turtle3_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/turtle3_control/build/turtle3_control -- -j8 -l8

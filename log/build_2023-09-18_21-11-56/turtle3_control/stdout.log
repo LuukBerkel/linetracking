@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target diff_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/diff_node.dir/src/diff_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable diff_node[0m
+[100%] Built target diff_node
+-- Install configuration: ""
+-- Installing: /home/luuk/turtle3_control/install/turtle3_control/lib/turtle3_control/diff_node
+-- Set runtime path of "/home/luuk/turtle3_control/install/turtle3_control/lib/turtle3_control/diff_node" to ""
+-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/package_run_dependencies/turtle3_control
+-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/parent_prefix_path/turtle3_control
+-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/ament_prefix_path.sh
+-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/path.sh
+-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/path.dsv
+-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.bash
+-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.sh
+-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.zsh
+-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.dsv
+-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.dsv
+-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/packages/turtle3_control
+-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/cmake/turtle3_controlConfig.cmake
+-- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/cmake/turtle3_controlConfig-version.cmake
+-- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.xml

@@ -1,0 +1,47 @@
+[0.065s] Invoking command in '/home/luuk/turtle3_control/build/turtle3_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/turtle3_control/build/turtle3_control -- -j8 -l8
+[0.412s] [35m[1mConsolidate compiler generated dependencies of target diff_node[0m
+[0.519s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_node.dir/src/diff_node.cpp.o[0m
+[7.475s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.482s]                  from [01m[K/home/luuk/turtle3_control/src/diff_node.cpp:3[m[K:
+[7.482s] [01m[K/home/luuk/turtle3_control/src/diff_node.cpp:[m[K In member function ‘[01m[Kvoid DiffNode::topic_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr) const[m[K’:
+[7.483s] [01m[K/home/luuk/turtle3_control/src/diff_node.cpp:21:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<sensor_msgs::msg::Joy_<std::allocator<void> > >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[7.483s]    21 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%s"[m[K, msg);
+[7.483s]       |                                       [01;35m[K^~~~~~~~~~~~~~[m[K
+[7.483s] [01m[K/home/luuk/turtle3_control/src/diff_node.cpp:21:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[7.484s]    21 |       RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%s[m[K", msg);
+[7.484s]       |                                                  [01;36m[K~^[m[K
+[7.484s]       |                                                   [01;36m[K|[m[K
+[7.484s]       |                                                   [01;36m[Kchar*[m[K
+[27.259s] [100%] [32m[1mLinking CXX executable diff_node[0m
+[28.523s] [100%] Built target diff_node
+[28.562s] Invoked command in '/home/luuk/turtle3_control/build/turtle3_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/turtle3_control/build/turtle3_control -- -j8 -l8
+[28.747s] Invoking command in '/home/luuk/turtle3_control/build/turtle3_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luuk/turtle3_control/build/turtle3_control
+[28.780s] -- Install configuration: ""
+[28.804s] -- Installing: /home/luuk/turtle3_control/install/turtle3_control/lib/turtle3_control/diff_node
+[28.805s] -- Set runtime path of "/home/luuk/turtle3_control/install/turtle3_control/lib/turtle3_control/diff_node" to ""
+[28.806s] -- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/package_run_dependencies/turtle3_control
+[28.807s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/parent_prefix_path/turtle3_control
+[28.807s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/ament_prefix_path.sh
+[28.808s] -- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/ament_prefix_path.dsv
+[28.810s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/path.sh
+[28.810s] -- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/environment/path.dsv
+[28.814s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.bash
+[28.815s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.sh
+[28.816s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.zsh
+[28.817s] -- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/local_setup.dsv
+[28.820s] -- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.dsv
+[28.823s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/ament_index/resource_index/packages/turtle3_control
+[28.824s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/cmake/turtle3_controlConfig.cmake
+[28.824s] -- Up-to-date: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/cmake/turtle3_controlConfig-version.cmake
+[28.825s] -- Installing: /home/luuk/turtle3_control/install/turtle3_control/share/turtle3_control/package.xml
+[28.834s] Invoked command in '/home/luuk/turtle3_control/build/turtle3_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luuk/turtle3_control/build/turtle3_control

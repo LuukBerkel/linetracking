@@ -1,0 +1,7 @@
+[0.031s] Invoking command in '/home/luuk/turtle3_control/build/turtle3_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luuk/turtle3_control -DCMAKE_INSTALL_PREFIX=/home/luuk/turtle3_control/install/turtle3_control
+[0.049s] [31mCMake Error at CMakeLists.txt:4:
+[0.050s]   Parse error.  Expected "(", got identifier with text "to".
+[0.050s] 
+[0.050s] [0m
+[0.050s] -- Configuring incomplete, errors occurred!
+[0.053s] Invoked command in '/home/luuk/turtle3_control/build/turtle3_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luuk/turtle3_control -DCMAKE_INSTALL_PREFIX=/home/luuk/turtle3_control/install/turtle3_control
