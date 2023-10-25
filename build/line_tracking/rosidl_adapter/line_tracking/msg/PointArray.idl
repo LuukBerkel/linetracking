@@ -2,11 +2,12 @@
 // with input from line_tracking/msg/PointArray.msg
 // generated code does not contain a copyright notice
 
+#include "geometry_msgs/msg/Point.idl"
 
 module line_tracking {
   module msg {
     struct PointArray {
-      uint8 structure_needs_at_least_one_member;
+      sequence<geometry_msgs::msg::Point> points;
     };
   };
 };

@@ -18,6 +18,26 @@ namespace line_tracking
 namespace msg
 {
 
+namespace builder
+{
+
+class Init_PointArray_points
+{
+public:
+  Init_PointArray_points()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  ::line_tracking::msg::PointArray points(::line_tracking::msg::PointArray::_points_type arg)
+  {
+    msg_.points = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::line_tracking::msg::PointArray msg_;
+};
+
+}  // namespace builder
 
 }  // namespace msg
 
@@ -28,7 +48,7 @@ template<>
 inline
 auto build<::line_tracking::msg::PointArray>()
 {
-  return ::line_tracking::msg::PointArray(rosidl_runtime_cpp::MessageInitialization::ZERO);
+  return line_tracking::msg::builder::Init_PointArray_points();
 }
 
 }  // namespace line_tracking

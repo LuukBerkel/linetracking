@@ -615,7 +615,8 @@ CMakeFiles/compressed_viewer.dir/clean:
 # Target rules for target CMakeFiles/line_detection.dir
 
 # All Build rule for target.
-CMakeFiles/line_detection.dir/all:
+CMakeFiles/line_detection.dir/all: CMakeFiles/line_tracking__cpp.dir/all
+CMakeFiles/line_detection.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_detection.dir/build.make CMakeFiles/line_detection.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_detection.dir/build.make CMakeFiles/line_detection.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=3,4,5,6 "Built target line_detection"
@@ -623,7 +624,7 @@ CMakeFiles/line_detection.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/line_detection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_detection.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
 .PHONY : CMakeFiles/line_detection.dir/rule

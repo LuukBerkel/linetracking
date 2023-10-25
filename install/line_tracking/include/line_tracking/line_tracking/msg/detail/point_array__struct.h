@@ -17,10 +17,14 @@ extern "C"
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'points'
+#include "geometry_msgs/msg/detail/point__struct.h"
+
 /// Struct defined in msg/PointArray in the package line_tracking.
 typedef struct line_tracking__msg__PointArray
 {
-  uint8_t structure_needs_at_least_one_member;
+  geometry_msgs__msg__Point__Sequence points;
 } line_tracking__msg__PointArray;
 
 // Struct for a sequence of line_tracking__msg__PointArray.

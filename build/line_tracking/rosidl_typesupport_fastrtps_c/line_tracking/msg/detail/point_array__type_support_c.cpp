@@ -34,8 +34,23 @@ extern "C"
 {
 #endif
 
+#include "geometry_msgs/msg/detail/point__functions.h"  // points
 
 // forward declare type support functions
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_line_tracking
+size_t get_serialized_size_geometry_msgs__msg__Point(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_line_tracking
+size_t max_serialized_size_geometry_msgs__msg__Point(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_line_tracking
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point)();
 
 
 using _PointArray__ros_msg_type = line_tracking__msg__PointArray;
@@ -49,9 +64,23 @@ static bool _PointArray__cdr_serialize(
     return false;
   }
   const _PointArray__ros_msg_type * ros_message = static_cast<const _PointArray__ros_msg_type *>(untyped_ros_message);
-  // Field name: structure_needs_at_least_one_member
+  // Field name: points
   {
-    cdr << ros_message->structure_needs_at_least_one_member;
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point
+      )()->data);
+    size_t size = ros_message->points.size;
+    auto array_ptr = ros_message->points.data;
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; ++i) {
+      if (!callbacks->cdr_serialize(
+          &array_ptr[i], cdr))
+      {
+        return false;
+      }
+    }
   }
 
   return true;
@@ -66,9 +95,31 @@ static bool _PointArray__cdr_deserialize(
     return false;
   }
   _PointArray__ros_msg_type * ros_message = static_cast<_PointArray__ros_msg_type *>(untyped_ros_message);
-  // Field name: structure_needs_at_least_one_member
+  // Field name: points
   {
-    cdr >> ros_message->structure_needs_at_least_one_member;
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point
+      )()->data);
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    if (ros_message->points.data) {
+      geometry_msgs__msg__Point__Sequence__fini(&ros_message->points);
+    }
+    if (!geometry_msgs__msg__Point__Sequence__init(&ros_message->points, size)) {
+      fprintf(stderr, "failed to create array for field 'points'");
+      return false;
+    }
+    auto array_ptr = ros_message->points.data;
+    for (size_t i = 0; i < size; ++i) {
+      if (!callbacks->cdr_deserialize(
+          cdr, &array_ptr[i]))
+      {
+        return false;
+      }
+    }
   }
 
   return true;
@@ -88,11 +139,17 @@ size_t get_serialized_size_line_tracking__msg__PointArray(
   (void)padding;
   (void)wchar_size;
 
-  // field.name structure_needs_at_least_one_member
+  // field.name points
   {
-    size_t item_size = sizeof(ros_message->structure_needs_at_least_one_member);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+    size_t array_size = ros_message->points.size;
+    auto array_ptr = ros_message->points.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += get_serialized_size_geometry_msgs__msg__Point(
+        &array_ptr[index], current_alignment);
+    }
   }
 
   return current_alignment - initial_alignment;
@@ -121,11 +178,24 @@ size_t max_serialized_size_line_tracking__msg__PointArray(
   full_bounded = true;
   is_plain = true;
 
-  // member: structure_needs_at_least_one_member
+  // member: points
   {
-    size_t array_size = 1;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
-    current_alignment += array_size * sizeof(uint8_t);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      current_alignment +=
+        max_serialized_size_geometry_msgs__msg__Point(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
   }
 
   return current_alignment - initial_alignment;

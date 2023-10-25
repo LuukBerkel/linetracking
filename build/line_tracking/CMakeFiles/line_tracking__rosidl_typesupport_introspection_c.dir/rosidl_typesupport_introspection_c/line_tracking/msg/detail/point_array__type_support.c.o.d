@@ -56,4 +56,11 @@ CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupp
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/rosidl_generator_c__visibility_control.h \
- /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_array__struct.h
+ /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_array__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

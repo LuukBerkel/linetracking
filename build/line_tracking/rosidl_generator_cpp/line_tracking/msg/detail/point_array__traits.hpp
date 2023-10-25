@@ -14,6 +14,10 @@
 #include "line_tracking/msg/detail/point_array__struct.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 
+// Include directives for member types
+// Member 'points'
+#include "geometry_msgs/msg/detail/point__traits.hpp"
+
 namespace line_tracking
 {
 
@@ -24,17 +28,48 @@ inline void to_flow_style_yaml(
   const PointArray & msg,
   std::ostream & out)
 {
-  (void)msg;
-  out << "null";
+  out << "{";
+  // member: points
+  {
+    if (msg.points.size() == 0) {
+      out << "points: []";
+    } else {
+      out << "points: [";
+      size_t pending_items = msg.points.size();
+      for (auto item : msg.points) {
+        to_flow_style_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
+  }
+  out << "}";
 }  // NOLINT(readability/fn_size)
 
 inline void to_block_style_yaml(
   const PointArray & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  (void)msg;
-  (void)indentation;
-  out << "null\n";
+  // member: points
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.points.size() == 0) {
+      out << "points: []\n";
+    } else {
+      out << "points:\n";
+      for (auto item : msg.points) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "-\n";
+        to_block_style_yaml(item, out, indentation + 2);
+      }
+    }
+  }
 }  // NOLINT(readability/fn_size)
 
 inline std::string to_yaml(const PointArray & msg, bool use_flow_style = false)
@@ -83,11 +118,11 @@ inline const char * name<line_tracking::msg::PointArray>()
 
 template<>
 struct has_fixed_size<line_tracking::msg::PointArray>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<line_tracking::msg::PointArray>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<line_tracking::msg::PointArray>

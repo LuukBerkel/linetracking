@@ -183,6 +183,9 @@ CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_f
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/malloc.h \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_array__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_array__functions.h \
  /usr/include/c++/11/stdlib.h \
- /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/rosidl_generator_c__visibility_control.h
+ /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h

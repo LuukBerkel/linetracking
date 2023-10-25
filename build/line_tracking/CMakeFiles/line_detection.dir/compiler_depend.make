@@ -730,6 +730,14 @@ CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o: ../../src
   /usr/include/opencv4/opencv2/core/core_c.h \
   /usr/include/opencv4/opencv2/core/types_c.h \
   /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge_export.h \
+  rosidl_generator_cpp/line_tracking/msg/point_blob.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_blob__struct.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_array__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_blob__builder.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_blob__traits.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_array__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
   ../../src/line_detection/include/param_parser.hpp \
   ../../src/line_detection/include/vision_process.hpp \
   ../../src/line_detection/include/param_parser.hpp
@@ -1377,6 +1385,14 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: ../../src
   /usr/include/opencv4/opencv2/core/core_c.h \
   /usr/include/opencv4/opencv2/core/types_c.h \
   /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge_export.h \
+  rosidl_generator_cpp/line_tracking/msg/point_blob.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_blob__struct.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_array__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_blob__builder.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_blob__traits.hpp \
+  rosidl_generator_cpp/line_tracking/msg/detail/point_array__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
   /usr/include/opencv4/opencv2/opencv.hpp \
   /usr/include/opencv4/opencv2/calib3d.hpp \
   /usr/include/opencv4/opencv2/features2d.hpp \
@@ -1473,8 +1489,14 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: ../../src
   /usr/include/gsl/gsl_spline.h \
   /usr/include/gsl/gsl_interp.h \
   /usr/include/gsl/gsl_inline.h \
-  /usr/include/gsl/gsl_types.h
+  /usr/include/gsl/gsl_types.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp
 
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
 
 /usr/include/opencv4/opencv2/video/background_segm.hpp:
 
@@ -1501,8 +1523,6 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: ../../src
 /usr/include/opencv4/opencv2/core/cuda.hpp:
 
 /usr/include/opencv4/opencv2/stitching.hpp:
-
-/usr/include/opencv4/opencv2/objdetect/face.hpp:
 
 /usr/include/opencv4/opencv2/ml/ml.inl.hpp:
 
@@ -1607,6 +1627,18 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: ../../src
 /usr/include/opencv4/opencv2/flann/linear_index.h:
 
 ../../src/line_detection/include/vision_process.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+rosidl_generator_cpp/line_tracking/msg/detail/point_array__traits.hpp:
+
+rosidl_generator_cpp/line_tracking/msg/detail/point_blob__traits.hpp:
+
+/usr/include/opencv4/opencv2/objdetect/face.hpp:
+
+rosidl_generator_cpp/line_tracking/msg/detail/point_array__struct.hpp:
+
+rosidl_generator_cpp/line_tracking/msg/point_blob.hpp:
 
 /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge_export.h:
 
@@ -2336,6 +2368,8 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: ../../src
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
+rosidl_generator_cpp/line_tracking/msg/detail/point_blob__struct.hpp:
+
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
 /usr/include/c++/11/bits/allocator.h:
@@ -2449,6 +2483,8 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: ../../src
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+rosidl_generator_cpp/line_tracking/msg/detail/point_blob__builder.hpp:
 
 /usr/include/c++/11/new:
 
@@ -2647,6 +2683,8 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: ../../src
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/istream:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
 
 /usr/include/c++/11/bits/istream.tcc:
 

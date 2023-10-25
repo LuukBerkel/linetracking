@@ -69,125 +69,125 @@ include CMakeFiles/line_tracking__rosidl_generator_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/line_tracking__rosidl_generator_c.dir/flags.make
 
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/lib/rosidl_generator_c/rosidl_generator_c
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/action__type_support.h.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl.h.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.c.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.h.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__struct.h.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__type_support.h.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.c.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.h.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__struct.h.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: rosidl_adapter/line_tracking/msg/PointMatrixWithEnum.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: rosidl_adapter/line_tracking/msg/PointArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Char.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/ColorRGBA.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Empty.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Float32.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Float32MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Float64.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Float64MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Header.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Int16.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Int16MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Int32.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Int32MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Int64.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Int64MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Int8.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/Int8MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/MultiArrayDimension.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/MultiArrayLayout.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/String.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/UInt16.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/UInt16MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/UInt32.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/UInt32MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/UInt64.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Inertia.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/InertiaStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Point.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Point32.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Polygon.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Pose.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/PoseArray.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/PoseStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovariance.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Quaternion.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/QuaternionStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Transform.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/TransformStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Twist.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/TwistStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovariance.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
-rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/lib/rosidl_generator_c/rosidl_generator_c
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/action__type_support.h.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl.h.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.c.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.h.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__struct.h.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__type_support.h.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.c.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.h.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__struct.h.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
+rosidl_generator_c/line_tracking/msg/point_blob.h: rosidl_adapter/line_tracking/msg/PointBlob.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: rosidl_adapter/line_tracking/msg/PointArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Char.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Empty.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Float32.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Float64.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Header.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Int16.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Int32.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Int64.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Int8.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/String.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/UInt16.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/UInt32.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/UInt64.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Inertia.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Point.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Point32.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Pose.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/PoseArray.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Quaternion.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Transform.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Twist.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
+rosidl_generator_c/line_tracking/msg/point_blob.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/luuk/linetracking/build/line_tracking/rosidl_generator_c__arguments.json
 
-rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.h: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.h
+rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.h: rosidl_generator_c/line_tracking/msg/point_blob.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.h
 
-rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__struct.h: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__struct.h
+rosidl_generator_c/line_tracking/msg/detail/point_blob__struct.h: rosidl_generator_c/line_tracking/msg/point_blob.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_blob__struct.h
 
-rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__type_support.h: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__type_support.h
+rosidl_generator_c/line_tracking/msg/detail/point_blob__type_support.h: rosidl_generator_c/line_tracking/msg/point_blob.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_blob__type_support.h
 
-rosidl_generator_c/line_tracking/msg/point_array.h: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
+rosidl_generator_c/line_tracking/msg/point_array.h: rosidl_generator_c/line_tracking/msg/point_blob.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/point_array.h
 
-rosidl_generator_c/line_tracking/msg/detail/point_array__functions.h: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
+rosidl_generator_c/line_tracking/msg/detail/point_array__functions.h: rosidl_generator_c/line_tracking/msg/point_blob.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_array__functions.h
 
-rosidl_generator_c/line_tracking/msg/detail/point_array__struct.h: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
+rosidl_generator_c/line_tracking/msg/detail/point_array__struct.h: rosidl_generator_c/line_tracking/msg/point_blob.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_array__struct.h
 
-rosidl_generator_c/line_tracking/msg/detail/point_array__type_support.h: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
+rosidl_generator_c/line_tracking/msg/detail/point_array__type_support.h: rosidl_generator_c/line_tracking/msg/point_blob.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_array__type_support.h
 
-rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c
+rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c: rosidl_generator_c/line_tracking/msg/point_blob.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c
 
-rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
+rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c: rosidl_generator_c/line_tracking/msg/point_blob.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c
 
-CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o: CMakeFiles/line_tracking__rosidl_generator_c.dir/flags.make
-CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o: rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c
-CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o: CMakeFiles/line_tracking__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o -MF CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o.d -o CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o -c /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c
+CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o: CMakeFiles/line_tracking__rosidl_generator_c.dir/flags.make
+CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o: rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c
+CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o: CMakeFiles/line_tracking__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o -MF CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o.d -o CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o -c /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c
 
-CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c > CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.i
+CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c > CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.i
 
-CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c -o CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.s
+CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c -o CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.s
 
 CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c.o: CMakeFiles/line_tracking__rosidl_generator_c.dir/flags.make
 CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c.o: rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c
@@ -205,13 +205,13 @@ CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_trackin
 
 # Object files for target line_tracking__rosidl_generator_c
 line_tracking__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o" \
+"CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o" \
 "CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c.o"
 
 # External object files for target line_tracking__rosidl_generator_c
 line_tracking__rosidl_generator_c_EXTERNAL_OBJECTS =
 
-libline_tracking__rosidl_generator_c.so: CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o
+libline_tracking__rosidl_generator_c.so: CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o
 libline_tracking__rosidl_generator_c.so: CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c.o
 libline_tracking__rosidl_generator_c.so: CMakeFiles/line_tracking__rosidl_generator_c.dir/build.make
 libline_tracking__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -235,12 +235,12 @@ CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line
 CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_array__functions.h
 CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_array__struct.h
 CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_array__type_support.h
-CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c
-CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.h
-CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__struct.h
-CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__type_support.h
+CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c
+CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.h
+CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_blob__struct.h
+CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/detail/point_blob__type_support.h
 CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/point_array.h
-CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/point_matrix_with_enum.h
+CMakeFiles/line_tracking__rosidl_generator_c.dir/depend: rosidl_generator_c/line_tracking/msg/point_blob.h
 	cd /home/luuk/linetracking/build/line_tracking && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luuk/linetracking /home/luuk/linetracking /home/luuk/linetracking/build/line_tracking /home/luuk/linetracking/build/line_tracking /home/luuk/linetracking/build/line_tracking/CMakeFiles/line_tracking__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/line_tracking__rosidl_generator_c.dir/depend
 

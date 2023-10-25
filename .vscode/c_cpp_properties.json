@@ -9,7 +9,8 @@
                 "/opt/ros/humble/include/cv_bridge",
                 "${workspaceFolder}/src/line_detection/*",
                 "${workspaceFolder}/install/line_tracking/include/**",
-                "/opt/ros/humble/include/sensor_msgs"
+                "/opt/ros/humble/include/sensor_msgs",
+                "/opt/ros/humble/include/geometry_msgs"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

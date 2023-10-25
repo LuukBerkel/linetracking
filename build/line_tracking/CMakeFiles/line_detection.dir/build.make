@@ -128,6 +128,7 @@ line_detection: /opt/ros/humble/lib/librclcpp.so
 line_detection: /opt/ros/humble/lib/libcv_bridge.so
 line_detection: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 line_detection: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
+line_detection: libline_tracking__rosidl_typesupport_cpp.so
 line_detection: /opt/ros/humble/lib/liblibstatistics_collector.so
 line_detection: /opt/ros/humble/lib/librcl.so
 line_detection: /opt/ros/humble/lib/librmw_implementation.so
@@ -197,18 +198,18 @@ line_detection: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 line_detection: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 line_detection: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 line_detection: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+line_detection: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d
+line_detection: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
+line_detection: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
+line_detection: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 line_detection: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 line_detection: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 line_detection: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 line_detection: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 line_detection: /opt/ros/humble/lib/librosidl_typesupport_c.so
-line_detection: /opt/ros/humble/lib/librosidl_runtime_c.so
 line_detection: /opt/ros/humble/lib/librcpputils.so
+line_detection: /opt/ros/humble/lib/librosidl_runtime_c.so
 line_detection: /opt/ros/humble/lib/librcutils.so
-line_detection: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d
-line_detection: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
-line_detection: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
-line_detection: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 line_detection: CMakeFiles/line_detection.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable line_detection"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/line_detection.dir/link.txt --verbose=$(VERBOSE)

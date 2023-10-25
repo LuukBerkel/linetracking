@@ -293,6 +293,14 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: \
  /usr/include/opencv4/opencv2/core/core_c.h \
  /usr/include/opencv4/opencv2/core/types_c.h \
  /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge_export.h \
+ /home/luuk/linetracking/build/line_tracking/rosidl_generator_cpp/line_tracking/msg/point_blob.hpp \
+ /home/luuk/linetracking/build/line_tracking/rosidl_generator_cpp/line_tracking/msg/detail/point_blob__struct.hpp \
+ /home/luuk/linetracking/build/line_tracking/rosidl_generator_cpp/line_tracking/msg/detail/point_array__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+ /home/luuk/linetracking/build/line_tracking/rosidl_generator_cpp/line_tracking/msg/detail/point_blob__builder.hpp \
+ /home/luuk/linetracking/build/line_tracking/rosidl_generator_cpp/line_tracking/msg/detail/point_blob__traits.hpp \
+ /home/luuk/linetracking/build/line_tracking/rosidl_generator_cpp/line_tracking/msg/detail/point_array__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/calib3d.hpp \
  /usr/include/opencv4/opencv2/features2d.hpp \
@@ -380,4 +388,6 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
  /usr/include/gsl/gsl_spline.h /usr/include/gsl/gsl_interp.h \
- /usr/include/gsl/gsl_inline.h /usr/include/gsl/gsl_types.h
+ /usr/include/gsl/gsl_inline.h /usr/include/gsl/gsl_types.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp

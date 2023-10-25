@@ -3,6 +3,7 @@
 #include "sensor_msgs/msg/compressed_image.hpp"
 #include "sensor_msgs/msg/image.hpp"
 #include <cv_bridge/cv_bridge.h>
+#include <line_tracking/msg/point_blob.hpp>
 
 #include "param_parser.hpp"
 #include "vision_process.hpp"
@@ -18,6 +19,8 @@ public:
             "/image/compressed", 10, std::bind(&LineDetection::imageCompressedCallback, this, std::placeholders::_1));
         subscriptionRaw = create_subscription<sensor_msgs::msg::Image>(
             "/image", 10, std::bind(&LineDetection::imageRawCallback, this, std::placeholders::_1));
+        publisherContour = create_publisher<line_tracking::msg::PointBlob>("/lines/contour", 10);
+        publisherSpline = create_publisher<line_tracking::msg::PointBlob>("/lines/spline", 10);
 
         this->declare_parameter(PARAMS_FILE, PARAMS_DEFAULT);
         std::string path;
@@ -38,11 +41,21 @@ private:
     ParamParser* parser;
     VisionProcess* vision;
 
+    rclcpp::Publisher<line_tracking::msg::PointBlob>::SharedPtr publisherContour;
+    rclcpp::Publisher<line_tracking::msg::PointBlob>::SharedPtr publisherSpline;
+    void publishLine(line_tracking::msg::PointBlob::SharedPtr result){
+        if (vision->params->output == NodeOutput::Contour){
+            publisherContour->publish(*result); 
+        } else {
+            publisherSpline->publish(*result); 
+        }
+    }
+   
     rclcpp::Subscription<sensor_msgs::msg::CompressedImage>::SharedPtr subscriptionCompressed;
     void imageCompressedCallback(const sensor_msgs::msg::CompressedImage::SharedPtr msg) {
         try {
             cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);
-            vision->Decode(cv_ptr);
+            publishLine(vision->Decode(cv_ptr));
         } catch (cv_bridge::Exception& e) {
             RCLCPP_ERROR(this->get_logger(), "Error converting compressed image message: %s", e.what());
         }
@@ -52,7 +65,7 @@ private:
     void imageRawCallback(const sensor_msgs::msg::Image::SharedPtr msg) {
          try {
             cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);
-            vision->Decode(cv_ptr);
+            publishLine(vision->Decode(cv_ptr));
         } catch (cv_bridge::Exception& e) {
             RCLCPP_ERROR(this->get_logger(), "Error converting compressed image message: %s", e.what());
         }

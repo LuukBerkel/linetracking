@@ -24,39 +24,39 @@ static struct PyModuleDef line_tracking__module = {
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_runtime_c/service_type_support_struct.h"
 #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "line_tracking/msg/detail/point_matrix_with_enum__type_support.h"
-#include "line_tracking/msg/detail/point_matrix_with_enum__struct.h"
-#include "line_tracking/msg/detail/point_matrix_with_enum__functions.h"
+#include "line_tracking/msg/detail/point_blob__type_support.h"
+#include "line_tracking/msg/detail/point_blob__struct.h"
+#include "line_tracking/msg/detail/point_blob__functions.h"
 
-static void * line_tracking__msg__point_matrix_with_enum__create_ros_message(void)
+static void * line_tracking__msg__point_blob__create_ros_message(void)
 {
-  return line_tracking__msg__PointMatrixWithEnum__create();
+  return line_tracking__msg__PointBlob__create();
 }
 
-static void line_tracking__msg__point_matrix_with_enum__destroy_ros_message(void * raw_ros_message)
+static void line_tracking__msg__point_blob__destroy_ros_message(void * raw_ros_message)
 {
-  line_tracking__msg__PointMatrixWithEnum * ros_message = (line_tracking__msg__PointMatrixWithEnum *)raw_ros_message;
-  line_tracking__msg__PointMatrixWithEnum__destroy(ros_message);
+  line_tracking__msg__PointBlob * ros_message = (line_tracking__msg__PointBlob *)raw_ros_message;
+  line_tracking__msg__PointBlob__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool line_tracking__msg__point_matrix_with_enum__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool line_tracking__msg__point_blob__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * line_tracking__msg__point_matrix_with_enum__convert_to_py(void * raw_ros_message);
+PyObject * line_tracking__msg__point_blob__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(line_tracking, msg, PointMatrixWithEnum);
+ROSIDL_GET_MSG_TYPE_SUPPORT(line_tracking, msg, PointBlob);
 
 int8_t
-_register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
+_register_msg_type__msg__point_blob(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&line_tracking__msg__point_matrix_with_enum__create_ros_message,
+    (void *)&line_tracking__msg__point_blob__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -64,7 +64,7 @@ _register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__msg__point_matrix_with_enum",
+    "create_ros_message_msg__msg__point_blob",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -75,7 +75,7 @@ _register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&line_tracking__msg__point_matrix_with_enum__destroy_ros_message,
+    (void *)&line_tracking__msg__point_blob__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -83,7 +83,7 @@ _register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__msg__point_matrix_with_enum",
+    "destroy_ros_message_msg__msg__point_blob",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -94,7 +94,7 @@ _register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&line_tracking__msg__point_matrix_with_enum__convert_from_py,
+    (void *)&line_tracking__msg__point_blob__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -102,7 +102,7 @@ _register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__msg__point_matrix_with_enum",
+    "convert_from_py_msg__msg__point_blob",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -113,7 +113,7 @@ _register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&line_tracking__msg__point_matrix_with_enum__convert_to_py,
+    (void *)&line_tracking__msg__point_blob__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -121,7 +121,7 @@ _register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__msg__point_matrix_with_enum",
+    "convert_to_py_msg__msg__point_blob",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -132,7 +132,7 @@ _register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(line_tracking, msg, PointMatrixWithEnum),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(line_tracking, msg, PointBlob),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -140,7 +140,7 @@ _register_msg_type__msg__point_matrix_with_enum(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__msg__point_matrix_with_enum",
+    "type_support_msg__msg__point_blob",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -300,7 +300,7 @@ PyInit_line_tracking_s__rosidl_typesupport_introspection_c(void)
   }
   int8_t err;
 
-  err = _register_msg_type__msg__point_matrix_with_enum(pymodule);
+  err = _register_msg_type__msg__point_blob(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;

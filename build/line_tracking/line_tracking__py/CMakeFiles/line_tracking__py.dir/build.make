@@ -69,10 +69,10 @@ include line_tracking__py/CMakeFiles/line_tracking__py.dir/progress.make
 line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
 line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_introspection_c.c
 line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_c.c
-line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum.py
+line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_blob.py
 line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_array.py
 line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/msg/__init__.py
-line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c
+line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_blob_s.c
 line_tracking__py/CMakeFiles/line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_array_s.c
 
 rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
@@ -88,7 +88,7 @@ rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtp
 rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/line_tracking/msg/PointMatrixWithEnum.idl
+rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/line_tracking/msg/PointBlob.idl
 rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/line_tracking/msg/PointArray.idl
 rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
@@ -160,8 +160,8 @@ rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_introsp
 rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum.py: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum.py
+rosidl_generator_py/line_tracking/msg/_point_blob.py: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/line_tracking/msg/_point_blob.py
 
 rosidl_generator_py/line_tracking/msg/_point_array.py: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/line_tracking/msg/_point_array.py
@@ -169,8 +169,8 @@ rosidl_generator_py/line_tracking/msg/_point_array.py: rosidl_generator_py/line_
 rosidl_generator_py/line_tracking/msg/__init__.py: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/line_tracking/msg/__init__.py
 
-rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c
+rosidl_generator_py/line_tracking/msg/_point_blob_s.c: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/line_tracking/msg/_point_blob_s.c
 
 rosidl_generator_py/line_tracking/msg/_point_array_s.c: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/line_tracking/msg/_point_array_s.c
@@ -182,8 +182,8 @@ line_tracking__py: rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_
 line_tracking__py: rosidl_generator_py/line_tracking/msg/__init__.py
 line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_array.py
 line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_array_s.c
-line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum.py
-line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c
+line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_blob.py
+line_tracking__py: rosidl_generator_py/line_tracking/msg/_point_blob_s.c
 line_tracking__py: line_tracking__py/CMakeFiles/line_tracking__py.dir/build.make
 .PHONY : line_tracking__py
 

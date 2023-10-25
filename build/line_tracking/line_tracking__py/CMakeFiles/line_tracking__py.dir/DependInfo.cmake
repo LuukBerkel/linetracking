@@ -17,8 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/__init__.py" "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_array.py" "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_array_s.c" "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum.py" "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c" "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_blob.py" "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_blob_s.c" "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

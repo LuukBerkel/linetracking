@@ -25,6 +25,7 @@ CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/line_tra
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_array__type_support.h \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h \

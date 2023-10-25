@@ -12,6 +12,12 @@
 #include "line_tracking/msg/detail/point_array__struct.h"
 
 
+// Include directives for member types
+// Member `points`
+#include "geometry_msgs/msg/point.h"
+// Member `points`
+#include "geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -31,23 +37,78 @@ void line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__PointAr
   line_tracking__msg__PointArray__fini(message_memory);
 }
 
+size_t line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__size_function__PointArray__points(
+  const void * untyped_member)
+{
+  const geometry_msgs__msg__Point__Sequence * member =
+    (const geometry_msgs__msg__Point__Sequence *)(untyped_member);
+  return member->size;
+}
+
+const void * line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__get_const_function__PointArray__points(
+  const void * untyped_member, size_t index)
+{
+  const geometry_msgs__msg__Point__Sequence * member =
+    (const geometry_msgs__msg__Point__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void * line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__get_function__PointArray__points(
+  void * untyped_member, size_t index)
+{
+  geometry_msgs__msg__Point__Sequence * member =
+    (geometry_msgs__msg__Point__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__fetch_function__PointArray__points(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const geometry_msgs__msg__Point * item =
+    ((const geometry_msgs__msg__Point *)
+    line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__get_const_function__PointArray__points(untyped_member, index));
+  geometry_msgs__msg__Point * value =
+    (geometry_msgs__msg__Point *)(untyped_value);
+  *value = *item;
+}
+
+void line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__assign_function__PointArray__points(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  geometry_msgs__msg__Point * item =
+    ((geometry_msgs__msg__Point *)
+    line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__get_function__PointArray__points(untyped_member, index));
+  const geometry_msgs__msg__Point * value =
+    (const geometry_msgs__msg__Point *)(untyped_value);
+  *item = *value;
+}
+
+bool line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__resize_function__PointArray__points(
+  void * untyped_member, size_t size)
+{
+  geometry_msgs__msg__Point__Sequence * member =
+    (geometry_msgs__msg__Point__Sequence *)(untyped_member);
+  geometry_msgs__msg__Point__Sequence__fini(member);
+  return geometry_msgs__msg__Point__Sequence__init(member, size);
+}
+
 static rosidl_typesupport_introspection_c__MessageMember line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__PointArray_message_member_array[1] = {
   {
-    "structure_needs_at_least_one_member",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
+    "points",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
+    NULL,  // members of sub message (initialized later)
+    true,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(line_tracking__msg__PointArray, structure_needs_at_least_one_member),  // bytes offset in struct
+    offsetof(line_tracking__msg__PointArray, points),  // bytes offset in struct
     NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
+    line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__size_function__PointArray__points,  // size() function pointer
+    line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__get_const_function__PointArray__points,  // get_const(index) function pointer
+    line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__get_function__PointArray__points,  // get(index) function pointer
+    line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__fetch_function__PointArray__points,  // fetch(index, &value) function pointer
+    line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__assign_function__PointArray__points,  // assign(index, value) function pointer
+    line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__resize_function__PointArray__points  // resize(index) function pointer
   }
 };
 
@@ -72,6 +133,8 @@ static rosidl_message_type_support_t line_tracking__msg__PointArray__rosidl_type
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_line_tracking
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, line_tracking, msg, PointArray)() {
+  line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__PointArray_message_member_array[0].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Point)();
   if (!line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__PointArray_message_type_support_handle.typesupport_identifier) {
     line_tracking__msg__PointArray__rosidl_typesupport_introspection_c__PointArray_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

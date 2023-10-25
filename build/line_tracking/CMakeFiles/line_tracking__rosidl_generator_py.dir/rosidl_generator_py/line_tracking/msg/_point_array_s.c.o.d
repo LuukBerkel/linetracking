@@ -208,5 +208,10 @@ CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_track
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_array__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_array__functions.h \
- /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/rosidl_generator_c__visibility_control.h
+ /home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h

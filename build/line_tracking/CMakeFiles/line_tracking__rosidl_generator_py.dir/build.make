@@ -69,19 +69,19 @@ include CMakeFiles/line_tracking__rosidl_generator_py.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/line_tracking__rosidl_generator_py.dir/flags.make
 
-CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o: CMakeFiles/line_tracking__rosidl_generator_py.dir/flags.make
-CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o: rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c
-CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o: CMakeFiles/line_tracking__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o -MF CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o.d -o CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o -c /home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c
+CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o: CMakeFiles/line_tracking__rosidl_generator_py.dir/flags.make
+CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o: rosidl_generator_py/line_tracking/msg/_point_blob_s.c
+CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o: CMakeFiles/line_tracking__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o -MF CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o.d -o CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o -c /home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_blob_s.c
 
-CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c > CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.i
+CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_blob_s.c > CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.i
 
-CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c -o CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.s
+CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking/msg/_point_blob_s.c -o CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.s
 
 CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_array_s.c.o: CMakeFiles/line_tracking__rosidl_generator_py.dir/flags.make
 CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_array_s.c.o: rosidl_generator_py/line_tracking/msg/_point_array_s.c
@@ -99,13 +99,13 @@ CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_track
 
 # Object files for target line_tracking__rosidl_generator_py
 line_tracking__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o" \
+"CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o" \
 "CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_array_s.c.o"
 
 # External object files for target line_tracking__rosidl_generator_py
 line_tracking__rosidl_generator_py_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/line_tracking/libline_tracking__rosidl_generator_py.so: CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o
+rosidl_generator_py/line_tracking/libline_tracking__rosidl_generator_py.so: CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o
 rosidl_generator_py/line_tracking/libline_tracking__rosidl_generator_py.so: CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_array_s.c.o
 rosidl_generator_py/line_tracking/libline_tracking__rosidl_generator_py.so: CMakeFiles/line_tracking__rosidl_generator_py.dir/build.make
 rosidl_generator_py/line_tracking/libline_tracking__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so

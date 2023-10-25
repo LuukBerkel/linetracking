@@ -11,13 +11,21 @@
 #include "rcutils/allocator.h"
 
 
+// Include directives for member types
+// Member `points`
+#include "geometry_msgs/msg/detail/point__functions.h"
+
 bool
 line_tracking__msg__PointArray__init(line_tracking__msg__PointArray * msg)
 {
   if (!msg) {
     return false;
   }
-  // structure_needs_at_least_one_member
+  // points
+  if (!geometry_msgs__msg__Point__Sequence__init(&msg->points, 0)) {
+    line_tracking__msg__PointArray__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -27,7 +35,8 @@ line_tracking__msg__PointArray__fini(line_tracking__msg__PointArray * msg)
   if (!msg) {
     return;
   }
-  // structure_needs_at_least_one_member
+  // points
+  geometry_msgs__msg__Point__Sequence__fini(&msg->points);
 }
 
 bool
@@ -36,8 +45,10 @@ line_tracking__msg__PointArray__are_equal(const line_tracking__msg__PointArray *
   if (!lhs || !rhs) {
     return false;
   }
-  // structure_needs_at_least_one_member
-  if (lhs->structure_needs_at_least_one_member != rhs->structure_needs_at_least_one_member) {
+  // points
+  if (!geometry_msgs__msg__Point__Sequence__are_equal(
+      &(lhs->points), &(rhs->points)))
+  {
     return false;
   }
   return true;
@@ -51,8 +62,12 @@ line_tracking__msg__PointArray__copy(
   if (!input || !output) {
     return false;
   }
-  // structure_needs_at_least_one_member
-  output->structure_needs_at_least_one_member = input->structure_needs_at_least_one_member;
+  // points
+  if (!geometry_msgs__msg__Point__Sequence__copy(
+      &(input->points), &(output->points)))
+  {
+    return false;
+  }
   return true;
 }
 

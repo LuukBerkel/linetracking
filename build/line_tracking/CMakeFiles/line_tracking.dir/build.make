@@ -66,7 +66,7 @@ include CMakeFiles/line_tracking.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/line_tracking.dir/progress.make
 
-CMakeFiles/line_tracking: ../../msg/PointMatrixWithEnum.msg
+CMakeFiles/line_tracking: ../../msg/PointBlob.msg
 CMakeFiles/line_tracking: ../../msg/PointArray.msg
 CMakeFiles/line_tracking: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/line_tracking: /opt/ros/humble/share/std_msgs/msg/Byte.idl

@@ -2,24 +2,35 @@
 #include <opencv2/opencv.hpp>
 #include <gsl/gsl_spline.h>
 #include <gsl/gsl_interp.h>
-#include "line_tracking/msg/point_matrix_with_enum.hpp"
+#include <geometry_msgs/msg/point.hpp>
 
-std::vector<float> VisionProcess::Decode(cv_bridge::CvImagePtr msg){
+line_tracking::msg::PointBlob::SharedPtr VisionProcess::Decode(cv_bridge::CvImagePtr msg){
     // Decoding imag
-    auto points = this->findContours(msg);
+    auto lines = this->findContours(msg);
     if (this->params->output == NodeOutput::Spline){
-        points = this->findSplines(points);
+        lines = this->findSplines(lines);
     }
 
     // Displaying debug
     if (this->params->debug) {
-        displayResult(msg, points);
+        displayResult(msg, lines);
     }
 
-    // Convert to format
-   
+    // Encoding message
+    auto message = std::make_shared<line_tracking::msg::PointBlob>();
+    for(std::vector<cv::Point> line : lines){
+        auto points = line_tracking::msg::PointArray();
+        for (cv::Point point : line){
+            auto p = geometry_msgs::msg::Point();
+            p.x = point.x;
+            p.y = point.y;
+            points.points.push_back(p);
 
-    return std::vector<float>();
+        }
+        message->arrays.push_back(points);
+    }
+    
+    return message;
 }
 
 VisionProcess::VisionProcess(NodeConfig* params){

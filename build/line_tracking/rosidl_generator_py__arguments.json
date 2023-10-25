@@ -3,7 +3,7 @@
   "output_dir": "/home/luuk/linetracking/build/line_tracking/rosidl_generator_py/line_tracking",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking:msg/PointMatrixWithEnum.idl",
+    "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking:msg/PointBlob.idl",
     "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking:msg/PointArray.idl"
   ],
   "ros_interface_dependencies": [
@@ -83,7 +83,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking/msg/PointMatrixWithEnum.idl",
+    "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking/msg/PointBlob.idl",
     "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking/msg/PointArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",

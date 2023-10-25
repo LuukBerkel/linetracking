@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -40,6 +42,10 @@ class Metaclass_PointArray(type):
             cls._TYPE_SUPPORT = module.type_support_msg__msg__point_array
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__point_array
 
+            from geometry_msgs.msg import Point
+            if Point.__class__._TYPE_SUPPORT is None:
+                Point.__class__.__import_type_support__()
+
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
@@ -53,18 +59,22 @@ class PointArray(metaclass=Metaclass_PointArray):
     """Message class 'PointArray'."""
 
     __slots__ = [
+        '_points',
     ]
 
     _fields_and_field_types = {
+        'points': 'sequence<geometry_msgs/Point>',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.NamespacedType(['geometry_msgs', 'msg'], 'Point')),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.points = kwargs.get('points', [])
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -95,9 +105,35 @@ class PointArray(metaclass=Metaclass_PointArray):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.points != other.points:
+            return False
         return True
 
     @classmethod
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def points(self):
+        """Message field 'points'."""
+        return self._points
+
+    @points.setter
+    def points(self, value):
+        if __debug__:
+            from geometry_msgs.msg import Point
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
+            assert \
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 all(isinstance(v, Point) for v in value) and
+                 True), \
+                "The 'points' field must be a set or sequence and each value of type 'Point'"
+        self._points = value

@@ -3,7 +3,7 @@
   "output_dir": "/home/luuk/linetracking/build/line_tracking/rosidl_typesupport_introspection_cpp/line_tracking",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking:msg/PointMatrixWithEnum.idl",
+    "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking:msg/PointBlob.idl",
     "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking:msg/PointArray.idl"
   ],
   "ros_interface_dependencies": [
@@ -78,7 +78,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking/msg/PointMatrixWithEnum.idl",
+    "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking/msg/PointBlob.idl",
     "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking/msg/PointArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",

@@ -356,7 +356,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/line_tracking/msg" TYPE FILE FILES "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking/msg/PointMatrixWithEnum.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/line_tracking/msg" TYPE FILE FILES "/home/luuk/linetracking/build/line_tracking/rosidl_adapter/line_tracking/msg/PointBlob.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -364,7 +364,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/line_tracking/msg" TYPE FILE FILES "/home/luuk/linetracking/msg/PointMatrixWithEnum.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/line_tracking/msg" TYPE FILE FILES "/home/luuk/linetracking/msg/PointBlob.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -403,7 +403,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/line_tracking/line_detection")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/line_tracking/line_detection"
-         OLD_RPATH "/opt/ros/humble/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/luuk/linetracking/build/line_tracking:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/line_tracking/line_detection")

@@ -21,11 +21,13 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED) 
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/PointMatrixWithEnum.msg"
+  "msg/PointBlob.msg"
   "msg/PointArray.msg"
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
 )
+
+ament_export_dependencies(rosidl_default_runtime)
 
 add_executable(compressed_viewer src/compress_viewer/compressed_viewer.cpp)
 ament_target_dependencies(compressed_viewer  rclcpp sensor_msgs geometry_msgs cv_bridge)
@@ -34,11 +36,13 @@ target_link_libraries(compressed_viewer opencv_core opencv_imgproc opencv_highgu
 
 include_directories(src/line_detection/include)
 
+rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
 
 # Create the ROS node executable
 add_executable(line_detection src/line_detection/line_detection.cpp src/line_detection/param_parser.cpp src/line_detection/vision_process.cpp)
-ament_target_dependencies(line_detection  rclcpp sensor_msgs geometry_msgs cv_bridge)
-target_link_libraries(line_detection gsl yaml-cpp opencv_core opencv_imgproc opencv_highgui)
+ament_target_dependencies(line_detection rclcpp sensor_msgs geometry_msgs cv_bridge)
+target_link_libraries(line_detection gsl yaml-cpp opencv_core opencv_imgproc opencv_highgui "${cpp_typesupport_target}")
+
 
 install(TARGETS
   compressed_viewer

@@ -5,8 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/line_tracking/msg/__init__.py"
   "../rosidl_generator_py/line_tracking/msg/_point_array.py"
   "../rosidl_generator_py/line_tracking/msg/_point_array_s.c"
-  "../rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum.py"
-  "../rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c"
+  "../rosidl_generator_py/line_tracking/msg/_point_blob.py"
+  "../rosidl_generator_py/line_tracking/msg/_point_blob_s.c"
   "CMakeFiles/line_tracking__py"
 )
 
