@@ -16,6 +16,16 @@ find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(yaml-cpp REQUIRED)
+find_package(GSL REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(std_msgs REQUIRED) 
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/PointMatrixWithEnum.msg"
+  "msg/PointArray.msg"
+  DEPENDENCIES std_msgs
+  DEPENDENCIES geometry_msgs
+)
 
 add_executable(compressed_viewer src/compress_viewer/compressed_viewer.cpp)
 ament_target_dependencies(compressed_viewer  rclcpp sensor_msgs geometry_msgs cv_bridge)
@@ -24,10 +34,11 @@ target_link_libraries(compressed_viewer opencv_core opencv_imgproc opencv_highgu
 
 include_directories(src/line_detection/include)
 
+
 # Create the ROS node executable
-add_executable(line_detection src/line_detection/line_detection.cpp src/line_detection/param_parser.cpp)
+add_executable(line_detection src/line_detection/line_detection.cpp src/line_detection/param_parser.cpp src/line_detection/vision_process.cpp)
 ament_target_dependencies(line_detection  rclcpp sensor_msgs geometry_msgs cv_bridge)
-target_link_libraries(line_detection yaml-cpp opencv_core opencv_imgproc opencv_highgui)
+target_link_libraries(line_detection gsl yaml-cpp opencv_core opencv_imgproc opencv_highgui)
 
 install(TARGETS
   compressed_viewer

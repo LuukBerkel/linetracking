@@ -63,20 +63,65 @@ CMAKE_BINARY_DIR = /home/luuk/linetracking/build/line_tracking
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/line_tracking.dir/all
+all: CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+all: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/all
+all: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/all
+all: CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/all
+all: CMakeFiles/line_tracking__rosidl_typesupport_c.dir/all
+all: CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/all
+all: CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/all
+all: CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/all
+all: CMakeFiles/line_tracking__rosidl_generator_py.dir/all
+all: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/all
+all: CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/all
+all: CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/all
 all: CMakeFiles/compressed_viewer.dir/all
 all: CMakeFiles/line_detection.dir/all
+all: line_tracking__py/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: line_tracking__py/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/line_tracking_uninstall.dir/clean
+clean: CMakeFiles/line_tracking.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_generator_c.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/clean
+clean: CMakeFiles/line_tracking__cpp.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_typesupport_c.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/clean
+clean: CMakeFiles/ament_cmake_python_copy_line_tracking.dir/clean
+clean: CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_generator_py.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/clean
+clean: CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/clean
 clean: CMakeFiles/compressed_viewer.dir/clean
 clean: CMakeFiles/line_detection.dir/clean
+clean: line_tracking__py/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory line_tracking__py
+
+# Recursive "all" directory target.
+line_tracking__py/all:
+.PHONY : line_tracking__py/all
+
+# Recursive "preinstall" directory target.
+line_tracking__py/preinstall:
+.PHONY : line_tracking__py/preinstall
+
+# Recursive "clean" directory target.
+line_tracking__py/clean: line_tracking__py/CMakeFiles/line_tracking__py.dir/clean
+.PHONY : line_tracking__py/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
@@ -131,6 +176,416 @@ CMakeFiles/line_tracking_uninstall.dir/clean:
 .PHONY : CMakeFiles/line_tracking_uninstall.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/line_tracking.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking.dir/all: CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+CMakeFiles/line_tracking.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/line_tracking.dir/all: CMakeFiles/line_tracking__cpp.dir/all
+CMakeFiles/line_tracking.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/all
+CMakeFiles/line_tracking.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/line_tracking.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_c.dir/all
+CMakeFiles/line_tracking.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/all
+CMakeFiles/line_tracking.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking.dir/build.make CMakeFiles/line_tracking.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking.dir/build.make CMakeFiles/line_tracking.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num= "Built target line_tracking"
+.PHONY : CMakeFiles/line_tracking.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 29
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking.dir/rule
+
+# Convenience name for target.
+line_tracking: CMakeFiles/line_tracking.dir/rule
+.PHONY : line_tracking
+
+# clean rule for target.
+CMakeFiles/line_tracking.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking.dir/build.make CMakeFiles/line_tracking.dir/clean
+.PHONY : CMakeFiles/line_tracking.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_generator_c.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_generator_c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_generator_c.dir/build.make CMakeFiles/line_tracking__rosidl_generator_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_generator_c.dir/build.make CMakeFiles/line_tracking__rosidl_generator_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=9,10,11,12 "Built target line_tracking__rosidl_generator_c"
+.PHONY : CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_generator_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_generator_c.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_generator_c: CMakeFiles/line_tracking__rosidl_generator_c.dir/rule
+.PHONY : line_tracking__rosidl_generator_c
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_generator_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_generator_c.dir/build.make CMakeFiles/line_tracking__rosidl_generator_c.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_generator_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=26,27,28,29 "Built target line_tracking__rosidl_typesupport_fastrtps_c"
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_typesupport_fastrtps_c: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rule
+.PHONY : line_tracking__rosidl_typesupport_fastrtps_c
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__cpp.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__cpp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__cpp.dir/build.make CMakeFiles/line_tracking__cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__cpp.dir/build.make CMakeFiles/line_tracking__cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=7 "Built target line_tracking__cpp"
+.PHONY : CMakeFiles/line_tracking__cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__cpp.dir/rule
+
+# Convenience name for target.
+line_tracking__cpp: CMakeFiles/line_tracking__cpp.dir/rule
+.PHONY : line_tracking__cpp
+
+# clean rule for target.
+CMakeFiles/line_tracking__cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__cpp.dir/build.make CMakeFiles/line_tracking__cpp.dir/clean
+.PHONY : CMakeFiles/line_tracking__cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/line_tracking__cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=32,33,34,35 "Built target line_tracking__rosidl_typesupport_fastrtps_cpp"
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_typesupport_fastrtps_cpp: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/rule
+.PHONY : line_tracking__rosidl_typesupport_fastrtps_cpp
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=36,37,38,39 "Built target line_tracking__rosidl_typesupport_introspection_c"
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_typesupport_introspection_c: CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rule
+.PHONY : line_tracking__rosidl_typesupport_introspection_c
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_typesupport_c.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_c.dir/all: CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_c.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_c.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=16,17,18,19 "Built target line_tracking__rosidl_typesupport_c"
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_typesupport_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_typesupport_c: CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rule
+.PHONY : line_tracking__rosidl_typesupport_c
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_c.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_c.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/line_tracking__cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=42,43,44,45 "Built target line_tracking__rosidl_typesupport_introspection_cpp"
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_typesupport_introspection_cpp: CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/rule
+.PHONY : line_tracking__rosidl_typesupport_introspection_cpp
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/all: CMakeFiles/line_tracking__cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=22,23,24,25 "Built target line_tracking__rosidl_typesupport_cpp"
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_typesupport_cpp: CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/rule
+.PHONY : line_tracking__rosidl_typesupport_cpp
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ament_cmake_python_copy_line_tracking.dir
+
+# All Build rule for target.
+CMakeFiles/ament_cmake_python_copy_line_tracking.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_line_tracking.dir/build.make CMakeFiles/ament_cmake_python_copy_line_tracking.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_line_tracking.dir/build.make CMakeFiles/ament_cmake_python_copy_line_tracking.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_line_tracking"
+.PHONY : CMakeFiles/ament_cmake_python_copy_line_tracking.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ament_cmake_python_copy_line_tracking.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_line_tracking.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/ament_cmake_python_copy_line_tracking.dir/rule
+
+# Convenience name for target.
+ament_cmake_python_copy_line_tracking: CMakeFiles/ament_cmake_python_copy_line_tracking.dir/rule
+.PHONY : ament_cmake_python_copy_line_tracking
+
+# clean rule for target.
+CMakeFiles/ament_cmake_python_copy_line_tracking.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_line_tracking.dir/build.make CMakeFiles/ament_cmake_python_copy_line_tracking.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_copy_line_tracking.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir
+
+# All Build rule for target.
+CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/all: CMakeFiles/ament_cmake_python_copy_line_tracking.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/build.make CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/build.make CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num= "Built target ament_cmake_python_build_line_tracking_egg"
+.PHONY : CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/rule
+
+# Convenience name for target.
+ament_cmake_python_build_line_tracking_egg: CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/rule
+.PHONY : ament_cmake_python_build_line_tracking_egg
+
+# clean rule for target.
+CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/build.make CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_build_line_tracking_egg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_generator_py.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_generator_py.dir/all: CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+CMakeFiles/line_tracking__rosidl_generator_py.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_c.dir/all
+CMakeFiles/line_tracking__rosidl_generator_py.dir/all: line_tracking__py/CMakeFiles/line_tracking__py.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_generator_py.dir/build.make CMakeFiles/line_tracking__rosidl_generator_py.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_generator_py.dir/build.make CMakeFiles/line_tracking__rosidl_generator_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=13,14,15 "Built target line_tracking__rosidl_generator_py"
+.PHONY : CMakeFiles/line_tracking__rosidl_generator_py.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_generator_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 33
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_generator_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_generator_py.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_generator_py: CMakeFiles/line_tracking__rosidl_generator_py.dir/rule
+.PHONY : line_tracking__rosidl_generator_py
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_generator_py.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_generator_py.dir/build.make CMakeFiles/line_tracking__rosidl_generator_py.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_generator_py.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_c.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_generator_py.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/all: line_tracking__py/CMakeFiles/line_tracking__py.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=30,31 "Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext"
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 35
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_typesupport_fastrtps_c__pyext: CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/rule
+.PHONY : line_tracking__rosidl_typesupport_fastrtps_c__pyext
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_c.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_generator_py.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/all: line_tracking__py/CMakeFiles/line_tracking__py.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=40,41 "Built target line_tracking__rosidl_typesupport_introspection_c__pyext"
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 35
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_typesupport_introspection_c__pyext: CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/rule
+.PHONY : line_tracking__rosidl_typesupport_introspection_c__pyext
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir
+
+# All Build rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_generator_c.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_typesupport_c.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/line_tracking__rosidl_generator_py.dir/all
+CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/all: line_tracking__py/CMakeFiles/line_tracking__py.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=20,21 "Built target line_tracking__rosidl_typesupport_c__pyext"
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 35
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/rule
+
+# Convenience name for target.
+line_tracking__rosidl_typesupport_c__pyext: CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/rule
+.PHONY : line_tracking__rosidl_typesupport_c__pyext
+
+# clean rule for target.
+CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/clean
+.PHONY : CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/compressed_viewer.dir
 
 # All Build rule for target.
@@ -163,12 +618,12 @@ CMakeFiles/compressed_viewer.dir/clean:
 CMakeFiles/line_detection.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_detection.dir/build.make CMakeFiles/line_detection.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_detection.dir/build.make CMakeFiles/line_detection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=3,4,5 "Built target line_detection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=3,4,5,6 "Built target line_detection"
 .PHONY : CMakeFiles/line_detection.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/line_detection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_detection.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
 .PHONY : CMakeFiles/line_detection.dir/rule
@@ -181,6 +636,32 @@ line_detection: CMakeFiles/line_detection.dir/rule
 CMakeFiles/line_detection.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_detection.dir/build.make CMakeFiles/line_detection.dir/clean
 .PHONY : CMakeFiles/line_detection.dir/clean
+
+#=============================================================================
+# Target rules for target line_tracking__py/CMakeFiles/line_tracking__py.dir
+
+# All Build rule for target.
+line_tracking__py/CMakeFiles/line_tracking__py.dir/all: CMakeFiles/line_tracking.dir/all
+	$(MAKE) $(MAKESILENT) -f line_tracking__py/CMakeFiles/line_tracking__py.dir/build.make line_tracking__py/CMakeFiles/line_tracking__py.dir/depend
+	$(MAKE) $(MAKESILENT) -f line_tracking__py/CMakeFiles/line_tracking__py.dir/build.make line_tracking__py/CMakeFiles/line_tracking__py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luuk/linetracking/build/line_tracking/CMakeFiles --progress-num=8 "Built target line_tracking__py"
+.PHONY : line_tracking__py/CMakeFiles/line_tracking__py.dir/all
+
+# Build rule for subdir invocation for target.
+line_tracking__py/CMakeFiles/line_tracking__py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 30
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 line_tracking__py/CMakeFiles/line_tracking__py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/linetracking/build/line_tracking/CMakeFiles 0
+.PHONY : line_tracking__py/CMakeFiles/line_tracking__py.dir/rule
+
+# Convenience name for target.
+line_tracking__py: line_tracking__py/CMakeFiles/line_tracking__py.dir/rule
+.PHONY : line_tracking__py
+
+# clean rule for target.
+line_tracking__py/CMakeFiles/line_tracking__py.dir/clean:
+	$(MAKE) $(MAKESILENT) -f line_tracking__py/CMakeFiles/line_tracking__py.dir/build.make line_tracking__py/CMakeFiles/line_tracking__py.dir/clean
+.PHONY : line_tracking__py/CMakeFiles/line_tracking__py.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

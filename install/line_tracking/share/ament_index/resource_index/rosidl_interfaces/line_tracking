@@ -1,0 +1,4 @@
+msg/PointArray.idl
+msg/PointArray.msg
+msg/PointMatrixWithEnum.idl
+msg/PointMatrixWithEnum.msg

@@ -378,4 +378,6 @@ CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: \
  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
- /usr/include/opencv4/opencv2/video/background_segm.hpp
+ /usr/include/opencv4/opencv2/video/background_segm.hpp \
+ /usr/include/gsl/gsl_spline.h /usr/include/gsl/gsl_interp.h \
+ /usr/include/gsl/gsl_inline.h /usr/include/gsl/gsl_types.h

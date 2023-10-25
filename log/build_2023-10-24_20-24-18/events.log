@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.000602] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.000802] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.043079] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.044323] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.047149] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1207,unix/luuk-virtual-machine:/tmp/.ICE-unix/1207'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8fef55d2_d3ec_408e_9b1c_bab1bd388e2d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MTKMD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1034'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096751] (-) TimerEvent: {}
+[0.149644] (line_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199700] (-) TimerEvent: {}
+[0.300599] (-) TimerEvent: {}
+[0.404679] (-) TimerEvent: {}
+[0.505537] (-) TimerEvent: {}
+[0.581007] (line_tracking) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.609795] (-) TimerEvent: {}
+[0.671550] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.672651] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.688568] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.710472] (-) TimerEvent: {}
+[0.734037] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.779083] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.811803] (-) TimerEvent: {}
+[0.912548] (-) TimerEvent: {}
+[0.940913] (line_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.947735] (line_tracking) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.022756] (-) TimerEvent: {}
+[1.124592] (-) TimerEvent: {}
+[1.225490] (-) TimerEvent: {}
+[1.292981] (line_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.326425] (-) TimerEvent: {}
+[1.427184] (-) TimerEvent: {}
+[1.537707] (-) TimerEvent: {}
+[1.638470] (-) TimerEvent: {}
+[1.748655] (-) TimerEvent: {}
+[1.797351] (line_tracking) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.855041] (-) TimerEvent: {}
+[1.961093] (-) TimerEvent: {}
+[2.069377] (-) TimerEvent: {}
+[2.170505] (-) TimerEvent: {}
+[2.181607] (line_tracking) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.228953] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.271029] (-) TimerEvent: {}
+[2.372691] (-) TimerEvent: {}
+[2.492530] (-) TimerEvent: {}
+[2.594138] (-) TimerEvent: {}
+[2.694881] (-) TimerEvent: {}
+[2.795572] (-) TimerEvent: {}
+[2.905270] (-) TimerEvent: {}
+[3.014173] (-) TimerEvent: {}
+[3.114997] (-) TimerEvent: {}
+[3.116009] (line_tracking) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.216518] (-) TimerEvent: {}
+[3.319095] (-) TimerEvent: {}
+[3.419887] (-) TimerEvent: {}
+[3.523108] (-) TimerEvent: {}
+[3.623878] (-) TimerEvent: {}
+[3.749983] (-) TimerEvent: {}
+[3.850726] (-) TimerEvent: {}
+[3.956470] (-) TimerEvent: {}
+[4.060857] (-) TimerEvent: {}
+[4.161877] (-) TimerEvent: {}
+[4.267498] (-) TimerEvent: {}
+[4.368595] (-) TimerEvent: {}
+[4.436591] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.469268] (-) TimerEvent: {}
+[4.581438] (-) TimerEvent: {}
+[4.684606] (-) TimerEvent: {}
+[4.786301] (-) TimerEvent: {}
+[4.888901] (-) TimerEvent: {}
+[4.960354] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.989185] (-) TimerEvent: {}
+[5.030827] (line_tracking) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.093895] (-) TimerEvent: {}
+[5.104934] (line_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.105397] (line_tracking) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.105653] (line_tracking) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.204667] (-) TimerEvent: {}
+[5.265732] (line_tracking) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.311171] (-) TimerEvent: {}
+[5.411836] (-) TimerEvent: {}
+[5.468088] (line_tracking) StdoutLine: {'line': b'-- Generating done\n'}
+[5.490800] (line_tracking) StdoutLine: {'line': b'-- Build files have been written to: /home/luuk/linetracking/build/line_tracking\n'}
+[5.512657] (-) TimerEvent: {}
+[5.594338] (line_tracking) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.594805] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target compressed_viewer\x1b[0m\n'}
+[5.616778] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_detection\x1b[0m\n'}
+[5.617233] (-) TimerEvent: {}
+[5.723902] (line_tracking) StdoutLine: {'line': b'[  6%] Built target compressed_viewer\n'}
+[5.724542] (-) TimerEvent: {}
+[5.724867] (line_tracking) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_line_tracking\n'}
+[5.744827] (line_tracking) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.773678] (line_tracking) StdoutLine: {'line': b'[ 17%] Built target line_detection\n'}
+[5.836502] (-) TimerEvent: {}
+[5.953066] (-) TimerEvent: {}
+[6.055574] (-) TimerEvent: {}
+[6.173109] (-) TimerEvent: {}
+[6.276497] (-) TimerEvent: {}
+[6.378184] (-) TimerEvent: {}
+[6.478861] (-) TimerEvent: {}
+[6.579466] (-) TimerEvent: {}
+[6.688641] (-) TimerEvent: {}
+[6.694190] (line_tracking) StdoutLine: {'line': b'running egg_info\n'}
+[6.707953] (line_tracking) StdoutLine: {'line': b'writing line_tracking.egg-info/PKG-INFO\n'}
+[6.708571] (line_tracking) StdoutLine: {'line': b'writing dependency_links to line_tracking.egg-info/dependency_links.txt\n'}
+[6.708918] (line_tracking) StdoutLine: {'line': b'writing top-level names to line_tracking.egg-info/top_level.txt\n'}
+[6.709326] (line_tracking) StdoutLine: {'line': b"reading manifest file 'line_tracking.egg-info/SOURCES.txt'\n"}
+[6.709746] (line_tracking) StdoutLine: {'line': b"writing manifest file 'line_tracking.egg-info/SOURCES.txt'\n"}
+[6.726441] (line_tracking) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o\x1b[0m\n'}
+[6.740663] (line_tracking) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c.o\x1b[0m\n'}
+[6.754061] (line_tracking) StdoutLine: {'line': b'[ 22%] Built target line_tracking__cpp\n'}
+[6.793793] (line_tracking) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_line_tracking_egg\n'}
+[6.794359] (-) TimerEvent: {}
+[6.813598] (line_tracking) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.814105] (line_tracking) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.849430] (line_tracking) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.905068] (-) TimerEvent: {}
+[7.005728] (-) TimerEvent: {}
+[7.106515] (-) TimerEvent: {}
+[7.207125] (-) TimerEvent: {}
+[7.227911] (line_tracking) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking C shared library libline_tracking__rosidl_generator_c.so\x1b[0m\n'}
+[7.307305] (-) TimerEvent: {}
+[7.408006] (-) TimerEvent: {}
+[7.430246] (line_tracking) StdoutLine: {'line': b'[ 31%] Built target line_tracking__rosidl_generator_c\n'}
+[7.476596] (line_tracking) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.482339] (line_tracking) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.508216] (-) TimerEvent: {}
+[7.538802] (line_tracking) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.608380] (-) TimerEvent: {}
+[7.735719] (-) TimerEvent: {}
+[7.791242] (line_tracking) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/line_tracking/msg/point_matrix_with_enum__type_support.cpp.o\x1b[0m\n'}
+[7.792572] (line_tracking) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/line_tracking/msg/point_array__type_support.cpp.o\x1b[0m\n'}
+[7.835904] (-) TimerEvent: {}
+[7.875938] (line_tracking) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/line_tracking/msg/detail/point_matrix_with_enum__type_support.cpp.o\x1b[0m\n'}
+[7.883004] (line_tracking) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/line_tracking/msg/detail/point_array__type_support.cpp.o\x1b[0m\n'}
+[7.942832] (-) TimerEvent: {}
+[8.043690] (-) TimerEvent: {}
+[8.180751] (-) TimerEvent: {}
+[8.181375] (line_tracking) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/line_tracking/msg/detail/dds_fastrtps/point_matrix_with_enum__type_support.cpp.o\x1b[0m\n'}
+[8.280877] (-) TimerEvent: {}
+[8.387829] (-) TimerEvent: {}
+[8.488621] (-) TimerEvent: {}
+[8.589286] (-) TimerEvent: {}
+[8.703444] (-) TimerEvent: {}
+[8.804311] (-) TimerEvent: {}
+[8.973760] (-) TimerEvent: {}
+[9.088511] (-) TimerEvent: {}
+[9.198600] (-) TimerEvent: {}
+[9.204282] (line_tracking) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/line_tracking/msg/point_matrix_with_enum__type_support.cpp.o\x1b[0m\n'}
+[9.316925] (-) TimerEvent: {}
+[9.410284] (line_tracking) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/line_tracking/msg/detail/point_matrix_with_enum__type_support_c.cpp.o\x1b[0m\n'}
+[9.417121] (-) TimerEvent: {}
+[9.518174] (-) TimerEvent: {}
+[9.615903] (line_tracking) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/line_tracking/msg/point_array__type_support.cpp.o\x1b[0m\n'}
+[9.652071] (-) TimerEvent: {}
+[9.686942] (line_tracking) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/line_tracking/msg/detail/point_matrix_with_enum__type_support.c.o\x1b[0m\n'}
+[9.752283] (-) TimerEvent: {}
+[9.869881] (-) TimerEvent: {}
+[9.970849] (-) TimerEvent: {}
+[10.007346] (line_tracking) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.074142] (-) TimerEvent: {}
+[10.093276] (line_tracking) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/line_tracking/msg/detail/point_array__type_support_c.cpp.o\x1b[0m\n'}
+[10.134791] (line_tracking) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/line_tracking/msg/detail/point_array__type_support.c.o\x1b[0m\n'}
+[10.184643] (-) TimerEvent: {}
+[10.295870] (-) TimerEvent: {}
+[10.403154] (line_tracking) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.403719] (-) TimerEvent: {}
+[10.491464] (line_tracking) StdoutLine: {'line': b'[ 66%] Built target line_tracking__rosidl_typesupport_c\n'}
+[10.503865] (line_tracking) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libline_tracking__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.504513] (-) TimerEvent: {}
+[10.616453] (-) TimerEvent: {}
+[10.634959] (line_tracking) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/line_tracking/msg/detail/dds_fastrtps/point_array__type_support.cpp.o\x1b[0m\n'}
+[10.716731] (-) TimerEvent: {}
+[10.824875] (-) TimerEvent: {}
+[10.920955] (line_tracking) StdoutLine: {'line': b'[ 71%] Built target line_tracking__rosidl_typesupport_cpp\n'}
+[10.928208] (-) TimerEvent: {}
+[11.028879] (-) TimerEvent: {}
+[11.146639] (line_tracking) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.147224] (-) TimerEvent: {}
+[11.180022] (line_tracking) StdoutLine: {'line': b'[ 73%] Built target line_tracking__rosidl_typesupport_introspection_c\n'}
+[11.247438] (-) TimerEvent: {}
+[11.348250] (-) TimerEvent: {}
+[11.450669] (-) TimerEvent: {}
+[11.551616] (-) TimerEvent: {}
+[11.662841] (-) TimerEvent: {}
+[11.684084] (line_tracking) StdoutLine: {'line': b'[ 73%] Built target line_tracking__rosidl_typesupport_introspection_cpp\n'}
+[11.763047] (-) TimerEvent: {}
+[11.856778] (line_tracking) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.863845] (-) TimerEvent: {}
+[11.964757] (-) TimerEvent: {}
+[12.065840] (-) TimerEvent: {}
+[12.138625] (line_tracking) StdoutLine: {'line': b'[ 75%] Built target line_tracking__rosidl_typesupport_fastrtps_c\n'}
+[12.166639] (-) TimerEvent: {}
+[12.280885] (-) TimerEvent: {}
+[12.382892] (-) TimerEvent: {}
+[12.483304] (line_tracking) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.483784] (-) TimerEvent: {}
+[12.584492] (-) TimerEvent: {}
+[12.685421] (-) TimerEvent: {}
+[12.747217] (line_tracking) StdoutLine: {'line': b'[ 77%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp\n'}
+[12.787028] (-) TimerEvent: {}
+[12.813623] (line_tracking) StdoutLine: {'line': b'[ 77%] Built target line_tracking\n'}
+[12.882248] (line_tracking) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.887380] (-) TimerEvent: {}
+[12.994166] (-) TimerEvent: {}
+[13.096300] (-) TimerEvent: {}
+[13.197062] (-) TimerEvent: {}
+[13.298064] (-) TimerEvent: {}
+[13.403809] (-) TimerEvent: {}
+[13.515217] (-) TimerEvent: {}
+[13.618823] (-) TimerEvent: {}
+[13.720858] (-) TimerEvent: {}
+[13.821526] (-) TimerEvent: {}
+[13.893022] (line_tracking) StdoutLine: {'line': b'[ 80%] Built target line_tracking__py\n'}
+[13.928491] (-) TimerEvent: {}
+[13.980818] (line_tracking) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_array_s.c.o\x1b[0m\n'}
+[13.988116] (line_tracking) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_matrix_with_enum_s.c.o\x1b[0m\n'}
+[14.028668] (-) TimerEvent: {}
+[14.129630] (-) TimerEvent: {}
+[14.238332] (-) TimerEvent: {}
+[14.340909] (-) TimerEvent: {}
+[14.442672] (-) TimerEvent: {}
+[14.543520] (-) TimerEvent: {}
+[14.644259] (-) TimerEvent: {}
+[14.689724] (line_tracking) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/line_tracking/libline_tracking__rosidl_generator_py.so\x1b[0m\n'}
+[14.744851] (-) TimerEvent: {}
+[14.822303] (line_tracking) StdoutLine: {'line': b'[ 86%] Built target line_tracking__rosidl_generator_py\n'}
+[14.855279] (-) TimerEvent: {}
+[14.882743] (line_tracking) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.884700] (line_tracking) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.891488] (line_tracking) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.955406] (-) TimerEvent: {}
+[15.056090] (-) TimerEvent: {}
+[15.161895] (-) TimerEvent: {}
+[15.214341] (line_tracking) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/line_tracking/line_tracking_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.220530] (line_tracking) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/line_tracking/line_tracking_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.239135] (line_tracking) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/line_tracking/line_tracking_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.262100] (-) TimerEvent: {}
+[15.364003] (-) TimerEvent: {}
+[15.421610] (line_tracking) StdoutLine: {'line': b'[100%] Built target line_tracking__rosidl_typesupport_c__pyext\n'}
+[15.422157] (line_tracking) StdoutLine: {'line': b'[100%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.430087] (line_tracking) StdoutLine: {'line': b'[100%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext\n'}
+[15.464183] (-) TimerEvent: {}
+[15.472502] (line_tracking) CommandEnded: {'returncode': 0}
+[15.564602] (-) TimerEvent: {}
+[15.666594] (-) TimerEvent: {}
+[15.768120] (-) TimerEvent: {}
+[15.872248] (-) TimerEvent: {}
+[15.973066] (-) TimerEvent: {}
+[16.073935] (-) TimerEvent: {}
+[16.148969] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'install'}
+[16.174506] (-) TimerEvent: {}
+[16.181075] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luuk/linetracking/build/line_tracking'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1207,unix/luuk-virtual-machine:/tmp/.ICE-unix/1207'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8fef55d2_d3ec_408e_9b1c_bab1bd388e2d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MTKMD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1034'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.217770] (line_tracking) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.218316] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/rosidl_interfaces/line_tracking\n'}
+[16.218721] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[16.219262] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[16.219586] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_matrix_with_enum.h\n'}
+[16.219862] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[16.220310] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__functions.c\n'}
+[16.220772] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__type_support.h\n'}
+[16.221051] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__struct.h\n'}
+[16.221292] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__struct.h\n'}
+[16.221540] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__functions.c\n'}
+[16.222310] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__functions.h\n'}
+[16.222702] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__type_support.h\n'}
+[16.223068] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__functions.h\n'}
+[16.223422] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.223711] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_array.h\n'}
+[16.223969] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/library_path.sh\n'}
+[16.224238] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/library_path.dsv\n'}
+[16.224609] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_generator_c.so\n'}
+[16.225062] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_generator_c.so" to ""\n'}
+[16.225475] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[16.225869] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[16.226282] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[16.226672] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h\n'}
+[16.227062] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__rosidl_typesupport_fastrtps_c.h\n'}
+[16.227446] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.228251] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_fastrtps_c.so\n'}
+[16.229197] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.229556] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[16.229955] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[16.231024] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[16.231570] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__builder.hpp\n'}
+[16.231989] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__traits.hpp\n'}
+[16.232598] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__struct.hpp\n'}
+[16.233651] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__builder.hpp\n'}
+[16.234503] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__traits.hpp\n'}
+[16.234823] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__struct.hpp\n'}
+[16.235232] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_matrix_with_enum.hpp\n'}
+[16.235587] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_array.hpp\n'}
+[16.235964] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[16.236238] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[16.238059] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[16.238789] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.239307] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/dds_fastrtps\n'}
+[16.239883] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.240292] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.240888] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.241168] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.241396] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[16.241541] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[16.241671] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[16.241799] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__type_support.c\n'}
+[16.241956] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__rosidl_typesupport_introspection_c.h\n'}
+[16.242132] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_introspection_c.h\n'}
+[16.242415] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__type_support.c\n'}
+[16.242566] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.242709] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_introspection_c.so\n'}
+[16.242851] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.242993] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_c.so\n'}
+[16.244748] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_c.so" to ""\n'}
+[16.245276] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[16.245532] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[16.245903] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[16.246136] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__type_support.cpp\n'}
+[16.246381] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.246601] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__type_support.cpp\n'}
+[16.246819] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_matrix_with_enum__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.247039] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_introspection_cpp.so\n'}
+[16.249288] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.249634] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_cpp.so\n'}
+[16.250136] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_cpp.so" to ""\n'}
+[16.250386] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/pythonpath.sh\n'}
+[16.250687] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/pythonpath.dsv\n'}
+[16.251030] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info\n'}
+[16.251387] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.251895] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[16.252556] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.253015] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[16.253420] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking\n'}
+[16.253872] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.254292] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.254705] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/__init__.py\n'}
+[16.255098] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.255750] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.256232] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/_line_tracking_s.ep.rosidl_typesupport_c.c\n'}
+[16.256684] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/libline_tracking__rosidl_generator_py.so\n'}
+[16.257320] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/_line_tracking_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.259713] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg\n'}
+[16.260169] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_matrix_with_enum_s.c\n'}
+[16.260588] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_matrix_with_enum.py\n'}
+[16.260837] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/__init__.py\n'}
+[16.261066] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_array.py\n'}
+[16.261455] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_array_s.c\n'}
+[16.276604] (-) TimerEvent: {}
+[16.378492] (-) TimerEvent: {}
+[16.379161] (line_tracking) StdoutLine: {'line': b"Listing '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking'...\n"}
+[16.379581] (line_tracking) StdoutLine: {'line': b"Compiling '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/__init__.py'...\n"}
+[16.379859] (line_tracking) StdoutLine: {'line': b"Listing '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg'...\n"}
+[16.380123] (line_tracking) StdoutLine: {'line': b"Compiling '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/__init__.py'...\n"}
+[16.380549] (line_tracking) StdoutLine: {'line': b"Compiling '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_array.py'...\n"}
+[16.381010] (line_tracking) StdoutLine: {'line': b"Compiling '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_matrix_with_enum.py'...\n"}
+[16.384101] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.388746] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.389153] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.389396] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.389782] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.392668] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.393010] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_generator_py.so\n'}
+[16.396082] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_generator_py.so" to ""\n'}
+[16.396745] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointMatrixWithEnum.idl\n'}
+[16.397014] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointArray.idl\n'}
+[16.397246] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointMatrixWithEnum.msg\n'}
+[16.397478] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointArray.msg\n'}
+[16.397701] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/line_tracking/compressed_viewer\n'}
+[16.469209] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/line_tracking/compressed_viewer" to ""\n'}
+[16.469947] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/line_tracking/line_detection\n'}
+[16.480726] (-) TimerEvent: {}
+[16.500796] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/line_tracking/line_detection" to ""\n'}
+[16.501438] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/package_run_dependencies/line_tracking\n'}
+[16.502180] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/parent_prefix_path/line_tracking\n'}
+[16.502510] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.sh\n'}
+[16.502988] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.dsv\n'}
+[16.503252] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.sh\n'}
+[16.503641] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.dsv\n'}
+[16.503912] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.bash\n'}
+[16.504180] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.sh\n'}
+[16.504813] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.zsh\n'}
+[16.505118] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.dsv\n'}
+[16.505558] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/package.dsv\n'}
+[16.505981] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/packages/line_tracking\n'}
+[16.506399] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_cExport.cmake\n'}
+[16.507086] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.507579] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.508588] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.509116] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_cppExport.cmake\n'}
+[16.509542] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.509992] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.513102] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.513704] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.514324] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cExport.cmake\n'}
+[16.514849] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.515218] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.515581] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.515881] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cppExport.cmake\n'}
+[16.516237] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.516871] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_pyExport.cmake\n'}
+[16.517244] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.517619] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/rosidl_cmake-extras.cmake\n'}
+[16.517963] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.519076] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.519541] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.519933] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.521205] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.521618] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.523595] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig.cmake\n'}
+[16.524776] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig-version.cmake\n'}
+[16.525246] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/package.xml\n'}
+[16.544951] (line_tracking) CommandEnded: {'returncode': 0}
+[16.581237] (-) TimerEvent: {}
+[16.681994] (-) TimerEvent: {}
+[16.783527] (-) TimerEvent: {}
+[16.884540] (-) TimerEvent: {}
+[16.988659] (-) TimerEvent: {}
+[17.089848] (-) TimerEvent: {}
+[17.190872] (-) TimerEvent: {}
+[17.291907] (-) TimerEvent: {}
+[17.299272] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 0}
+[17.301200] (-) EventReactorShutdown: {}

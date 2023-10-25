@@ -1,0 +1,7 @@
+{
+  "package_name": "line_tracking",
+  "non_idl_tuples": [
+    "/home/luuk/linetracking:msg/PointMatrixWithEnum.msg",
+    "/home/luuk/linetracking:msg/PointArray.msg"
+  ]
+}

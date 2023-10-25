@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/luuk/linetracking/src/line_detection/line_detection.cpp" "CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o" "gcc" "CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o.d"
   "/home/luuk/linetracking/src/line_detection/param_parser.cpp" "CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o" "gcc" "CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o.d"
+  "/home/luuk/linetracking/src/line_detection/vision_process.cpp" "CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o" "gcc" "CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o.d"
   )
 
 # Targets to which this target links.

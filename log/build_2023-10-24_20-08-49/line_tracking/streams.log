@@ -1,0 +1,33 @@
+[0.037s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.128s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.549s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.632s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.637s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.678s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.923s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.929s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.277s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.768s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.136s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.200s] -- Configuring incomplete, errors occurred!
+[2.201s] See also "/home/luuk/linetracking/build/line_tracking/CMakeFiles/CMakeOutput.log".
+[2.201s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[2.201s]   By not providing "Findgsl.cmake" in CMAKE_MODULE_PATH this project has
+[2.201s]   asked CMake to find a package configuration file provided by "gsl", but
+[2.201s]   CMake did not find one.
+[2.202s] 
+[2.202s]   Could not find a package configuration file provided by "gsl" with any of
+[2.202s]   the following names:
+[2.202s] 
+[2.202s]     gslConfig.cmake
+[2.202s]     gsl-config.cmake
+[2.202s] 
+[2.203s]   Add the installation prefix of "gsl" to CMAKE_PREFIX_PATH or set "gsl_DIR"
+[2.203s]   to a directory containing one of the above files.  If "gsl" provides a
+[2.203s]   separate development package or SDK, be sure it has been installed.
+[2.203s] 
+[2.203s] [0m
+[2.220s] gmake: *** [Makefile:362: cmake_check_build_system] Error 1
+[2.229s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

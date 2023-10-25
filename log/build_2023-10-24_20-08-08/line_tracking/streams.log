@@ -1,0 +1,20 @@
+[0.053s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[0.282s] [ 33%] Built target compressed_viewer
+[0.323s] [ 50%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o[0m
+[6.831s] [ 66%] [32m[1mLinking CXX executable line_detection[0m
+[9.748s] /usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: warning: relocation against `gsl_interp_cspline' in read-only section `.text'
+[10.117s] /usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: in function `VisionProcess::findSplines(std::vector<std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >, std::allocator<std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > >&)':
+[10.117s] vision_process.cpp:(.text+0xb17): undefined reference to `gsl_interp_accel_alloc'
+[10.117s] /usr/bin/ld: vision_process.cpp:(.text+0xb22): undefined reference to `gsl_interp_cspline'
+[10.118s] /usr/bin/ld: vision_process.cpp:(.text+0xb34): undefined reference to `gsl_spline_alloc'
+[10.118s] /usr/bin/ld: vision_process.cpp:(.text+0xb53): undefined reference to `gsl_spline_init'
+[10.118s] /usr/bin/ld: vision_process.cpp:(.text+0xb90): undefined reference to `gsl_spline_eval'
+[10.118s] /usr/bin/ld: vision_process.cpp:(.text+0xc1f): undefined reference to `gsl_spline_free'
+[10.118s] /usr/bin/ld: vision_process.cpp:(.text+0xc2b): undefined reference to `gsl_interp_accel_free'
+[10.256s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[10.275s] collect2: error: ld returned 1 exit status
+[10.279s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:214: line_detection] Error 1
+[10.280s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+[10.281s] gmake: *** [Makefile:146: all] Error 2
+[10.292s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

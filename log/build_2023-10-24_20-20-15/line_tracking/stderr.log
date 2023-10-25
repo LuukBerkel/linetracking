@@ -1,0 +1,10 @@
+In file included from [01m[K/home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.h:19[m[K,
+                 from [01m[K/home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c:4[m[K:
+[01m[K/home/luuk/linetracking/build/line_tracking/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kline_tracking/msg/detail/point_array__struct.h: No such file or directory
+   22 | #include [01;31m[K"line_tracking/msg/detail/point_array__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/line_tracking__rosidl_generator_c.dir/build.make:105: CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_matrix_with_enum__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/line_tracking__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: warning: relocation against `gsl_interp_cspline' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o: in function `VisionProcess::findSplines(std::vector<std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >, std::allocator<std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > >&)':
+vision_process.cpp:(.text+0xb17): undefined reference to `gsl_interp_accel_alloc'
+/usr/bin/ld: vision_process.cpp:(.text+0xb22): undefined reference to `gsl_interp_cspline'
+/usr/bin/ld: vision_process.cpp:(.text+0xb34): undefined reference to `gsl_spline_alloc'
+/usr/bin/ld: vision_process.cpp:(.text+0xb53): undefined reference to `gsl_spline_init'
+/usr/bin/ld: vision_process.cpp:(.text+0xb90): undefined reference to `gsl_spline_eval'
+/usr/bin/ld: vision_process.cpp:(.text+0xc1f): undefined reference to `gsl_spline_free'
+/usr/bin/ld: vision_process.cpp:(.text+0xc2b): undefined reference to `gsl_interp_accel_free'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:214: line_detection] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/line_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
