@@ -1,13 +1,12 @@
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/twist.hpp>
 #include <line_tracking/msg/point_blob.hpp>
-#include "lane_math.hpp"
 
 #define NODE_NAME "lane_follower"
 #define LANE_COUNT 2
-#define SPEED 0.05f
-#define MIDDLE 530
-#define MARGIN 4
+#define SPEED 0.1f
+#define LEFT_BOUND 60
+#define RIGHT_BOUND 1000
 
 enum LaneSide {
     LEFT,
@@ -23,7 +22,7 @@ class LaneFollower : public rclcpp::Node {
 public:
     LaneFollower() : Node(NODE_NAME) {
         subscription_ = create_subscription<line_tracking::msg::PointBlob>(
-            "/lines/contour", 10, std::bind(&LaneFollower::imageCompressedCallback, this, std::placeholders::_1));
+            "/lines/contour", 10, std::bind(&LaneFollower::countourCallback, this, std::placeholders::_1));
         publisher_ = create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
     }
 
@@ -36,35 +35,18 @@ private:
     void calculateInstruction( std::vector<std::shared_ptr<LaneElement>> lane){
         auto twist = std::make_shared<geometry_msgs::msg::Twist>();
         if (lane.size() == 1) {
-            int factor = lane[0]->side == LEFT ? 1 : -1;
+            int factor = lane[0]->side == LEFT ? -1 : 1;
             twist->angular.z = factor * SPEED;
             publishInstruction(twist);
         } else if (lane.size() == 2) {
-            auto top = geometry_msgs::msg::Point();
-            auto end = geometry_msgs::msg::Point();
-            top.x = MIDDLE;
-            top.y = 0;
-            end.x = MIDDLE;
-            end.y = 1000;
-
-            auto angle = calculateAngle(lane[0]->point, lane[1]->point, top, end);
-
-            if (angle < (90 - MARGIN) || angle > (90 + MARGIN)) {
-               int factor = angle > 90 ? 1 : -1;
-                RCLCPP_INFO(this->get_logger(), "%d", factor);
-                twist->angular.z = factor * SPEED;
-                publishInstruction(twist);
-            } else if  (angle >= (90- MARGIN) && (angle <= 90 + MARGIN)) {
-                twist->linear.x = SPEED; 
-            }
-            RCLCPP_INFO(this->get_logger(), "%f", angle);
+            twist->linear.x = SPEED; 
         } 
         publishInstruction(twist);
     }
    
 
     rclcpp::Subscription<line_tracking::msg::PointBlob>::SharedPtr subscription_;
-    void imageCompressedCallback(const line_tracking::msg::PointBlob::SharedPtr msg) {
+    void countourCallback(const line_tracking::msg::PointBlob::SharedPtr msg) {
         std::vector<std::shared_ptr<LaneElement>> lane;
         for (const auto& array : msg->arrays) {
             // Finding lowest point
@@ -77,9 +59,9 @@ private:
 
             // Detection on which side
             auto laneElement = std::make_shared<LaneElement>(); 
-            if (biggest.x < 100){
+            if (biggest.x < LEFT_BOUND){
                 laneElement->side = LEFT;
-            } else if (biggest.x > 1000){
+            } else if (biggest.x > RIGHT_BOUND){
                 laneElement->side = RIGHT;
             }
             laneElement->point = biggest;

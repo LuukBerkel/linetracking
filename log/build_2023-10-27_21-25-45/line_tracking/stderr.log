@@ -1,0 +1,6 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/luuk/linetracking/src/lane_follower/lane_math.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lane_follower.dir/build.make:90: CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/lane_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

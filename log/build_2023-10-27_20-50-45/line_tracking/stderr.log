@@ -1,0 +1,4 @@
+[01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:[m[K In member function ‘[01m[Kvoid LaneFollower::calculateInstruction(std::vector<std::shared_ptr<LaneElement> >)[m[K’:
+[01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:50:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |             auto [01;35m[Kangle[m[K = calculateAngle(lane[0]->point, lane[1]->point, top, end);
+      |                  [01;35m[K^~~~~[m[K

@@ -612,7 +612,4 @@ CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o: \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_cpp/line_tracking/msg/detail/point_blob__builder.hpp \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_cpp/line_tracking/msg/detail/point_blob__traits.hpp \
  /home/luuk/linetracking/build/line_tracking/rosidl_generator_cpp/line_tracking/msg/detail/point_array__traits.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
- /home/luuk/linetracking/src/lane_follower/include/lane_math.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp

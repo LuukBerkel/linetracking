@@ -1,0 +1,34 @@
+[0.111s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[1.073s] [  2%] Built target line_tracking__cpp
+[1.211s] [ 10%] Built target line_tracking__rosidl_generator_c
+[1.383s] [ 14%] Built target compressed_viewer
+[1.623s] [ 14%] Built target ament_cmake_python_copy_line_tracking
+[1.812s] [ 22%] Built target line_tracking__rosidl_typesupport_cpp
+[1.890s] [ 31%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp
+[1.978s] [ 39%] Built target line_tracking__rosidl_typesupport_introspection_cpp
+[2.202s] [ 47%] Built target line_tracking__rosidl_typesupport_introspection_c
+[2.223s] [ 56%] Built target line_tracking__rosidl_typesupport_fastrtps_c
+[2.224s] [ 64%] Built target line_tracking__rosidl_typesupport_c
+[2.589s] [ 66%] [32mBuilding CXX object CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o[0m
+[2.726s] [ 68%] [32mBuilding CXX object CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.o[0m
+[2.746s] [ 68%] Built target line_tracking
+[2.799s] [ 77%] Built target line_detection
+[2.910s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/luuk/linetracking/src/lane_follower/lane_math.cpp: No such file or directory
+[2.910s] compilation terminated.
+[2.922s] gmake[2]: *** [CMakeFiles/lane_follower.dir/build.make:90: CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.o] Error 1
+[2.922s] gmake[2]: *** Waiting for unfinished jobs....
+[3.291s] [ 79%] Built target line_tracking__py
+[3.738s] [ 85%] Built target line_tracking__rosidl_generator_py
+[4.424s] [ 89%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext
+[4.475s] [ 93%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext
+[4.584s] [ 97%] Built target line_tracking__rosidl_typesupport_c__pyext
+[4.603s] running egg_info
+[4.626s] writing line_tracking.egg-info/PKG-INFO
+[4.627s] writing dependency_links to line_tracking.egg-info/dependency_links.txt
+[4.628s] writing top-level names to line_tracking.egg-info/top_level.txt
+[4.629s] reading manifest file 'line_tracking.egg-info/SOURCES.txt'
+[4.638s] writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[4.818s] [ 97%] Built target ament_cmake_python_build_line_tracking_egg
+[43.915s] gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/lane_follower.dir/all] Error 2
+[43.918s] gmake: *** [Makefile:146: all] Error 2
+[43.936s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

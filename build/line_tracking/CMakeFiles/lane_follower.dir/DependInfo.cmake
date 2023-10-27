@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/luuk/linetracking/src/lane_follower/lane_follower.cpp" "CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o" "gcc" "CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o.d"
-  "/home/luuk/linetracking/src/lane_follower/lane_math.cpp" "CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.o" "gcc" "CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.o.d"
   )
 
 # Targets to which this target links.

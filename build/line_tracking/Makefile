@@ -948,30 +948,6 @@ src/lane_follower/lane_follower.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.s
 .PHONY : src/lane_follower/lane_follower.cpp.s
 
-src/lane_follower/lane_math.o: src/lane_follower/lane_math.cpp.o
-.PHONY : src/lane_follower/lane_math.o
-
-# target to build an object file
-src/lane_follower/lane_math.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.o
-.PHONY : src/lane_follower/lane_math.cpp.o
-
-src/lane_follower/lane_math.i: src/lane_follower/lane_math.cpp.i
-.PHONY : src/lane_follower/lane_math.i
-
-# target to preprocess a source file
-src/lane_follower/lane_math.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.i
-.PHONY : src/lane_follower/lane_math.cpp.i
-
-src/lane_follower/lane_math.s: src/lane_follower/lane_math.cpp.s
-.PHONY : src/lane_follower/lane_math.s
-
-# target to generate assembly for a file
-src/lane_follower/lane_math.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.s
-.PHONY : src/lane_follower/lane_math.cpp.s
-
 src/line_detection/line_detection.o: src/line_detection/line_detection.cpp.o
 .PHONY : src/line_detection/line_detection.o
 
@@ -1141,9 +1117,6 @@ help:
 	@echo "... src/lane_follower/lane_follower.o"
 	@echo "... src/lane_follower/lane_follower.i"
 	@echo "... src/lane_follower/lane_follower.s"
-	@echo "... src/lane_follower/lane_math.o"
-	@echo "... src/lane_follower/lane_math.i"
-	@echo "... src/lane_follower/lane_math.s"
 	@echo "... src/line_detection/line_detection.o"
 	@echo "... src/line_detection/line_detection.i"
 	@echo "... src/line_detection/line_detection.s"

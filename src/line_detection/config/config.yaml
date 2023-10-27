@@ -1,12 +1,12 @@
 linetracking:
   debug: true
   output: "contour"
-  minimum: 10000
+  minimum: 1000
   profiles:
     blue:
       hue_up: 140
       sat_up: 255
       val_up: 255
       hue_low: 90
-      sat_low: 20
-      val_low: 20
+      sat_low: 10
+      val_low: 10

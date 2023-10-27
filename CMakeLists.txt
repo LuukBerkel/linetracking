@@ -42,8 +42,7 @@ ament_target_dependencies(line_detection rclcpp sensor_msgs geometry_msgs cv_bri
 target_link_libraries(line_detection gsl yaml-cpp opencv_core opencv_imgproc opencv_highgui "${cpp_typesupport_target}")
 
 # dependencies for lane follower
-include_directories(src/lane_follower/include)
-add_executable(lane_follower src/lane_follower/lane_follower.cpp src/lane_follower/lane_math.cpp)
+add_executable(lane_follower src/lane_follower/lane_follower.cpp)
 ament_target_dependencies(lane_follower rclcpp sensor_msgs geometry_msgs)
 target_link_libraries(lane_follower "${cpp_typesupport_target}")
 
