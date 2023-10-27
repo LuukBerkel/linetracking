@@ -1,6 +1,7 @@
 linetracking:
   debug: true
   output: "contour"
+  minimum: 10000
   profiles:
     blue:
       hue_up: 140

@@ -1,0 +1,7 @@
+[01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:10:[m[K [01;35m[Kwarning: [m[K"MARGIN" redefined
+   10 | #define MARGIN 4
+      | 
+In file included from [01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:4[m[K:
+[01m[K/home/luuk/linetracking/src/lane_follower/include/lane_math.hpp:9:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+    9 | #define MARGIN 10
+      | 

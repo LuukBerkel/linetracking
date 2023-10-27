@@ -1,0 +1,11 @@
+[01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:10:[m[K [01;35m[Kwarning: [m[K"MARGIN" redefined
+   10 | #define MARGIN 4
+      | 
+In file included from [01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:4[m[K:
+[01m[K/home/luuk/linetracking/src/lane_follower/include/lane_math.hpp:9:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+    9 | #define MARGIN 10
+      | 
+[01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:[m[K In member function ‘[01m[Kvoid LaneFollower::calculateInstruction(std::vector<std::shared_ptr<LaneElement> >)[m[K’:
+[01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:53:34:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K==[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   53 |                int factor = [01;35m[Kangle<90[m[K == LEFT ? 1 : -1;
+      |                             [01;35m[K~~~~~^~~[m[K

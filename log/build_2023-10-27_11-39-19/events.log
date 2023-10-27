@@ -1,0 +1,470 @@
+[0.000000] (-) TimerEvent: {}
+[0.000858] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.021149] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.043214] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.045927] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.050620] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luuk/linetracking/install/line_tracking/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '2552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/linetracking/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1299,unix/luuk-virtual-machine:/tmp/.ICE-unix/1299'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51ca1934_07e5_4ae3_83bf_2178f2ab7e57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JQBED2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/luuk/linetracking/install/line_tracking:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luuk/linetracking/install/line_tracking:/opt/ros/humble')]), 'shell': False}
+[0.100973] (-) TimerEvent: {}
+[0.210378] (-) TimerEvent: {}
+[0.300026] (line_tracking) StdoutLine: {'line': b'[  8%] Built target line_tracking__rosidl_generator_c\n'}
+[0.315970] (-) TimerEvent: {}
+[0.362385] (line_tracking) StdoutLine: {'line': b'[ 11%] Built target line_tracking__cpp\n'}
+[0.380528] (line_tracking) StdoutLine: {'line': b'[ 15%] Built target compressed_viewer\n'}
+[0.405672] (line_tracking) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_line_tracking\n'}
+[0.416460] (-) TimerEvent: {}
+[0.491576] (line_tracking) StdoutLine: {'line': b'[ 24%] Built target line_tracking__rosidl_typesupport_fastrtps_c\n'}
+[0.516769] (-) TimerEvent: {}
+[0.530764] (line_tracking) StdoutLine: {'line': b'[ 33%] Built target line_tracking__rosidl_typesupport_introspection_c\n'}
+[0.571889] (line_tracking) StdoutLine: {'line': b'[ 42%] Built target line_tracking__rosidl_typesupport_c\n'}
+[0.591772] (line_tracking) StdoutLine: {'line': b'[ 51%] Built target line_tracking__rosidl_typesupport_introspection_cpp\n'}
+[0.625905] (-) TimerEvent: {}
+[0.660746] (line_tracking) StdoutLine: {'line': b'[ 60%] Built target line_tracking__rosidl_typesupport_cpp\n'}
+[0.702260] (line_tracking) StdoutLine: {'line': b'[ 68%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp\n'}
+[0.726185] (-) TimerEvent: {}
+[0.727885] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_detection\x1b[0m\n'}
+[0.834156] (-) TimerEvent: {}
+[0.835200] (line_tracking) StdoutLine: {'line': b'[ 68%] Built target line_tracking\n'}
+[0.856750] (line_tracking) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o\x1b[0m\n'}
+[0.897607] (line_tracking) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o\x1b[0m\n'}
+[0.942271] (-) TimerEvent: {}
+[1.016176] (line_tracking) StdoutLine: {'line': b'[ 75%] Built target line_tracking__py\n'}
+[1.066999] (-) TimerEvent: {}
+[1.172001] (-) TimerEvent: {}
+[1.248414] (line_tracking) StdoutLine: {'line': b'[ 82%] Built target line_tracking__rosidl_generator_py\n'}
+[1.290170] (-) TimerEvent: {}
+[1.411263] (-) TimerEvent: {}
+[1.488025] (line_tracking) StdoutLine: {'line': b'[ 86%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.562456] (-) TimerEvent: {}
+[1.564143] (line_tracking) StdoutLine: {'line': b'[ 91%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext\n'}
+[1.608198] (line_tracking) StdoutLine: {'line': b'[ 95%] Built target line_tracking__rosidl_typesupport_c__pyext\n'}
+[1.648322] (line_tracking) StdoutLine: {'line': b'running egg_info\n'}
+[1.649009] (line_tracking) StdoutLine: {'line': b'writing line_tracking.egg-info/PKG-INFO\n'}
+[1.649410] (line_tracking) StdoutLine: {'line': b'writing dependency_links to line_tracking.egg-info/dependency_links.txt\n'}
+[1.649794] (line_tracking) StdoutLine: {'line': b'writing top-level names to line_tracking.egg-info/top_level.txt\n'}
+[1.650150] (line_tracking) StdoutLine: {'line': b"reading manifest file 'line_tracking.egg-info/SOURCES.txt'\n"}
+[1.650539] (line_tracking) StdoutLine: {'line': b"writing manifest file 'line_tracking.egg-info/SOURCES.txt'\n"}
+[1.673533] (-) TimerEvent: {}
+[1.737881] (line_tracking) StdoutLine: {'line': b'[ 95%] Built target ament_cmake_python_build_line_tracking_egg\n'}
+[1.773867] (-) TimerEvent: {}
+[1.877127] (-) TimerEvent: {}
+[1.981647] (-) TimerEvent: {}
+[2.089703] (-) TimerEvent: {}
+[2.196990] (-) TimerEvent: {}
+[2.322266] (-) TimerEvent: {}
+[2.452384] (-) TimerEvent: {}
+[2.562151] (-) TimerEvent: {}
+[2.672413] (-) TimerEvent: {}
+[2.794078] (-) TimerEvent: {}
+[2.921423] (-) TimerEvent: {}
+[3.025831] (-) TimerEvent: {}
+[3.137039] (-) TimerEvent: {}
+[3.241212] (-) TimerEvent: {}
+[3.342043] (-) TimerEvent: {}
+[3.444355] (-) TimerEvent: {}
+[3.545486] (-) TimerEvent: {}
+[3.647171] (-) TimerEvent: {}
+[3.750564] (-) TimerEvent: {}
+[3.853468] (-) TimerEvent: {}
+[3.958030] (-) TimerEvent: {}
+[4.058865] (-) TimerEvent: {}
+[4.177479] (-) TimerEvent: {}
+[4.278369] (-) TimerEvent: {}
+[4.379896] (-) TimerEvent: {}
+[4.481427] (-) TimerEvent: {}
+[4.584309] (-) TimerEvent: {}
+[4.686170] (-) TimerEvent: {}
+[4.791452] (-) TimerEvent: {}
+[4.892931] (-) TimerEvent: {}
+[4.993589] (-) TimerEvent: {}
+[5.099861] (-) TimerEvent: {}
+[5.202352] (-) TimerEvent: {}
+[5.311019] (-) TimerEvent: {}
+[5.422011] (-) TimerEvent: {}
+[5.531139] (-) TimerEvent: {}
+[5.641393] (-) TimerEvent: {}
+[5.747750] (-) TimerEvent: {}
+[5.858997] (-) TimerEvent: {}
+[5.983978] (-) TimerEvent: {}
+[6.094003] (-) TimerEvent: {}
+[6.202768] (-) TimerEvent: {}
+[6.312220] (-) TimerEvent: {}
+[6.421771] (-) TimerEvent: {}
+[6.525014] (-) TimerEvent: {}
+[6.637318] (-) TimerEvent: {}
+[6.738400] (-) TimerEvent: {}
+[6.845731] (-) TimerEvent: {}
+[6.953359] (-) TimerEvent: {}
+[7.061191] (-) TimerEvent: {}
+[7.169200] (-) TimerEvent: {}
+[7.272781] (-) TimerEvent: {}
+[7.363602] (line_tracking) StderrLine: {'line': b'/home/luuk/linetracking/src/line_detection/vision_process.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KVisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> [with auto:2 = std::vector<cv::Point_<int> >; auto:3 = std::vector<cv::Point_<int> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.364146] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:158:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool __gnu_cxx::__ops::_Iter_comp_iter<_Compare>::operator()(_Iterator1, _Iterator2) [with _Iterator1 = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Iterator2 = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.364494] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:82:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__move_median_to_first(_Iterator, _Iterator, _Iterator, _Iterator, _Compare) [with _Iterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.364971] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1904:34:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.365267] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1938:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Size = long int; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.365581] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1954:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.365876] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:4875:18:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.366127] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:21:14:\x1b[m\x1b[K   required from here\n'}
+[7.366397] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:22:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.366695] (line_tracking) StderrLine: {'line': b'   22 |         \x1b[01;35m\x1b[Kcv::contourArea(a) > cv::contourArea(a)\x1b[m\x1b[K;\n'}
+[7.366969] (line_tracking) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.367242] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:21:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.367527] (line_tracking) StderrLine: {'line': b'   21 |     std::sort(lines.begin(), lines.end(), [](const auto& a, \x1b[01;35m\x1b[Kconst auto& b\x1b[m\x1b[K) {\n'}
+[7.367795] (line_tracking) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.368085] (line_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[7.368362] (line_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.368797] (line_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.369152] (line_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/include/vision_process.hpp:4\x1b[m\x1b[K,\n'}
+[7.369430] (line_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:1\x1b[m\x1b[K:\n'}
+[7.369731] (line_tracking) StderrLine: {'line': b'/usr/include/c++/11/bits/predefined_ops.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool __gnu_cxx::__ops::_Iter_comp_iter<_Compare>::operator()(_Iterator1, _Iterator2) [with _Iterator1 = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Iterator2 = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.370086] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:82:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__move_median_to_first(_Iterator, _Iterator, _Iterator, _Iterator, _Compare) [with _Iterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.370398] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1904:34:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.370715] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1938:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Size = long int; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.371032] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1954:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.371320] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:4875:18:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.371821] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:21:14:\x1b[m\x1b[K   required from here\n'}
+[7.372131] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:158:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvoid value not ignored as it ought to be\n'}
+[7.372429] (line_tracking) StderrLine: {'line': b'  158 |         { return bool(\x1b[01;31m\x1b[K_M_comp(*__it1, *__it2)\x1b[m\x1b[K); }\n'}
+[7.380921] (-) TimerEvent: {}
+[7.381277] (line_tracking) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.467282] (line_tracking) StderrLine: {'line': b'/usr/include/c++/11/bits/predefined_ops.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool __gnu_cxx::__ops::_Val_comp_iter<_Compare>::operator()(_Value&, _Iterator) [with _Value = std::vector<cv::Point_<int> >; _Iterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.507957] (-) TimerEvent: {}
+[7.508396] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1806:20:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__unguarded_linear_insert(_RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Val_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.508970] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1834:36:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.509360] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1866:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__final_insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.509798] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1957:31:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.510188] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:4875:18:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.511404] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:21:14:\x1b[m\x1b[K   required from here\n'}
+[7.511806] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:240:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvoid value not ignored as it ought to be\n'}
+[7.512106] (line_tracking) StderrLine: {'line': b'  240 |         { return bool(\x1b[01;31m\x1b[K_M_comp(__val, *__it)\x1b[m\x1b[K); }\n'}
+[7.512426] (line_tracking) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.612601] (-) TimerEvent: {}
+[7.670239] (line_tracking) StderrLine: {'line': b'/usr/include/c++/11/bits/predefined_ops.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool __gnu_cxx::__ops::_Iter_comp_val<_Compare>::operator()(_Iterator, _Value&) [with _Iterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Value = std::vector<cv::Point_<int> >; _Compare = VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.670771] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_heap.h:139:48:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__push_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Distance = long int; _Tp = std::vector<cv::Point_<int> >; _Compare = __gnu_cxx::__ops::_Iter_comp_val<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.671215] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_heap.h:246:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__adjust_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Distance = long int; _Tp = std::vector<cv::Point_<int> >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.671549] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_heap.h:355:22:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__make_heap(_RandomAccessIterator, _RandomAccessIterator, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.671870] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1646:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__heap_select(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.672219] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1917:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__partial_sort(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.672559] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1933:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Size = long int; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.673135] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:1954:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.673458] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:4875:18:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::vector<cv::Point_<int> >*, std::vector<std::vector<cv::Point_<int> > > >; _Compare = VisionProcess::Decode(cv_bridge::CvImagePtr)::<lambda(const auto:2&, const auto:3&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.673965] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:21:14:\x1b[m\x1b[K   required from here\n'}
+[7.674328] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:196:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvoid value not ignored as it ought to be\n'}
+[7.674670] (line_tracking) StderrLine: {'line': b'  196 |         { return bool(\x1b[01;31m\x1b[K_M_comp(*__it, __val)\x1b[m\x1b[K); }\n'}
+[7.675029] (line_tracking) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.719078] (-) TimerEvent: {}
+[7.832705] (-) TimerEvent: {}
+[7.937052] (-) TimerEvent: {}
+[7.992967] (line_tracking) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:104: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o] Error 1\n'}
+[7.993575] (line_tracking) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[8.044250] (-) TimerEvent: {}
+[8.145756] (-) TimerEvent: {}
+[8.249732] (-) TimerEvent: {}
+[8.357628] (-) TimerEvent: {}
+[8.458531] (-) TimerEvent: {}
+[8.559435] (-) TimerEvent: {}
+[8.661416] (-) TimerEvent: {}
+[8.763375] (-) TimerEvent: {}
+[8.865389] (-) TimerEvent: {}
+[8.970142] (-) TimerEvent: {}
+[9.071229] (-) TimerEvent: {}
+[9.177645] (-) TimerEvent: {}
+[9.279899] (-) TimerEvent: {}
+[9.381390] (-) TimerEvent: {}
+[9.485658] (-) TimerEvent: {}
+[9.588949] (-) TimerEvent: {}
+[9.689991] (-) TimerEvent: {}
+[9.803899] (-) TimerEvent: {}
+[9.909668] (-) TimerEvent: {}
+[10.017082] (-) TimerEvent: {}
+[10.119496] (-) TimerEvent: {}
+[10.224355] (-) TimerEvent: {}
+[10.325358] (-) TimerEvent: {}
+[10.430171] (-) TimerEvent: {}
+[10.541275] (-) TimerEvent: {}
+[10.646916] (-) TimerEvent: {}
+[10.747760] (-) TimerEvent: {}
+[10.852872] (-) TimerEvent: {}
+[10.954505] (-) TimerEvent: {}
+[11.055876] (-) TimerEvent: {}
+[11.165578] (-) TimerEvent: {}
+[11.266838] (-) TimerEvent: {}
+[11.367766] (-) TimerEvent: {}
+[11.468599] (-) TimerEvent: {}
+[11.571175] (-) TimerEvent: {}
+[11.672715] (-) TimerEvent: {}
+[11.774252] (-) TimerEvent: {}
+[11.877692] (-) TimerEvent: {}
+[11.979589] (-) TimerEvent: {}
+[12.081096] (-) TimerEvent: {}
+[12.181734] (-) TimerEvent: {}
+[12.282916] (-) TimerEvent: {}
+[12.383569] (-) TimerEvent: {}
+[12.486006] (-) TimerEvent: {}
+[12.587515] (-) TimerEvent: {}
+[12.688267] (-) TimerEvent: {}
+[12.791940] (-) TimerEvent: {}
+[12.892772] (-) TimerEvent: {}
+[12.996591] (-) TimerEvent: {}
+[13.100114] (-) TimerEvent: {}
+[13.201443] (-) TimerEvent: {}
+[13.309672] (-) TimerEvent: {}
+[13.414203] (-) TimerEvent: {}
+[13.516101] (-) TimerEvent: {}
+[13.618234] (-) TimerEvent: {}
+[13.718987] (-) TimerEvent: {}
+[13.820061] (-) TimerEvent: {}
+[13.925844] (-) TimerEvent: {}
+[14.033639] (-) TimerEvent: {}
+[14.137864] (-) TimerEvent: {}
+[14.245785] (-) TimerEvent: {}
+[14.356760] (-) TimerEvent: {}
+[14.461223] (-) TimerEvent: {}
+[14.566387] (-) TimerEvent: {}
+[14.667894] (-) TimerEvent: {}
+[14.769073] (-) TimerEvent: {}
+[14.869667] (-) TimerEvent: {}
+[14.971530] (-) TimerEvent: {}
+[15.077004] (-) TimerEvent: {}
+[15.178016] (-) TimerEvent: {}
+[15.279954] (-) TimerEvent: {}
+[15.381003] (-) TimerEvent: {}
+[15.481902] (-) TimerEvent: {}
+[15.587157] (-) TimerEvent: {}
+[15.688130] (-) TimerEvent: {}
+[15.789384] (-) TimerEvent: {}
+[15.892181] (-) TimerEvent: {}
+[15.995724] (-) TimerEvent: {}
+[16.104756] (-) TimerEvent: {}
+[16.205997] (-) TimerEvent: {}
+[16.307160] (-) TimerEvent: {}
+[16.411240] (-) TimerEvent: {}
+[16.518570] (-) TimerEvent: {}
+[16.629809] (-) TimerEvent: {}
+[16.737468] (-) TimerEvent: {}
+[16.840567] (-) TimerEvent: {}
+[16.941939] (-) TimerEvent: {}
+[17.051400] (-) TimerEvent: {}
+[17.153612] (-) TimerEvent: {}
+[17.254828] (-) TimerEvent: {}
+[17.356818] (-) TimerEvent: {}
+[17.459664] (-) TimerEvent: {}
+[17.561477] (-) TimerEvent: {}
+[17.662137] (-) TimerEvent: {}
+[17.765394] (-) TimerEvent: {}
+[17.866286] (-) TimerEvent: {}
+[17.969522] (-) TimerEvent: {}
+[18.074282] (-) TimerEvent: {}
+[18.175213] (-) TimerEvent: {}
+[18.275923] (-) TimerEvent: {}
+[18.377640] (-) TimerEvent: {}
+[18.478383] (-) TimerEvent: {}
+[18.579558] (-) TimerEvent: {}
+[18.681494] (-) TimerEvent: {}
+[18.782818] (-) TimerEvent: {}
+[18.887389] (-) TimerEvent: {}
+[18.992977] (-) TimerEvent: {}
+[19.102596] (-) TimerEvent: {}
+[19.208265] (-) TimerEvent: {}
+[19.310107] (-) TimerEvent: {}
+[19.415951] (-) TimerEvent: {}
+[19.519093] (-) TimerEvent: {}
+[19.622666] (-) TimerEvent: {}
+[19.723488] (-) TimerEvent: {}
+[19.825412] (-) TimerEvent: {}
+[19.929759] (-) TimerEvent: {}
+[20.037451] (-) TimerEvent: {}
+[20.138797] (-) TimerEvent: {}
+[20.239571] (-) TimerEvent: {}
+[20.341453] (-) TimerEvent: {}
+[20.450380] (-) TimerEvent: {}
+[20.552998] (-) TimerEvent: {}
+[20.656979] (-) TimerEvent: {}
+[20.757787] (-) TimerEvent: {}
+[20.859099] (-) TimerEvent: {}
+[20.967207] (-) TimerEvent: {}
+[21.072734] (-) TimerEvent: {}
+[21.181452] (-) TimerEvent: {}
+[21.284022] (-) TimerEvent: {}
+[21.388009] (-) TimerEvent: {}
+[21.488775] (-) TimerEvent: {}
+[21.591395] (-) TimerEvent: {}
+[21.692812] (-) TimerEvent: {}
+[21.793970] (-) TimerEvent: {}
+[21.894849] (-) TimerEvent: {}
+[21.997695] (-) TimerEvent: {}
+[22.104282] (-) TimerEvent: {}
+[22.208921] (-) TimerEvent: {}
+[22.315464] (-) TimerEvent: {}
+[22.422263] (-) TimerEvent: {}
+[22.523162] (-) TimerEvent: {}
+[22.625427] (-) TimerEvent: {}
+[22.726657] (-) TimerEvent: {}
+[22.827209] (-) TimerEvent: {}
+[22.928056] (-) TimerEvent: {}
+[23.030103] (-) TimerEvent: {}
+[23.131064] (-) TimerEvent: {}
+[23.231948] (-) TimerEvent: {}
+[23.333444] (-) TimerEvent: {}
+[23.434556] (-) TimerEvent: {}
+[23.535217] (-) TimerEvent: {}
+[23.636163] (-) TimerEvent: {}
+[23.737814] (-) TimerEvent: {}
+[23.838973] (-) TimerEvent: {}
+[23.939854] (-) TimerEvent: {}
+[24.040473] (-) TimerEvent: {}
+[24.141264] (-) TimerEvent: {}
+[24.242060] (-) TimerEvent: {}
+[24.342739] (-) TimerEvent: {}
+[24.445151] (-) TimerEvent: {}
+[24.546153] (-) TimerEvent: {}
+[24.647651] (-) TimerEvent: {}
+[24.748872] (-) TimerEvent: {}
+[24.849804] (-) TimerEvent: {}
+[24.950515] (-) TimerEvent: {}
+[25.051182] (-) TimerEvent: {}
+[25.151911] (-) TimerEvent: {}
+[25.252763] (-) TimerEvent: {}
+[25.353562] (-) TimerEvent: {}
+[25.454929] (-) TimerEvent: {}
+[25.556356] (-) TimerEvent: {}
+[25.657524] (-) TimerEvent: {}
+[25.758372] (-) TimerEvent: {}
+[25.859145] (-) TimerEvent: {}
+[25.960363] (-) TimerEvent: {}
+[26.062936] (-) TimerEvent: {}
+[26.164209] (-) TimerEvent: {}
+[26.265786] (-) TimerEvent: {}
+[26.367453] (-) TimerEvent: {}
+[26.468865] (-) TimerEvent: {}
+[26.570015] (-) TimerEvent: {}
+[26.671170] (-) TimerEvent: {}
+[26.772271] (-) TimerEvent: {}
+[26.874121] (-) TimerEvent: {}
+[26.975213] (-) TimerEvent: {}
+[27.076992] (-) TimerEvent: {}
+[27.178401] (-) TimerEvent: {}
+[27.279732] (-) TimerEvent: {}
+[27.381238] (-) TimerEvent: {}
+[27.481965] (-) TimerEvent: {}
+[27.582685] (-) TimerEvent: {}
+[27.684123] (-) TimerEvent: {}
+[27.785581] (-) TimerEvent: {}
+[27.886582] (-) TimerEvent: {}
+[27.987804] (-) TimerEvent: {}
+[28.088915] (-) TimerEvent: {}
+[28.189850] (-) TimerEvent: {}
+[28.291381] (-) TimerEvent: {}
+[28.392314] (-) TimerEvent: {}
+[28.493518] (-) TimerEvent: {}
+[28.594557] (-) TimerEvent: {}
+[28.695591] (-) TimerEvent: {}
+[28.796907] (-) TimerEvent: {}
+[28.897962] (-) TimerEvent: {}
+[28.998932] (-) TimerEvent: {}
+[29.099799] (-) TimerEvent: {}
+[29.200860] (-) TimerEvent: {}
+[29.301770] (-) TimerEvent: {}
+[29.403061] (-) TimerEvent: {}
+[29.504262] (-) TimerEvent: {}
+[29.605528] (-) TimerEvent: {}
+[29.706462] (-) TimerEvent: {}
+[29.807443] (-) TimerEvent: {}
+[29.908268] (-) TimerEvent: {}
+[30.009820] (-) TimerEvent: {}
+[30.110748] (-) TimerEvent: {}
+[30.212340] (-) TimerEvent: {}
+[30.313846] (-) TimerEvent: {}
+[30.432725] (-) TimerEvent: {}
+[30.543059] (-) TimerEvent: {}
+[30.644248] (-) TimerEvent: {}
+[30.745319] (-) TimerEvent: {}
+[30.848088] (-) TimerEvent: {}
+[30.949650] (-) TimerEvent: {}
+[31.050695] (-) TimerEvent: {}
+[31.152261] (-) TimerEvent: {}
+[31.254108] (-) TimerEvent: {}
+[31.355495] (-) TimerEvent: {}
+[31.458279] (-) TimerEvent: {}
+[31.559151] (-) TimerEvent: {}
+[31.660273] (-) TimerEvent: {}
+[31.762104] (-) TimerEvent: {}
+[31.863088] (-) TimerEvent: {}
+[31.964298] (-) TimerEvent: {}
+[32.065325] (-) TimerEvent: {}
+[32.166234] (-) TimerEvent: {}
+[32.267567] (-) TimerEvent: {}
+[32.368822] (-) TimerEvent: {}
+[32.472036] (-) TimerEvent: {}
+[32.573399] (-) TimerEvent: {}
+[32.674637] (-) TimerEvent: {}
+[32.775619] (-) TimerEvent: {}
+[32.876966] (-) TimerEvent: {}
+[32.978292] (-) TimerEvent: {}
+[33.079616] (-) TimerEvent: {}
+[33.181098] (-) TimerEvent: {}
+[33.282176] (-) TimerEvent: {}
+[33.383249] (-) TimerEvent: {}
+[33.484829] (-) TimerEvent: {}
+[33.586353] (-) TimerEvent: {}
+[33.687761] (-) TimerEvent: {}
+[33.788971] (-) TimerEvent: {}
+[33.890631] (-) TimerEvent: {}
+[33.998133] (-) TimerEvent: {}
+[34.100336] (-) TimerEvent: {}
+[34.201678] (-) TimerEvent: {}
+[34.303731] (-) TimerEvent: {}
+[34.405079] (-) TimerEvent: {}
+[34.506601] (-) TimerEvent: {}
+[34.608232] (-) TimerEvent: {}
+[34.710094] (-) TimerEvent: {}
+[34.811489] (-) TimerEvent: {}
+[34.912943] (-) TimerEvent: {}
+[35.013929] (-) TimerEvent: {}
+[35.115144] (-) TimerEvent: {}
+[35.216325] (-) TimerEvent: {}
+[35.317383] (-) TimerEvent: {}
+[35.419076] (-) TimerEvent: {}
+[35.520718] (-) TimerEvent: {}
+[35.621638] (-) TimerEvent: {}
+[35.722627] (-) TimerEvent: {}
+[35.823569] (-) TimerEvent: {}
+[35.924528] (-) TimerEvent: {}
+[36.025491] (-) TimerEvent: {}
+[36.126432] (-) TimerEvent: {}
+[36.227107] (-) TimerEvent: {}
+[36.328029] (-) TimerEvent: {}
+[36.431713] (-) TimerEvent: {}
+[36.533646] (-) TimerEvent: {}
+[36.635095] (-) TimerEvent: {}
+[36.736496] (-) TimerEvent: {}
+[36.837512] (-) TimerEvent: {}
+[36.938466] (-) TimerEvent: {}
+[37.039328] (-) TimerEvent: {}
+[37.140525] (-) TimerEvent: {}
+[37.241348] (-) TimerEvent: {}
+[37.342441] (-) TimerEvent: {}
+[37.443461] (-) TimerEvent: {}
+[37.544468] (-) TimerEvent: {}
+[37.645549] (-) TimerEvent: {}
+[37.746347] (-) TimerEvent: {}
+[37.847202] (-) TimerEvent: {}
+[37.948137] (-) TimerEvent: {}
+[38.049022] (-) TimerEvent: {}
+[38.149920] (-) TimerEvent: {}
+[38.237114] (line_tracking) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:621: CMakeFiles/line_detection.dir/all] Error 2\n'}
+[38.237978] (line_tracking) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[38.248322] (line_tracking) CommandEnded: {'returncode': 2}
+[38.250673] (-) TimerEvent: {}
+[38.357586] (-) TimerEvent: {}
+[38.458511] (-) TimerEvent: {}
+[38.559701] (-) TimerEvent: {}
+[38.660879] (-) TimerEvent: {}
+[38.762448] (-) TimerEvent: {}
+[38.863962] (-) TimerEvent: {}
+[38.964935] (-) TimerEvent: {}
+[39.065706] (-) TimerEvent: {}
+[39.166899] (-) TimerEvent: {}
+[39.267827] (-) TimerEvent: {}
+[39.296298] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 2}
+[39.308980] (-) EventReactorShutdown: {}

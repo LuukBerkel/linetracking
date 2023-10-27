@@ -1,0 +1,42 @@
+[0.048s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.356s] [  8%] Built target line_tracking__rosidl_generator_c
+[0.369s] [ 10%] Built target line_tracking__cpp
+[0.369s] [ 10%] Built target ament_cmake_python_copy_line_tracking
+[0.392s] [ 14%] Built target compressed_viewer
+[0.522s] [ 22%] Built target line_tracking__rosidl_typesupport_fastrtps_c
+[0.534s] [ 31%] Built target line_tracking__rosidl_typesupport_c
+[0.534s] [ 39%] Built target line_tracking__rosidl_typesupport_introspection_c
+[0.560s] [ 47%] Built target line_tracking__rosidl_typesupport_introspection_cpp
+[0.717s] [ 56%] Built target line_tracking__rosidl_typesupport_cpp
+[0.732s] [ 64%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp
+[0.818s] [35m[1mConsolidate compiler generated dependencies of target lane_follower[0m
+[0.949s] [ 66%] [32mBuilding CXX object CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o[0m
+[1.026s] [ 75%] Built target line_detection
+[1.249s] [ 75%] Built target line_tracking
+[1.434s] [ 77%] Built target line_tracking__py
+[1.526s] running egg_info
+[1.526s] writing line_tracking.egg-info/PKG-INFO
+[1.548s] writing dependency_links to line_tracking.egg-info/dependency_links.txt
+[1.549s] writing top-level names to line_tracking.egg-info/top_level.txt
+[1.549s] reading manifest file 'line_tracking.egg-info/SOURCES.txt'
+[1.549s] writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[1.654s] [ 83%] Built target line_tracking__rosidl_generator_py
+[1.738s] [ 83%] Built target ament_cmake_python_build_line_tracking_egg
+[1.887s] [ 87%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext
+[1.909s] [ 91%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext
+[1.936s] [ 95%] Built target line_tracking__rosidl_typesupport_c__pyext
+[2.058s] [01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:10:[m[K [01;35m[Kwarning: [m[K"MARGIN" redefined
+[2.058s]    10 | #define MARGIN 4
+[2.058s]       | 
+[2.058s] In file included from [01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:4[m[K:
+[2.058s] [01m[K/home/luuk/linetracking/src/lane_follower/include/lane_math.hpp:9:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[2.059s]     9 | #define MARGIN 10
+[2.059s]       | 
+[9.039s] [01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:[m[K In member function ‘[01m[Kvoid LaneFollower::calculateInstruction(std::vector<std::shared_ptr<LaneElement> >)[m[K’:
+[9.039s] [01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:53:34:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K==[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[9.040s]    53 |                int factor = [01;35m[Kangle<90[m[K == LEFT ? 1 : -1;
+[9.040s]       |                             [01;35m[K~~~~~^~~[m[K
+[19.396s] gmake[2]: *** [CMakeFiles/lane_follower.dir/build.make:76: CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o] Interrupt
+[19.396s] gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/lane_follower.dir/all] Interrupt
+[19.396s] gmake: *** [Makefile:146: all] Interrupt
+[19.475s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

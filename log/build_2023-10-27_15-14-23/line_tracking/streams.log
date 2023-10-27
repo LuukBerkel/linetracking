@@ -1,0 +1,33 @@
+[0.068s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.501s] [  8%] Built target line_tracking__rosidl_generator_c
+[0.573s] [ 11%] Built target line_tracking__cpp
+[0.573s] [ 15%] Built target compressed_viewer
+[0.628s] [ 15%] Built target ament_cmake_python_copy_line_tracking
+[0.742s] [ 24%] Built target line_tracking__rosidl_typesupport_introspection_c
+[0.764s] [ 33%] Built target line_tracking__rosidl_typesupport_c
+[0.779s] [ 42%] Built target line_tracking__rosidl_typesupport_fastrtps_c
+[0.826s] [ 51%] Built target line_tracking__rosidl_typesupport_cpp
+[0.962s] [ 60%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp
+[1.017s] [ 68%] Built target line_tracking__rosidl_typesupport_introspection_cpp
+[1.061s] [ 71%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o[0m
+[1.166s] [ 71%] Built target line_tracking
+[1.365s] [ 73%] Built target line_tracking__py
+[1.540s] [ 80%] Built target line_tracking__rosidl_generator_py
+[1.699s] [ 84%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext
+[1.732s] [ 88%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext
+[1.825s] [ 93%] Built target line_tracking__rosidl_typesupport_c__pyext
+[2.074s] running egg_info
+[2.082s] writing line_tracking.egg-info/PKG-INFO
+[2.082s] writing dependency_links to line_tracking.egg-info/dependency_links.txt
+[2.083s] writing top-level names to line_tracking.egg-info/top_level.txt
+[2.097s] reading manifest file 'line_tracking.egg-info/SOURCES.txt'
+[2.153s] writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[2.201s] [ 93%] Built target ament_cmake_python_build_line_tracking_egg
+[4.214s] [01m[K/home/luuk/linetracking/src/line_detection/param_parser.cpp:[m[K In member function ‘[01m[Kstd::string ParamParser::ToString(NodeConfig*)[m[K’:
+[4.214s] [01m[K/home/luuk/linetracking/src/line_detection/param_parser.cpp:111:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct NodeConfig[m[K’ has no member named ‘[01m[Kminimum[m[K’
+[4.215s]   111 |        << ", Minimum: " << config->[01;31m[Kminimum[m[K
+[4.215s]       |                                    [01;31m[K^~~~~~~[m[K
+[4.743s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:90: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o] Error 1
+[4.743s] gmake[1]: *** [CMakeFiles/Makefile2:621: CMakeFiles/line_detection.dir/all] Error 2
+[4.744s] gmake: *** [Makefile:146: all] Error 2
+[4.752s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

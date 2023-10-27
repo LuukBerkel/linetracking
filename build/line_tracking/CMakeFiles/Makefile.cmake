@@ -802,5 +802,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/compressed_viewer.dir/DependInfo.cmake"
   "CMakeFiles/line_detection.dir/DependInfo.cmake"
+  "CMakeFiles/lane_follower.dir/DependInfo.cmake"
   "line_tracking__py/CMakeFiles/line_tracking__py.dir/DependInfo.cmake"
   )

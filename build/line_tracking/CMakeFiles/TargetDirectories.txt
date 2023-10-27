@@ -17,6 +17,7 @@
 /home/luuk/linetracking/build/line_tracking/CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir
 /home/luuk/linetracking/build/line_tracking/CMakeFiles/compressed_viewer.dir
 /home/luuk/linetracking/build/line_tracking/CMakeFiles/line_detection.dir
+/home/luuk/linetracking/build/line_tracking/CMakeFiles/lane_follower.dir
 /home/luuk/linetracking/build/line_tracking/CMakeFiles/test.dir
 /home/luuk/linetracking/build/line_tracking/CMakeFiles/edit_cache.dir
 /home/luuk/linetracking/build/line_tracking/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,172 @@
+[0.043s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.339s] [  2%] Built target line_tracking__cpp
+[0.393s] [ 10%] Built target line_tracking__rosidl_generator_c
+[0.462s] [ 10%] Built target ament_cmake_python_copy_line_tracking
+[0.462s] [ 14%] Built target compressed_viewer
+[0.592s] [ 22%] Built target line_tracking__rosidl_typesupport_cpp
+[0.608s] [ 31%] Built target line_tracking__rosidl_typesupport_introspection_c
+[0.684s] [ 39%] Built target line_tracking__rosidl_typesupport_introspection_cpp
+[0.685s] [ 47%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp
+[0.685s] [ 56%] Built target line_tracking__rosidl_typesupport_fastrtps_c
+[0.695s] [ 64%] Built target line_tracking__rosidl_typesupport_c
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target lane_follower[0m
+[0.950s] [ 66%] [32mBuilding CXX object CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o[0m
+[1.010s] [ 75%] Built target line_detection
+[1.010s] [ 77%] [32mBuilding CXX object CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.o[0m
+[1.011s] [ 77%] Built target line_tracking
+[1.308s] [ 79%] Built target line_tracking__py
+[1.555s] [ 85%] Built target line_tracking__rosidl_generator_py
+[1.696s] running egg_info
+[1.696s] writing line_tracking.egg-info/PKG-INFO
+[1.697s] writing dependency_links to line_tracking.egg-info/dependency_links.txt
+[1.697s] writing top-level names to line_tracking.egg-info/top_level.txt
+[1.697s] reading manifest file 'line_tracking.egg-info/SOURCES.txt'
+[1.697s] writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[1.771s] [ 89%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext
+[1.771s] [ 93%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext
+[1.859s] [ 93%] Built target ament_cmake_python_build_line_tracking_egg
+[1.869s] [ 97%] Built target line_tracking__rosidl_typesupport_c__pyext
+[25.100s] [100%] [32m[1mLinking CXX executable lane_follower[0m
+[26.433s] [100%] Built target lane_follower
+[26.477s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[27.240s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luuk/linetracking/build/line_tracking
+[27.269s] -- Install configuration: ""
+[27.270s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/rosidl_interfaces/line_tracking
+[27.270s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking
+[27.270s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg
+[27.271s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail
+[27.271s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__type_support.h
+[27.271s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__struct.h
+[27.272s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__functions.c
+[27.272s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__struct.h
+[27.273s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__functions.c
+[27.273s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__functions.h
+[27.273s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__type_support.h
+[27.274s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__functions.h
+[27.275s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_generator_c__visibility_control.h
+[27.276s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_blob.h
+[27.276s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_array.h
+[27.277s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/library_path.sh
+[27.277s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/library_path.dsv
+[27.278s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_generator_c.so
+[27.278s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking
+[27.278s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg
+[27.279s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail
+[27.279s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__rosidl_typesupport_fastrtps_c.h
+[27.280s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[27.280s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.280s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_fastrtps_c.so
+[27.281s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking
+[27.281s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg
+[27.281s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail
+[27.282s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__builder.hpp
+[27.282s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__traits.hpp
+[27.282s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__builder.hpp
+[27.283s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__struct.hpp
+[27.283s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__struct.hpp
+[27.284s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__traits.hpp
+[27.285s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_blob.hpp
+[27.285s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_array.hpp
+[27.285s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking
+[27.285s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg
+[27.286s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail
+[27.286s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[27.286s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__rosidl_typesupport_fastrtps_cpp.hpp
+[27.286s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/dds_fastrtps
+[27.286s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.287s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_fastrtps_cpp.so
+[27.287s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking
+[27.287s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg
+[27.288s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail
+[27.288s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__rosidl_typesupport_introspection_c.h
+[27.288s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__type_support.c
+[27.289s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[27.289s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__type_support.c
+[27.290s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.290s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_introspection_c.so
+[27.290s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_c.so
+[27.290s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking
+[27.291s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg
+[27.291s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail
+[27.293s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[27.293s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__type_support.cpp
+[27.293s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__type_support.cpp
+[27.294s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__rosidl_typesupport_introspection_cpp.hpp
+[27.294s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_introspection_cpp.so
+[27.294s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_cpp.so
+[27.294s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/pythonpath.sh
+[27.294s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/pythonpath.dsv
+[27.295s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info
+[27.295s] -- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/dependency_links.txt
+[27.295s] -- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/PKG-INFO
+[27.295s] -- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/SOURCES.txt
+[27.296s] -- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/top_level.txt
+[27.296s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking
+[27.296s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.296s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.297s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/__init__.py
+[27.297s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.297s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.297s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/_line_tracking_s.ep.rosidl_typesupport_c.c
+[27.297s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/libline_tracking__rosidl_generator_py.so
+[27.298s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/_line_tracking_s.ep.rosidl_typesupport_introspection_c.c
+[27.298s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg
+[27.298s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/__init__.py
+[27.298s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_array.py
+[27.298s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_array_s.c
+[27.299s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_blob_s.c
+[27.299s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_blob.py
+[27.388s] Listing '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking'...
+[27.388s] Listing '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg'...
+[27.401s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.405s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.406s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.409s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_generator_py.so
+[27.410s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointBlob.idl
+[27.410s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointArray.idl
+[27.411s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointBlob.msg
+[27.411s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointArray.msg
+[27.412s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/line_tracking/compressed_viewer
+[27.413s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/line_tracking/line_detection
+[27.416s] -- Installing: /home/luuk/linetracking/install/line_tracking/lib/line_tracking/lane_follower
+[27.445s] -- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/line_tracking/lane_follower" to ""
+[27.445s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/package_run_dependencies/line_tracking
+[27.446s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/parent_prefix_path/line_tracking
+[27.446s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.sh
+[27.448s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.dsv
+[27.449s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.sh
+[27.449s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.dsv
+[27.449s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.bash
+[27.449s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.sh
+[27.449s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.zsh
+[27.450s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.dsv
+[27.450s] -- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/package.dsv
+[27.450s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/packages/line_tracking
+[27.450s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_cExport.cmake
+[27.451s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_cExport-noconfig.cmake
+[27.451s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cExport.cmake
+[27.451s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.451s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_cppExport.cmake
+[27.451s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.453s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.453s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cExport.cmake
+[27.456s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.457s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cExport.cmake
+[27.457s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cExport-noconfig.cmake
+[27.457s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cppExport.cmake
+[27.457s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.457s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cppExport.cmake
+[27.458s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cppExport-noconfig.cmake
+[27.458s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_pyExport.cmake
+[27.459s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_pyExport-noconfig.cmake
+[27.459s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/rosidl_cmake-extras.cmake
+[27.459s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.461s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.461s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_libraries-extras.cmake
+[27.461s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_targets-extras.cmake
+[27.462s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.462s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.462s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig.cmake
+[27.462s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig-version.cmake
+[27.462s] -- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/package.xml
+[27.463s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luuk/linetracking/build/line_tracking

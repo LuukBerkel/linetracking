@@ -419,6 +419,19 @@ line_detection/fast:
 .PHONY : line_detection/fast
 
 #=============================================================================
+# Target rules for targets named lane_follower
+
+# Build rule for target.
+lane_follower: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lane_follower
+.PHONY : lane_follower
+
+# fast build rule for target.
+lane_follower/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/build
+.PHONY : lane_follower/fast
+
+#=============================================================================
 # Target rules for targets named line_tracking__py
 
 # Build rule for target.
@@ -911,6 +924,54 @@ src/compress_viewer/compressed_viewer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressed_viewer.dir/build.make CMakeFiles/compressed_viewer.dir/src/compress_viewer/compressed_viewer.cpp.s
 .PHONY : src/compress_viewer/compressed_viewer.cpp.s
 
+src/lane_follower/lane_follower.o: src/lane_follower/lane_follower.cpp.o
+.PHONY : src/lane_follower/lane_follower.o
+
+# target to build an object file
+src/lane_follower/lane_follower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o
+.PHONY : src/lane_follower/lane_follower.cpp.o
+
+src/lane_follower/lane_follower.i: src/lane_follower/lane_follower.cpp.i
+.PHONY : src/lane_follower/lane_follower.i
+
+# target to preprocess a source file
+src/lane_follower/lane_follower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.i
+.PHONY : src/lane_follower/lane_follower.cpp.i
+
+src/lane_follower/lane_follower.s: src/lane_follower/lane_follower.cpp.s
+.PHONY : src/lane_follower/lane_follower.s
+
+# target to generate assembly for a file
+src/lane_follower/lane_follower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.s
+.PHONY : src/lane_follower/lane_follower.cpp.s
+
+src/lane_follower/lane_math.o: src/lane_follower/lane_math.cpp.o
+.PHONY : src/lane_follower/lane_math.o
+
+# target to build an object file
+src/lane_follower/lane_math.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.o
+.PHONY : src/lane_follower/lane_math.cpp.o
+
+src/lane_follower/lane_math.i: src/lane_follower/lane_math.cpp.i
+.PHONY : src/lane_follower/lane_math.i
+
+# target to preprocess a source file
+src/lane_follower/lane_math.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.i
+.PHONY : src/lane_follower/lane_math.cpp.i
+
+src/lane_follower/lane_math.s: src/lane_follower/lane_math.cpp.s
+.PHONY : src/lane_follower/lane_math.s
+
+# target to generate assembly for a file
+src/lane_follower/lane_math.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lane_follower.dir/build.make CMakeFiles/lane_follower.dir/src/lane_follower/lane_math.cpp.s
+.PHONY : src/lane_follower/lane_math.cpp.s
+
 src/line_detection/line_detection.o: src/line_detection/line_detection.cpp.o
 .PHONY : src/line_detection/line_detection.o
 
@@ -1004,6 +1065,7 @@ help:
 	@echo "... line_tracking_uninstall"
 	@echo "... uninstall"
 	@echo "... compressed_viewer"
+	@echo "... lane_follower"
 	@echo "... line_detection"
 	@echo "... line_tracking__rosidl_generator_c"
 	@echo "... line_tracking__rosidl_generator_py"
@@ -1076,6 +1138,12 @@ help:
 	@echo "... src/compress_viewer/compressed_viewer.o"
 	@echo "... src/compress_viewer/compressed_viewer.i"
 	@echo "... src/compress_viewer/compressed_viewer.s"
+	@echo "... src/lane_follower/lane_follower.o"
+	@echo "... src/lane_follower/lane_follower.i"
+	@echo "... src/lane_follower/lane_follower.s"
+	@echo "... src/lane_follower/lane_math.o"
+	@echo "... src/lane_follower/lane_math.i"
+	@echo "... src/lane_follower/lane_math.s"
 	@echo "... src/line_detection/line_detection.o"
 	@echo "... src/line_detection/line_detection.i"
 	@echo "... src/line_detection/line_detection.s"

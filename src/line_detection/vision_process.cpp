@@ -3,10 +3,24 @@
 #include <gsl/gsl_spline.h>
 #include <gsl/gsl_interp.h>
 #include <geometry_msgs/msg/point.hpp>
+#include <algorithm> 
 
 line_tracking::msg::PointBlob::SharedPtr VisionProcess::Decode(cv_bridge::CvImagePtr msg){
-    // Decoding imag
-    auto lines = this->findContours(msg);
+    // Decoding image
+    auto result = this->findContours(msg);
+
+    // Sort contours in descending order of area and threshold contours
+    std::vector<std::vector<cv::Point>> lines;
+    std::sort(result.begin(), result.end(), [](const auto& a, const auto& b) {
+       return cv::contourArea(a) > cv::contourArea(b);
+    });
+    for (auto line : result){
+        if (cv::contourArea(line) > this->params->minimum){
+            lines.push_back(line);
+        }
+    }
+
+    // Decoding splines
     if (this->params->output == NodeOutput::Spline){
         lines = this->findSplines(lines);
     }

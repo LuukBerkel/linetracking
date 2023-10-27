@@ -71,6 +71,7 @@
 /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointArray.msg
 /home/luuk/linetracking/install/line_tracking/lib/line_tracking/compressed_viewer
 /home/luuk/linetracking/install/line_tracking/lib/line_tracking/line_detection
+/home/luuk/linetracking/install/line_tracking/lib/line_tracking/lane_follower
 /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/package_run_dependencies/line_tracking
 /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/parent_prefix_path/line_tracking
 /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.sh

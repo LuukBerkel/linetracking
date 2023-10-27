@@ -6,6 +6,7 @@
 #define DEBUG_CONFIG "debug"
 #define PROFILE_CONFIG "profiles"
 #define OUTPUT_CONFIG "output"
+#define MINIMUM_SIZE "minimum"
 
 #define PROFILE_HUE_UP "hue_up"
 #define PROFILE_SAT_UP "sat_up"
@@ -16,6 +17,7 @@
 
 #define OUTPUT_SPLINE "spline"
 #define OUTPUT_CONTOUR "contour"
+
 
 NodeConfig* ParamParser::Parse(){
     // Setting datastructers
@@ -39,6 +41,11 @@ NodeConfig* ParamParser::Parse(){
             } 
         } else {
             config->output = NodeOutput::Contour;
+        }
+
+         // Parsing output config
+        if (yaml[TITLE_CONFIG][MINIMUM_SIZE].IsDefined()){
+            config->minimum = yaml[TITLE_CONFIG][MINIMUM_SIZE].as<double>();
         }
 
         // Parsing profiles state
@@ -96,6 +103,7 @@ std::string ParamParser::ToString(NodeConfig* config) {
     std::stringstream ss;
     ss << "\nDebug: " << (config->debug ? "true" : "false")
        << ", Output: " << nodeOutputToString(config->output)
+       << ", Minimum: " << config->minimum
        << "\nProfiles:\n";
 
     for (const auto& profile : config->profiles) {

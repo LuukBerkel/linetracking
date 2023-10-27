@@ -23,6 +23,7 @@ struct NodeProfile {
 struct NodeConfig {
     bool debug;
     NodeOutput output;
+    double minimum;
     std::vector<NodeProfile*> profiles;
 };
 

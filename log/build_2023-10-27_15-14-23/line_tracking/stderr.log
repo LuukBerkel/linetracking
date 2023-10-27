@@ -1,0 +1,7 @@
+[01m[K/home/luuk/linetracking/src/line_detection/param_parser.cpp:[m[K In member function ‘[01m[Kstd::string ParamParser::ToString(NodeConfig*)[m[K’:
+[01m[K/home/luuk/linetracking/src/line_detection/param_parser.cpp:111:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct NodeConfig[m[K’ has no member named ‘[01m[Kminimum[m[K’
+  111 |        << ", Minimum: " << config->[01;31m[Kminimum[m[K
+      |                                    [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:90: CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:621: CMakeFiles/line_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

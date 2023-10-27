@@ -1,0 +1,40 @@
+[  8%] Built target line_tracking__rosidl_generator_c
+[ 10%] Built target line_tracking__cpp
+[ 10%] Built target ament_cmake_python_copy_line_tracking
+[ 14%] Built target compressed_viewer
+[ 22%] Built target line_tracking__rosidl_typesupport_fastrtps_c
+[ 31%] Built target line_tracking__rosidl_typesupport_c
+[ 39%] Built target line_tracking__rosidl_typesupport_introspection_c
+[ 47%] Built target line_tracking__rosidl_typesupport_introspection_cpp
+[ 56%] Built target line_tracking__rosidl_typesupport_cpp
+[ 64%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target lane_follower[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o[0m
+[ 75%] Built target line_detection
+[ 75%] Built target line_tracking
+[ 77%] Built target line_tracking__py
+running egg_info
+writing line_tracking.egg-info/PKG-INFO
+writing dependency_links to line_tracking.egg-info/dependency_links.txt
+writing top-level names to line_tracking.egg-info/top_level.txt
+reading manifest file 'line_tracking.egg-info/SOURCES.txt'
+writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[ 83%] Built target line_tracking__rosidl_generator_py
+[ 83%] Built target ament_cmake_python_build_line_tracking_egg
+[ 87%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target line_tracking__rosidl_typesupport_c__pyext
+[01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:10:[m[K [01;35m[Kwarning: [m[K"MARGIN" redefined
+   10 | #define MARGIN 4
+      | 
+In file included from [01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:4[m[K:
+[01m[K/home/luuk/linetracking/src/lane_follower/include/lane_math.hpp:9:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+    9 | #define MARGIN 10
+      | 
+[01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:[m[K In member function ‘[01m[Kvoid LaneFollower::calculateInstruction(std::vector<std::shared_ptr<LaneElement> >)[m[K’:
+[01m[K/home/luuk/linetracking/src/lane_follower/lane_follower.cpp:53:34:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K==[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   53 |                int factor = [01;35m[Kangle<90[m[K == LEFT ? 1 : -1;
+      |                             [01;35m[K~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/lane_follower.dir/build.make:76: CMakeFiles/lane_follower.dir/src/lane_follower/lane_follower.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/lane_follower.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
