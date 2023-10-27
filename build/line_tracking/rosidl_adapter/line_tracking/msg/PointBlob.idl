@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from line_tracking/msg/PointBlob.msg
+// generated code does not contain a copyright notice
+
+#include "line_tracking/msg/PointArray.idl"
+
+module line_tracking {
+  module msg {
+    @verbatim (language="comment", text=
+      "PiontBlob.msg")
+    struct PointBlob {
+      sequence<line_tracking::msg::PointArray> arrays;
+    };
+  };
+};

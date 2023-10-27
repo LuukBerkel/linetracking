@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.001499] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.001688] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.036305] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.038854] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.042287] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/linetracking/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1373,unix/luuk-virtual-machine:/tmp/.ICE-unix/1373'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d65b74b_d96e_44dc_bd22_2676c4a5a008'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YD26C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096891] (-) TimerEvent: {}
+[0.123172] (line_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197047] (-) TimerEvent: {}
+[0.297965] (-) TimerEvent: {}
+[0.398468] (-) TimerEvent: {}
+[0.499241] (-) TimerEvent: {}
+[0.539734] (line_tracking) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599626] (-) TimerEvent: {}
+[0.619168] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.629282] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.647992] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.678501] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.699787] (-) TimerEvent: {}
+[0.721030] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800144] (-) TimerEvent: {}
+[0.878572] (line_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.883578] (line_tracking) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900487] (-) TimerEvent: {}
+[1.001236] (-) TimerEvent: {}
+[1.101759] (-) TimerEvent: {}
+[1.202357] (-) TimerEvent: {}
+[1.221847] (line_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302817] (-) TimerEvent: {}
+[1.403764] (-) TimerEvent: {}
+[1.504624] (-) TimerEvent: {}
+[1.605350] (-) TimerEvent: {}
+[1.670370] (line_tracking) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.705785] (-) TimerEvent: {}
+[1.806889] (-) TimerEvent: {}
+[1.907808] (-) TimerEvent: {}
+[2.008465] (-) TimerEvent: {}
+[2.015235] (line_tracking) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.069946] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.108646] (-) TimerEvent: {}
+[2.209401] (-) TimerEvent: {}
+[2.310115] (-) TimerEvent: {}
+[2.410847] (-) TimerEvent: {}
+[2.512304] (-) TimerEvent: {}
+[2.612948] (-) TimerEvent: {}
+[2.713804] (-) TimerEvent: {}
+[2.816234] (-) TimerEvent: {}
+[2.892516] (line_tracking) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.916566] (-) TimerEvent: {}
+[3.017227] (-) TimerEvent: {}
+[3.117866] (-) TimerEvent: {}
+[3.218566] (-) TimerEvent: {}
+[3.319139] (-) TimerEvent: {}
+[3.420303] (-) TimerEvent: {}
+[3.521468] (-) TimerEvent: {}
+[3.622048] (-) TimerEvent: {}
+[3.724125] (-) TimerEvent: {}
+[3.825077] (-) TimerEvent: {}
+[3.925757] (-) TimerEvent: {}
+[4.026250] (-) TimerEvent: {}
+[4.126900] (-) TimerEvent: {}
+[4.162738] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.227120] (-) TimerEvent: {}
+[4.327819] (-) TimerEvent: {}
+[4.428827] (-) TimerEvent: {}
+[4.529511] (-) TimerEvent: {}
+[4.596672] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.629936] (-) TimerEvent: {}
+[4.655480] (line_tracking) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.719123] (line_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.719574] (line_tracking) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.719798] (line_tracking) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.730879] (-) TimerEvent: {}
+[4.831852] (-) TimerEvent: {}
+[4.842480] (line_tracking) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.931971] (-) TimerEvent: {}
+[4.977382] (line_tracking) StdoutLine: {'line': b'-- Generating done\n'}
+[4.987299] (line_tracking) StdoutLine: {'line': b'-- Build files have been written to: /home/luuk/linetracking/build/line_tracking\n'}
+[5.032140] (-) TimerEvent: {}
+[5.074486] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_detection\x1b[0m\n'}
+[5.074826] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_generator_c\x1b[0m\n'}
+[5.078306] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target compressed_viewer\x1b[0m\n'}
+[5.149322] (-) TimerEvent: {}
+[5.198355] (line_tracking) StdoutLine: {'line': b'[  2%] Built target line_tracking__cpp\n'}
+[5.198711] (line_tracking) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o\x1b[0m\n'}
+[5.253599] (-) TimerEvent: {}
+[5.261697] (line_tracking) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o\x1b[0m\n'}
+[5.282230] (line_tracking) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_line_tracking\n'}
+[5.296606] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.359231] (-) TimerEvent: {}
+[5.433404] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.466961] (-) TimerEvent: {}
+[5.468719] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.472558] (line_tracking) StdoutLine: {'line': b'[ 15%] Built target line_tracking__rosidl_generator_c\n'}
+[5.483686] (line_tracking) StdoutLine: {'line': b'[ 20%] Built target compressed_viewer\n'}
+[5.483891] (line_tracking) StdoutLine: {'line': b'[ 28%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp\n'}
+[5.533202] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.533569] (line_tracking) StdoutLine: {'line': b'[ 37%] Built target line_tracking__rosidl_typesupport_cpp\n'}
+[5.535336] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.544655] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_c\x1b[0m\n'}
+[5.601506] (-) TimerEvent: {}
+[5.648822] (line_tracking) StdoutLine: {'line': b'[ 46%] Built target line_tracking__rosidl_typesupport_introspection_cpp\n'}
+[5.701815] (-) TimerEvent: {}
+[5.741655] (line_tracking) StdoutLine: {'line': b'[ 55%] Built target line_tracking__rosidl_typesupport_fastrtps_c\n'}
+[5.746114] (line_tracking) StdoutLine: {'line': b'[ 64%] Built target line_tracking__rosidl_typesupport_introspection_c\n'}
+[5.761286] (line_tracking) StdoutLine: {'line': b'[ 73%] Built target line_tracking__rosidl_typesupport_c\n'}
+[5.823531] (-) TimerEvent: {}
+[5.927520] (-) TimerEvent: {}
+[5.977187] (line_tracking) StdoutLine: {'line': b'[ 73%] Built target line_tracking\n'}
+[6.028789] (-) TimerEvent: {}
+[6.134068] (-) TimerEvent: {}
+[6.168252] (line_tracking) StdoutLine: {'line': b'[ 75%] Built target line_tracking__py\n'}
+[6.289873] (-) TimerEvent: {}
+[6.392103] (-) TimerEvent: {}
+[6.393747] (line_tracking) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_blob_s.c.o\x1b[0m\n'}
+[6.416357] (line_tracking) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_py.dir/rosidl_generator_py/line_tracking/msg/_point_array_s.c.o\x1b[0m\n'}
+[6.421888] (line_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:1\x1b[m\x1b[K:\n'}
+[6.423264] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/include/vision_process.hpp:9:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kline_tracking/msg/point_blob.hpp: No such file or directory\n'}
+[6.423569] (line_tracking) StderrLine: {'line': b'    9 | #include \x1b[01;31m\x1b[K<line_tracking/msg/point_blob.hpp>\x1b[m\x1b[K\n'}
+[6.425834] (line_tracking) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.425966] (line_tracking) StderrLine: {'line': b'compilation terminated.\n'}
+[6.430826] (line_tracking) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:104: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o] Error 1\n'}
+[6.431560] (line_tracking) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[6.532337] (-) TimerEvent: {}
+[6.633106] (-) TimerEvent: {}
+[6.741817] (-) TimerEvent: {}
+[6.842582] (-) TimerEvent: {}
+[6.893995] (line_tracking) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/line_tracking/libline_tracking__rosidl_generator_py.so\x1b[0m\n'}
+[6.942797] (-) TimerEvent: {}
+[6.946777] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kline_tracking/msg/point_blob.hpp: No such file or directory\n'}
+[6.947804] (line_tracking) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<line_tracking/msg/point_blob.hpp>\x1b[m\x1b[K\n'}
+[6.948543] (line_tracking) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.949248] (line_tracking) StderrLine: {'line': b'compilation terminated.\n'}
+[6.951998] (line_tracking) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1\n'}
+[6.952542] (line_tracking) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/line_detection.dir/all] Error 2\n'}
+[6.953332] (line_tracking) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.981547] (line_tracking) StdoutLine: {'line': b'running egg_info\n'}
+[6.982973] (line_tracking) StdoutLine: {'line': b'writing line_tracking.egg-info/PKG-INFO\n'}
+[6.983861] (line_tracking) StdoutLine: {'line': b'writing dependency_links to line_tracking.egg-info/dependency_links.txt\n'}
+[6.984523] (line_tracking) StdoutLine: {'line': b'writing top-level names to line_tracking.egg-info/top_level.txt\n'}
+[6.989164] (line_tracking) StdoutLine: {'line': b"reading manifest file 'line_tracking.egg-info/SOURCES.txt'\n"}
+[6.990546] (line_tracking) StdoutLine: {'line': b"writing manifest file 'line_tracking.egg-info/SOURCES.txt'\n"}
+[7.016022] (line_tracking) StdoutLine: {'line': b'[ 82%] Built target line_tracking__rosidl_generator_py\n'}
+[7.043051] (-) TimerEvent: {}
+[7.046012] (line_tracking) StdoutLine: {'line': b'[ 82%] Built target ament_cmake_python_build_line_tracking_egg\n'}
+[7.047760] (line_tracking) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.051842] (line_tracking) CommandEnded: {'returncode': 2}
+[7.143287] (-) TimerEvent: {}
+[7.244116] (-) TimerEvent: {}
+[7.344913] (-) TimerEvent: {}
+[7.447020] (-) TimerEvent: {}
+[7.463516] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 2}
+[7.474864] (-) EventReactorShutdown: {}

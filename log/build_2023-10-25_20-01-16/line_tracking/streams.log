@@ -1,0 +1,120 @@
+[0.042s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luuk/linetracking -DCMAKE_INSTALL_PREFIX=/home/luuk/linetracking/install/line_tracking
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.352s] -- The CXX compiler identification is GNU 11.4.0
+[0.370s] -- Detecting C compiler ABI info
+[0.564s] -- Detecting C compiler ABI info - done
+[0.579s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.580s] -- Detecting C compile features
+[0.581s] -- Detecting C compile features - done
+[0.588s] -- Detecting CXX compiler ABI info
+[0.811s] -- Detecting CXX compiler ABI info - done
+[0.827s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.831s] -- Detecting CXX compile features
+[0.831s] -- Detecting CXX compile features - done
+[0.845s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.282s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.509s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[1.620s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.633s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.661s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.707s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.959s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.965s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.238s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.302s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.415s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.439s] -- Looking for pthread.h
+[2.838s] -- Looking for pthread.h - found
+[2.838s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.297s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.301s] -- Found Threads: TRUE  
+[3.732s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.068s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.168s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.327s] -- Found GSL: /usr/include (found version "2.7.1") 
+[4.331s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.200s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.451s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.080s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.145s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.149s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.228s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.228s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.228s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.228s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.289s] -- Found PythonExtra: .so  
+[7.527s] -- Configuring done
+[7.661s] -- Generating done
+[7.669s] -- Build files have been written to: /home/luuk/linetracking/build/line_tracking
+[7.698s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luuk/linetracking -DCMAKE_INSTALL_PREFIX=/home/luuk/linetracking/install/line_tracking
+[7.700s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[7.834s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.876s] [  4%] [32mBuilding CXX object CMakeFiles/compressed_viewer.dir/src/compress_viewer/compressed_viewer.cpp.o[0m
+[7.901s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.916s] [  6%] Built target ament_cmake_python_copy_line_tracking
+[7.928s] [  8%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+[7.934s] [ 11%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/param_parser.cpp.o[0m
+[7.978s] [ 13%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o[0m
+[9.330s] In file included from [01m[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:1[m[K:
+[9.330s] [01m[K/home/luuk/linetracking/src/line_detection/include/vision_process.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kline_tracking/msg/point_blob.hpp: No such file or directory
+[9.331s]     9 | #include [01;31m[K<line_tracking/msg/point_blob.hpp>[m[K
+[9.331s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.331s] compilation terminated.
+[9.363s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:104: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o] Error 1
+[9.365s] gmake[2]: *** Waiting for unfinished jobs....
+[9.625s] [ 15%] [32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o[0m
+[9.710s] running egg_info
+[9.711s] creating line_tracking.egg-info
+[9.711s] writing line_tracking.egg-info/PKG-INFO
+[9.716s] writing dependency_links to line_tracking.egg-info/dependency_links.txt
+[9.717s] writing top-level names to line_tracking.egg-info/top_level.txt
+[9.720s] writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[9.721s] [ 15%] Built target line_tracking__cpp
+[9.729s] reading manifest file 'line_tracking.egg-info/SOURCES.txt'
+[9.731s] writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[9.774s] [ 17%] [32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c.o[0m
+[9.789s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.831s] [ 22%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.091s] [ 22%] Built target ament_cmake_python_build_line_tracking_egg
+[10.168s] [ 24%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.205s] [01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kline_tracking/msg/point_blob.hpp: No such file or directory
+[10.208s]     6 | #include [01;31m[K<line_tracking/msg/point_blob.hpp>[m[K
+[10.209s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.209s] compilation terminated.
+[10.221s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1
+[10.238s] [ 26%] [32m[1mLinking C shared library libline_tracking__rosidl_generator_c.so[0m
+[10.536s] [ 26%] Built target line_tracking__rosidl_generator_c
+[10.698s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.722s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.854s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.068s] [ 35%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/line_tracking/msg/point_blob__type_support.cpp.o[0m
+[12.248s] [ 37%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/line_tracking/msg/detail/dds_fastrtps/point_blob__type_support.cpp.o[0m
+[12.283s] [ 40%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/line_tracking/msg/detail/point_blob__type_support.cpp.o[0m
+[12.755s] [ 42%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/line_tracking/msg/point_blob__type_support.cpp.o[0m
+[13.197s] [ 44%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/line_tracking/msg/point_array__type_support.cpp.o[0m
+[13.396s] [ 46%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/line_tracking/msg/detail/point_blob__type_support_c.cpp.o[0m
+[13.537s] [ 48%] [32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/line_tracking/msg/detail/point_blob__type_support.c.o[0m
+[13.753s] [ 51%] [32m[1mLinking CXX shared library libline_tracking__rosidl_typesupport_c.so[0m
+[14.382s] [ 53%] [32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/line_tracking/msg/detail/point_array__type_support.c.o[0m
+[14.492s] [ 53%] Built target line_tracking__rosidl_typesupport_c
+[14.493s] [ 55%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/line_tracking/msg/point_array__type_support.cpp.o[0m
+[14.860s] [ 57%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/line_tracking/msg/detail/point_array__type_support_c.cpp.o[0m
+[14.945s] [ 60%] [32m[1mLinking C shared library libline_tracking__rosidl_typesupport_introspection_c.so[0m
+[16.104s] [ 60%] Built target line_tracking__rosidl_typesupport_introspection_c
+[16.244s] [ 62%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/line_tracking/msg/detail/point_array__type_support.cpp.o[0m
+[16.448s] [ 64%] [32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/line_tracking/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[18.098s] [ 66%] [32m[1mLinking CXX shared library libline_tracking__rosidl_typesupport_cpp.so[0m
+[18.616s] [ 68%] [32m[1mLinking CXX shared library libline_tracking__rosidl_typesupport_fastrtps_c.so[0m
+[18.623s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/line_detection.dir/all] Error 2
+[18.624s] gmake[1]: *** Waiting for unfinished jobs....
+[18.624s] [ 71%] [32m[1mLinking CXX shared library libline_tracking__rosidl_typesupport_introspection_cpp.so[0m
+[18.652s] [ 71%] Built target line_tracking__rosidl_typesupport_cpp
+[19.163s] [ 71%] Built target line_tracking__rosidl_typesupport_fastrtps_c
+[19.176s] [ 71%] Built target line_tracking__rosidl_typesupport_introspection_cpp
+[19.600s] [ 73%] [32m[1mLinking CXX shared library libline_tracking__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.799s] [ 73%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp
+[40.075s] [ 75%] [32m[1mLinking CXX executable compressed_viewer[0m
+[42.363s] [ 75%] Built target compressed_viewer
+[42.366s] gmake: *** [Makefile:146: all] Error 2
+[42.378s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

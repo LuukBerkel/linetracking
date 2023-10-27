@@ -1,0 +1,29 @@
+[  8%] Built target line_tracking__rosidl_generator_c
+[ 11%] Built target line_tracking__cpp
+[ 15%] Built target compressed_viewer
+[ 17%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o[0m
+[ 20%] Built target ament_cmake_python_copy_line_tracking
+[ 28%] Built target line_tracking__rosidl_typesupport_cpp
+[ 42%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target line_tracking__rosidl_typesupport_fastrtps_c
+[ 55%] Built target line_tracking__rosidl_typesupport_introspection_c
+[ 64%] Built target line_tracking__rosidl_typesupport_c
+[ 73%] Built target line_tracking__rosidl_typesupport_introspection_cpp
+[ 73%] Built target line_tracking
+[ 75%] Built target line_tracking__py
+[35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_generator_py[0m
+[ 82%] Built target line_tracking__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_c__pyext[0m
+[ 86%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext
+[ 95%] Built target line_tracking__rosidl_typesupport_c__pyext
+running egg_info
+writing line_tracking.egg-info/PKG-INFO
+writing dependency_links to line_tracking.egg-info/dependency_links.txt
+writing top-level names to line_tracking.egg-info/top_level.txt
+reading manifest file 'line_tracking.egg-info/SOURCES.txt'
+writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[ 95%] Built target ament_cmake_python_build_line_tracking_egg

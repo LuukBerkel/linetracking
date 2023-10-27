@@ -44,10 +44,10 @@ private:
     rclcpp::Publisher<line_tracking::msg::PointBlob>::SharedPtr publisherContour;
     rclcpp::Publisher<line_tracking::msg::PointBlob>::SharedPtr publisherSpline;
     void publishLine(line_tracking::msg::PointBlob::SharedPtr result){
-        if (vision->params->output == NodeOutput::Contour){
-            publisherContour->publish(*result); 
-        } else {
+        if (vision->params->output == Spline){
             publisherSpline->publish(*result); 
+        } else {
+            publisherContour->publish(*result); 
         }
     }
    

@@ -1,0 +1,81 @@
+[0.044s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.115s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.524s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.604s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.612s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.630s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.865s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.869s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.178s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.603s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.965s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.005s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.803s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.390s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.464s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.464s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.464s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.586s] -- Configuring done
+[4.721s] -- Generating done
+[4.732s] -- Build files have been written to: /home/luuk/linetracking/build/line_tracking
+[4.816s] [35m[1mConsolidate compiler generated dependencies of target line_detection[0m
+[4.819s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_generator_c[0m
+[4.826s] [35m[1mConsolidate compiler generated dependencies of target compressed_viewer[0m
+[4.856s] [  2%] Built target line_tracking__cpp
+[4.959s] [ 11%] Built target line_tracking__rosidl_generator_c
+[4.959s] [ 13%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o[0m
+[4.959s] [ 15%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+[5.015s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_cpp[0m
+[5.058s] [ 15%] Built target ament_cmake_python_copy_line_tracking
+[5.065s] [ 20%] Built target compressed_viewer
+[5.074s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_fastrtps_cpp[0m
+[5.075s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_fastrtps_c[0m
+[5.075s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_introspection_cpp[0m
+[5.105s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_introspection_c[0m
+[5.204s] [ 28%] Built target line_tracking__rosidl_typesupport_cpp
+[5.204s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_c[0m
+[5.268s] [ 37%] Built target line_tracking__rosidl_typesupport_fastrtps_c
+[5.465s] [ 46%] Built target line_tracking__rosidl_typesupport_c
+[5.468s] [ 55%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp
+[5.468s] [ 64%] Built target line_tracking__rosidl_typesupport_introspection_c
+[5.471s] [ 73%] Built target line_tracking__rosidl_typesupport_introspection_cpp
+[5.708s] [ 73%] Built target line_tracking
+[5.942s] [ 75%] Built target line_tracking__py
+[6.071s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_generator_py[0m
+[6.171s] [ 82%] Built target line_tracking__rosidl_generator_py
+[6.503s] In file included from [01m[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:1[m[K:
+[6.504s] [01m[K/home/luuk/linetracking/src/line_detection/include/vision_process.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kline_tracking/msg/point_blob.hpp: No such file or directory
+[6.504s]     9 | #include [01;31m[K<line_tracking/msg/point_blob.hpp>[m[K
+[6.505s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.505s] compilation terminated.
+[6.507s] [ 84%] [32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_c.c.o[0m
+[6.508s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:104: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o] Error 1
+[6.508s] gmake[2]: *** Waiting for unfinished jobs....
+[6.531s] [ 86%] [32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.532s] [ 88%] [32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.059s] running egg_info
+[7.068s] writing line_tracking.egg-info/PKG-INFO
+[7.074s] writing dependency_links to line_tracking.egg-info/dependency_links.txt
+[7.086s] writing top-level names to line_tracking.egg-info/top_level.txt
+[7.099s] reading manifest file 'line_tracking.egg-info/SOURCES.txt'
+[7.099s] writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[7.122s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/line_tracking/line_tracking_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.154s] [01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kline_tracking/msg/point_blob.hpp: No such file or directory
+[7.154s]     6 | #include [01;31m[K<line_tracking/msg/point_blob.hpp>[m[K
+[7.154s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.155s] compilation terminated.
+[7.164s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1
+[7.164s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/line_detection.dir/all] Error 2
+[7.164s] gmake[1]: *** Waiting for unfinished jobs....
+[7.288s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/line_tracking/line_tracking_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.309s] [ 93%] Built target ament_cmake_python_build_line_tracking_egg
+[7.328s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/line_tracking/line_tracking_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.400s] [ 95%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext
+[7.511s] [ 95%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext
+[7.554s] [ 95%] Built target line_tracking__rosidl_typesupport_c__pyext
+[7.556s] gmake: *** [Makefile:146: all] Error 2
+[7.562s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

@@ -1,0 +1,2 @@
+# PiontBlob.msg
+PointArray[] arrays

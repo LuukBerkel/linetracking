@@ -1,0 +1,574 @@
+[0.000000] (-) TimerEvent: {}
+[0.002214] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.002825] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.066311] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.069240] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.071407] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luuk/linetracking/install/line_tracking/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '2552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/linetracking/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1299,unix/luuk-virtual-machine:/tmp/.ICE-unix/1299'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51ca1934_07e5_4ae3_83bf_2178f2ab7e57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JQBED2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/luuk/linetracking/install/line_tracking:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luuk/linetracking/install/line_tracking:/opt/ros/humble')]), 'shell': False}
+[0.098566] (-) TimerEvent: {}
+[0.199513] (-) TimerEvent: {}
+[0.306629] (-) TimerEvent: {}
+[0.367681] (line_tracking) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_line_tracking\n'}
+[0.368292] (line_tracking) StdoutLine: {'line': b'[  2%] Built target line_tracking__cpp\n'}
+[0.368578] (line_tracking) StdoutLine: {'line': b'[ 11%] Built target line_tracking__rosidl_generator_c\n'}
+[0.379069] (line_tracking) StdoutLine: {'line': b'[ 15%] Built target compressed_viewer\n'}
+[0.406852] (-) TimerEvent: {}
+[0.483640] (line_tracking) StdoutLine: {'line': b'[ 24%] Built target line_tracking__rosidl_typesupport_fastrtps_c\n'}
+[0.498491] (line_tracking) StdoutLine: {'line': b'[ 33%] Built target line_tracking__rosidl_typesupport_c\n'}
+[0.511901] (-) TimerEvent: {}
+[0.514848] (line_tracking) StdoutLine: {'line': b'[ 42%] Built target line_tracking__rosidl_typesupport_introspection_c\n'}
+[0.542184] (line_tracking) StdoutLine: {'line': b'[ 51%] Built target line_tracking__rosidl_typesupport_introspection_cpp\n'}
+[0.625968] (-) TimerEvent: {}
+[0.644432] (line_tracking) StdoutLine: {'line': b'[ 60%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp\n'}
+[0.702624] (line_tracking) StdoutLine: {'line': b'[ 68%] Built target line_tracking__rosidl_typesupport_cpp\n'}
+[0.728359] (-) TimerEvent: {}
+[0.825910] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_detection\x1b[0m\n'}
+[0.833620] (-) TimerEvent: {}
+[0.880712] (line_tracking) StdoutLine: {'line': b'[ 68%] Built target line_tracking\n'}
+[0.949168] (-) TimerEvent: {}
+[0.975578] (line_tracking) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o\x1b[0m\n'}
+[1.018114] (line_tracking) StdoutLine: {'line': b'[ 73%] Built target line_tracking__py\n'}
+[1.056266] (-) TimerEvent: {}
+[1.166382] (-) TimerEvent: {}
+[1.202915] (line_tracking) StdoutLine: {'line': b'[ 80%] Built target line_tracking__rosidl_generator_py\n'}
+[1.272423] (-) TimerEvent: {}
+[1.280161] (line_tracking) StdoutLine: {'line': b'running egg_info\n'}
+[1.280945] (line_tracking) StdoutLine: {'line': b'writing line_tracking.egg-info/PKG-INFO\n'}
+[1.281286] (line_tracking) StdoutLine: {'line': b'writing dependency_links to line_tracking.egg-info/dependency_links.txt\n'}
+[1.281654] (line_tracking) StdoutLine: {'line': b'writing top-level names to line_tracking.egg-info/top_level.txt\n'}
+[1.282026] (line_tracking) StdoutLine: {'line': b"reading manifest file 'line_tracking.egg-info/SOURCES.txt'\n"}
+[1.282298] (line_tracking) StdoutLine: {'line': b"writing manifest file 'line_tracking.egg-info/SOURCES.txt'\n"}
+[1.349720] (line_tracking) StdoutLine: {'line': b'[ 88%] Built target line_tracking__rosidl_typesupport_introspection_c__pyext\n'}
+[1.371765] (line_tracking) StdoutLine: {'line': b'[ 88%] Built target line_tracking__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.372577] (-) TimerEvent: {}
+[1.376495] (line_tracking) StdoutLine: {'line': b'[ 88%] Built target ament_cmake_python_build_line_tracking_egg\n'}
+[1.399033] (line_tracking) StdoutLine: {'line': b'[ 93%] Built target line_tracking__rosidl_typesupport_c__pyext\n'}
+[1.472846] (-) TimerEvent: {}
+[1.573341] (-) TimerEvent: {}
+[1.674458] (-) TimerEvent: {}
+[1.779774] (-) TimerEvent: {}
+[1.884996] (-) TimerEvent: {}
+[1.985835] (-) TimerEvent: {}
+[2.086944] (-) TimerEvent: {}
+[2.191089] (-) TimerEvent: {}
+[2.292214] (-) TimerEvent: {}
+[2.393897] (-) TimerEvent: {}
+[2.494722] (-) TimerEvent: {}
+[2.595692] (-) TimerEvent: {}
+[2.696605] (-) TimerEvent: {}
+[2.797752] (-) TimerEvent: {}
+[2.898957] (-) TimerEvent: {}
+[2.999775] (-) TimerEvent: {}
+[3.102107] (-) TimerEvent: {}
+[3.202942] (-) TimerEvent: {}
+[3.303946] (-) TimerEvent: {}
+[3.405634] (-) TimerEvent: {}
+[3.507355] (-) TimerEvent: {}
+[3.608423] (-) TimerEvent: {}
+[3.710379] (-) TimerEvent: {}
+[3.813824] (-) TimerEvent: {}
+[3.916191] (-) TimerEvent: {}
+[4.020724] (-) TimerEvent: {}
+[4.121530] (-) TimerEvent: {}
+[4.224437] (-) TimerEvent: {}
+[4.325203] (-) TimerEvent: {}
+[4.426064] (-) TimerEvent: {}
+[4.526799] (-) TimerEvent: {}
+[4.627867] (-) TimerEvent: {}
+[4.729089] (-) TimerEvent: {}
+[4.829975] (-) TimerEvent: {}
+[4.930831] (-) TimerEvent: {}
+[5.031642] (-) TimerEvent: {}
+[5.132432] (-) TimerEvent: {}
+[5.233122] (-) TimerEvent: {}
+[5.334277] (-) TimerEvent: {}
+[5.435040] (-) TimerEvent: {}
+[5.536061] (-) TimerEvent: {}
+[5.636758] (-) TimerEvent: {}
+[5.737772] (-) TimerEvent: {}
+[5.857936] (-) TimerEvent: {}
+[5.958567] (-) TimerEvent: {}
+[6.063814] (-) TimerEvent: {}
+[6.164789] (-) TimerEvent: {}
+[6.268155] (-) TimerEvent: {}
+[6.368977] (-) TimerEvent: {}
+[6.469974] (-) TimerEvent: {}
+[6.577013] (-) TimerEvent: {}
+[6.678529] (-) TimerEvent: {}
+[6.779460] (-) TimerEvent: {}
+[6.880662] (-) TimerEvent: {}
+[6.981406] (-) TimerEvent: {}
+[7.082479] (-) TimerEvent: {}
+[7.184138] (-) TimerEvent: {}
+[7.285016] (-) TimerEvent: {}
+[7.388349] (-) TimerEvent: {}
+[7.490405] (-) TimerEvent: {}
+[7.591347] (-) TimerEvent: {}
+[7.692204] (-) TimerEvent: {}
+[7.800425] (-) TimerEvent: {}
+[7.901078] (-) TimerEvent: {}
+[8.002434] (-) TimerEvent: {}
+[8.103425] (-) TimerEvent: {}
+[8.213735] (-) TimerEvent: {}
+[8.314536] (-) TimerEvent: {}
+[8.416437] (-) TimerEvent: {}
+[8.517483] (-) TimerEvent: {}
+[8.618589] (-) TimerEvent: {}
+[8.719898] (-) TimerEvent: {}
+[8.823885] (-) TimerEvent: {}
+[8.925327] (-) TimerEvent: {}
+[9.030421] (-) TimerEvent: {}
+[9.131220] (-) TimerEvent: {}
+[9.232050] (-) TimerEvent: {}
+[9.333038] (-) TimerEvent: {}
+[9.435482] (-) TimerEvent: {}
+[9.537673] (-) TimerEvent: {}
+[9.638396] (-) TimerEvent: {}
+[9.743327] (-) TimerEvent: {}
+[9.844143] (-) TimerEvent: {}
+[9.945060] (-) TimerEvent: {}
+[10.045849] (-) TimerEvent: {}
+[10.146576] (-) TimerEvent: {}
+[10.247517] (-) TimerEvent: {}
+[10.350441] (-) TimerEvent: {}
+[10.451445] (-) TimerEvent: {}
+[10.554092] (-) TimerEvent: {}
+[10.655212] (-) TimerEvent: {}
+[10.756511] (-) TimerEvent: {}
+[10.857671] (-) TimerEvent: {}
+[10.958380] (-) TimerEvent: {}
+[11.059165] (-) TimerEvent: {}
+[11.160487] (-) TimerEvent: {}
+[11.261575] (-) TimerEvent: {}
+[11.362340] (-) TimerEvent: {}
+[11.462967] (-) TimerEvent: {}
+[11.563721] (-) TimerEvent: {}
+[11.664651] (-) TimerEvent: {}
+[11.780279] (-) TimerEvent: {}
+[11.881256] (-) TimerEvent: {}
+[11.982343] (-) TimerEvent: {}
+[12.087844] (-) TimerEvent: {}
+[12.206296] (-) TimerEvent: {}
+[12.307598] (-) TimerEvent: {}
+[12.408594] (-) TimerEvent: {}
+[12.509671] (-) TimerEvent: {}
+[12.611523] (-) TimerEvent: {}
+[12.712337] (-) TimerEvent: {}
+[12.813028] (-) TimerEvent: {}
+[12.915869] (-) TimerEvent: {}
+[13.016463] (-) TimerEvent: {}
+[13.117778] (-) TimerEvent: {}
+[13.218757] (-) TimerEvent: {}
+[13.332088] (-) TimerEvent: {}
+[13.433799] (-) TimerEvent: {}
+[13.534691] (-) TimerEvent: {}
+[13.647456] (-) TimerEvent: {}
+[13.748213] (-) TimerEvent: {}
+[13.849137] (-) TimerEvent: {}
+[13.950175] (-) TimerEvent: {}
+[14.066980] (-) TimerEvent: {}
+[14.167984] (-) TimerEvent: {}
+[14.270899] (-) TimerEvent: {}
+[14.371602] (-) TimerEvent: {}
+[14.474493] (-) TimerEvent: {}
+[14.589731] (-) TimerEvent: {}
+[14.690767] (-) TimerEvent: {}
+[14.792462] (-) TimerEvent: {}
+[14.897563] (-) TimerEvent: {}
+[14.998432] (-) TimerEvent: {}
+[15.099450] (-) TimerEvent: {}
+[15.206730] (-) TimerEvent: {}
+[15.311853] (-) TimerEvent: {}
+[15.424087] (-) TimerEvent: {}
+[15.528488] (-) TimerEvent: {}
+[15.629524] (-) TimerEvent: {}
+[15.731607] (-) TimerEvent: {}
+[15.832454] (-) TimerEvent: {}
+[15.933351] (-) TimerEvent: {}
+[16.034910] (-) TimerEvent: {}
+[16.135914] (-) TimerEvent: {}
+[16.236671] (-) TimerEvent: {}
+[16.337559] (-) TimerEvent: {}
+[16.438745] (-) TimerEvent: {}
+[16.540169] (-) TimerEvent: {}
+[16.642823] (-) TimerEvent: {}
+[16.744413] (-) TimerEvent: {}
+[16.845862] (-) TimerEvent: {}
+[16.946607] (-) TimerEvent: {}
+[17.047652] (-) TimerEvent: {}
+[17.150647] (-) TimerEvent: {}
+[17.252319] (-) TimerEvent: {}
+[17.353802] (-) TimerEvent: {}
+[17.455730] (-) TimerEvent: {}
+[17.570357] (-) TimerEvent: {}
+[17.673996] (-) TimerEvent: {}
+[17.775799] (-) TimerEvent: {}
+[17.894761] (-) TimerEvent: {}
+[17.995464] (-) TimerEvent: {}
+[18.096233] (-) TimerEvent: {}
+[18.198636] (-) TimerEvent: {}
+[18.301880] (-) TimerEvent: {}
+[18.406156] (-) TimerEvent: {}
+[18.506933] (-) TimerEvent: {}
+[18.609895] (-) TimerEvent: {}
+[18.710660] (-) TimerEvent: {}
+[18.811551] (-) TimerEvent: {}
+[18.913966] (-) TimerEvent: {}
+[19.015258] (-) TimerEvent: {}
+[19.118372] (-) TimerEvent: {}
+[19.221889] (-) TimerEvent: {}
+[19.322557] (-) TimerEvent: {}
+[19.427762] (-) TimerEvent: {}
+[19.528800] (-) TimerEvent: {}
+[19.629509] (-) TimerEvent: {}
+[19.730271] (-) TimerEvent: {}
+[19.831279] (-) TimerEvent: {}
+[19.932468] (-) TimerEvent: {}
+[20.033455] (-) TimerEvent: {}
+[20.134919] (-) TimerEvent: {}
+[20.248193] (-) TimerEvent: {}
+[20.349463] (-) TimerEvent: {}
+[20.450643] (-) TimerEvent: {}
+[20.563498] (-) TimerEvent: {}
+[20.664466] (-) TimerEvent: {}
+[20.778894] (-) TimerEvent: {}
+[20.879641] (-) TimerEvent: {}
+[20.980446] (-) TimerEvent: {}
+[21.081613] (-) TimerEvent: {}
+[21.182373] (-) TimerEvent: {}
+[21.283135] (-) TimerEvent: {}
+[21.383781] (-) TimerEvent: {}
+[21.484470] (-) TimerEvent: {}
+[21.596851] (-) TimerEvent: {}
+[21.697795] (-) TimerEvent: {}
+[21.799136] (-) TimerEvent: {}
+[21.900533] (-) TimerEvent: {}
+[22.001827] (-) TimerEvent: {}
+[22.102804] (-) TimerEvent: {}
+[22.204766] (-) TimerEvent: {}
+[22.307613] (-) TimerEvent: {}
+[22.409562] (-) TimerEvent: {}
+[22.511014] (-) TimerEvent: {}
+[22.611761] (-) TimerEvent: {}
+[22.712508] (-) TimerEvent: {}
+[22.813382] (-) TimerEvent: {}
+[22.915370] (-) TimerEvent: {}
+[23.017013] (-) TimerEvent: {}
+[23.118026] (-) TimerEvent: {}
+[23.218757] (-) TimerEvent: {}
+[23.325213] (-) TimerEvent: {}
+[23.426142] (-) TimerEvent: {}
+[23.526740] (-) TimerEvent: {}
+[23.628670] (-) TimerEvent: {}
+[23.730416] (-) TimerEvent: {}
+[23.831504] (-) TimerEvent: {}
+[23.936843] (-) TimerEvent: {}
+[24.037808] (-) TimerEvent: {}
+[24.138798] (-) TimerEvent: {}
+[24.239722] (-) TimerEvent: {}
+[24.340483] (-) TimerEvent: {}
+[24.441277] (-) TimerEvent: {}
+[24.543357] (-) TimerEvent: {}
+[24.644258] (-) TimerEvent: {}
+[24.745030] (-) TimerEvent: {}
+[24.846051] (-) TimerEvent: {}
+[24.947404] (-) TimerEvent: {}
+[25.049264] (-) TimerEvent: {}
+[25.154547] (-) TimerEvent: {}
+[25.255610] (-) TimerEvent: {}
+[25.356299] (-) TimerEvent: {}
+[25.456994] (-) TimerEvent: {}
+[25.558502] (-) TimerEvent: {}
+[25.660075] (-) TimerEvent: {}
+[25.761174] (-) TimerEvent: {}
+[25.862025] (-) TimerEvent: {}
+[25.963179] (-) TimerEvent: {}
+[26.064039] (-) TimerEvent: {}
+[26.169226] (-) TimerEvent: {}
+[26.270073] (-) TimerEvent: {}
+[26.371527] (-) TimerEvent: {}
+[26.472695] (-) TimerEvent: {}
+[26.574357] (-) TimerEvent: {}
+[26.676663] (-) TimerEvent: {}
+[26.777620] (-) TimerEvent: {}
+[26.878489] (-) TimerEvent: {}
+[26.997969] (-) TimerEvent: {}
+[27.104382] (-) TimerEvent: {}
+[27.205066] (-) TimerEvent: {}
+[27.306342] (-) TimerEvent: {}
+[27.407113] (-) TimerEvent: {}
+[27.508039] (-) TimerEvent: {}
+[27.608986] (-) TimerEvent: {}
+[27.709837] (-) TimerEvent: {}
+[27.811850] (-) TimerEvent: {}
+[27.913193] (-) TimerEvent: {}
+[28.014350] (-) TimerEvent: {}
+[28.115448] (-) TimerEvent: {}
+[28.220652] (-) TimerEvent: {}
+[28.321552] (-) TimerEvent: {}
+[28.422175] (-) TimerEvent: {}
+[28.522770] (-) TimerEvent: {}
+[28.623564] (-) TimerEvent: {}
+[28.724490] (-) TimerEvent: {}
+[28.828949] (-) TimerEvent: {}
+[28.931699] (-) TimerEvent: {}
+[29.034639] (-) TimerEvent: {}
+[29.135754] (-) TimerEvent: {}
+[29.236618] (-) TimerEvent: {}
+[29.337805] (-) TimerEvent: {}
+[29.439249] (-) TimerEvent: {}
+[29.540141] (-) TimerEvent: {}
+[29.641462] (-) TimerEvent: {}
+[29.745768] (-) TimerEvent: {}
+[29.846850] (-) TimerEvent: {}
+[29.947503] (-) TimerEvent: {}
+[30.049523] (-) TimerEvent: {}
+[30.150617] (-) TimerEvent: {}
+[30.251479] (-) TimerEvent: {}
+[30.352334] (-) TimerEvent: {}
+[30.452992] (-) TimerEvent: {}
+[30.553820] (-) TimerEvent: {}
+[30.654503] (-) TimerEvent: {}
+[30.755603] (-) TimerEvent: {}
+[30.856444] (-) TimerEvent: {}
+[30.957481] (-) TimerEvent: {}
+[31.065177] (-) TimerEvent: {}
+[31.166498] (-) TimerEvent: {}
+[31.267346] (-) TimerEvent: {}
+[31.368495] (-) TimerEvent: {}
+[31.469460] (-) TimerEvent: {}
+[31.570658] (-) TimerEvent: {}
+[31.672021] (-) TimerEvent: {}
+[31.772912] (-) TimerEvent: {}
+[31.873872] (-) TimerEvent: {}
+[31.974710] (-) TimerEvent: {}
+[32.075839] (-) TimerEvent: {}
+[32.176659] (-) TimerEvent: {}
+[32.277450] (-) TimerEvent: {}
+[32.378507] (-) TimerEvent: {}
+[32.479265] (-) TimerEvent: {}
+[32.580016] (-) TimerEvent: {}
+[32.681091] (-) TimerEvent: {}
+[32.782803] (-) TimerEvent: {}
+[32.884046] (-) TimerEvent: {}
+[32.984885] (-) TimerEvent: {}
+[33.100933] (-) TimerEvent: {}
+[33.202110] (-) TimerEvent: {}
+[33.302956] (-) TimerEvent: {}
+[33.403643] (-) TimerEvent: {}
+[33.511769] (-) TimerEvent: {}
+[33.616206] (-) TimerEvent: {}
+[33.717086] (-) TimerEvent: {}
+[33.818094] (-) TimerEvent: {}
+[33.921304] (-) TimerEvent: {}
+[34.036781] (-) TimerEvent: {}
+[34.138054] (-) TimerEvent: {}
+[34.238848] (-) TimerEvent: {}
+[34.339812] (-) TimerEvent: {}
+[34.442477] (-) TimerEvent: {}
+[34.543341] (-) TimerEvent: {}
+[34.644143] (-) TimerEvent: {}
+[34.744912] (-) TimerEvent: {}
+[34.846302] (-) TimerEvent: {}
+[34.947233] (-) TimerEvent: {}
+[35.047970] (-) TimerEvent: {}
+[35.148753] (-) TimerEvent: {}
+[35.250098] (-) TimerEvent: {}
+[35.350812] (-) TimerEvent: {}
+[35.451555] (-) TimerEvent: {}
+[35.552114] (-) TimerEvent: {}
+[35.651924] (line_tracking) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable line_detection\x1b[0m\n'}
+[35.652292] (-) TimerEvent: {}
+[35.752746] (-) TimerEvent: {}
+[35.853739] (-) TimerEvent: {}
+[35.954710] (-) TimerEvent: {}
+[36.055746] (-) TimerEvent: {}
+[36.157054] (-) TimerEvent: {}
+[36.259264] (-) TimerEvent: {}
+[36.369377] (-) TimerEvent: {}
+[36.470265] (-) TimerEvent: {}
+[36.570905] (-) TimerEvent: {}
+[36.672111] (-) TimerEvent: {}
+[36.772786] (-) TimerEvent: {}
+[36.901999] (-) TimerEvent: {}
+[37.002646] (-) TimerEvent: {}
+[37.103260] (-) TimerEvent: {}
+[37.204560] (-) TimerEvent: {}
+[37.306027] (-) TimerEvent: {}
+[37.407079] (-) TimerEvent: {}
+[37.507935] (-) TimerEvent: {}
+[37.609322] (-) TimerEvent: {}
+[37.710333] (-) TimerEvent: {}
+[37.811981] (-) TimerEvent: {}
+[37.912849] (-) TimerEvent: {}
+[38.014858] (-) TimerEvent: {}
+[38.115696] (-) TimerEvent: {}
+[38.217879] (-) TimerEvent: {}
+[38.318603] (-) TimerEvent: {}
+[38.419701] (-) TimerEvent: {}
+[38.520930] (-) TimerEvent: {}
+[38.544463] (line_tracking) StdoutLine: {'line': b'[100%] Built target line_detection\n'}
+[38.586304] (line_tracking) CommandEnded: {'returncode': 0}
+[38.621848] (-) TimerEvent: {}
+[38.722646] (-) TimerEvent: {}
+[38.823557] (-) TimerEvent: {}
+[38.924452] (-) TimerEvent: {}
+[39.025517] (-) TimerEvent: {}
+[39.126510] (-) TimerEvent: {}
+[39.227212] (-) TimerEvent: {}
+[39.327989] (-) TimerEvent: {}
+[39.383686] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'install'}
+[39.413285] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luuk/linetracking/build/line_tracking'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luuk/linetracking/install/line_tracking/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '2552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luuk/linetracking/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1299,unix/luuk-virtual-machine:/tmp/.ICE-unix/1299'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51ca1934_07e5_4ae3_83bf_2178f2ab7e57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JQBED2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/luuk/linetracking/install/line_tracking:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luuk/linetracking/install/line_tracking:/opt/ros/humble')]), 'shell': False}
+[39.428227] (-) TimerEvent: {}
+[39.445320] (line_tracking) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.449388] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/rosidl_interfaces/line_tracking\n'}
+[39.450399] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[39.450715] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[39.451130] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[39.451367] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__type_support.h\n'}
+[39.451580] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__struct.h\n'}
+[39.451887] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__functions.c\n'}
+[39.452804] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__struct.h\n'}
+[39.453131] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__functions.c\n'}
+[39.453490] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__functions.h\n'}
+[39.453760] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__type_support.h\n'}
+[39.453954] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__functions.h\n'}
+[39.454155] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_generator_c__visibility_control.h\n'}
+[39.454412] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_blob.h\n'}
+[39.455541] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_array.h\n'}
+[39.456020] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/library_path.sh\n'}
+[39.456237] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/library_path.dsv\n'}
+[39.456390] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_generator_c.so\n'}
+[39.456540] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[39.456964] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[39.457224] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[39.457723] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__rosidl_typesupport_fastrtps_c.h\n'}
+[39.458461] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h\n'}
+[39.458695] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[39.458915] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_fastrtps_c.so\n'}
+[39.459210] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[39.459433] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[39.459647] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[39.459862] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__builder.hpp\n'}
+[39.460077] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__traits.hpp\n'}
+[39.460303] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__builder.hpp\n'}
+[39.460574] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__struct.hpp\n'}
+[39.460876] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__struct.hpp\n'}
+[39.461092] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__traits.hpp\n'}
+[39.461382] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_blob.hpp\n'}
+[39.461972] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/point_array.hpp\n'}
+[39.462316] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[39.462536] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[39.462751] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[39.463099] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.463322] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.463539] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/dds_fastrtps\n'}
+[39.463758] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[39.463987] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_fastrtps_cpp.so\n'}
+[39.464202] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[39.464559] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[39.464783] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[39.465001] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__rosidl_typesupport_introspection_c.h\n'}
+[39.465295] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__type_support.c\n'}
+[39.466003] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_introspection_c.h\n'}
+[39.466263] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__type_support.c\n'}
+[39.466502] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[39.466750] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_introspection_c.so\n'}
+[39.467032] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_c.so\n'}
+[39.468146] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking\n'}
+[39.468483] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg\n'}
+[39.468802] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail\n'}
+[39.469392] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.469779] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_array__type_support.cpp\n'}
+[39.470058] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__type_support.cpp\n'}
+[39.470335] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/include/line_tracking/line_tracking/msg/detail/point_blob__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.470977] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_introspection_cpp.so\n'}
+[39.471270] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_typesupport_cpp.so\n'}
+[39.471555] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/pythonpath.sh\n'}
+[39.471798] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/pythonpath.dsv\n'}
+[39.472044] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info\n'}
+[39.472251] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[39.479870] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[39.480369] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[39.480573] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[39.480750] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking\n'}
+[39.480931] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.481944] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.482194] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/__init__.py\n'}
+[39.482356] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.482494] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/_line_tracking_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[39.482629] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/_line_tracking_s.ep.rosidl_typesupport_c.c\n'}
+[39.489364] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/libline_tracking__rosidl_generator_py.so\n'}
+[39.489689] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/_line_tracking_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[39.489960] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg\n'}
+[39.490218] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/__init__.py\n'}
+[39.490463] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_array.py\n'}
+[39.490707] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_array_s.c\n'}
+[39.490950] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_blob_s.c\n'}
+[39.491250] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg/_point_blob.py\n'}
+[39.528501] (-) TimerEvent: {}
+[39.560140] (line_tracking) StdoutLine: {'line': b"Listing '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking'...\n"}
+[39.560867] (line_tracking) StdoutLine: {'line': b"Listing '/home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/msg'...\n"}
+[39.572245] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.574468] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.577412] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/local/lib/python3.10/dist-packages/line_tracking/line_tracking_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.579866] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/libline_tracking__rosidl_generator_py.so\n'}
+[39.580702] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointBlob.idl\n'}
+[39.581486] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointArray.idl\n'}
+[39.581998] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointBlob.msg\n'}
+[39.582323] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/msg/PointArray.msg\n'}
+[39.583123] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/lib/line_tracking/compressed_viewer\n'}
+[39.585382] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/lib/line_tracking/line_detection\n'}
+[39.616762] (line_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/luuk/linetracking/install/line_tracking/lib/line_tracking/line_detection" to ""\n'}
+[39.617324] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/package_run_dependencies/line_tracking\n'}
+[39.617536] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/parent_prefix_path/line_tracking\n'}
+[39.617773] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.sh\n'}
+[39.617958] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/ament_prefix_path.dsv\n'}
+[39.618133] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.sh\n'}
+[39.618465] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/environment/path.dsv\n'}
+[39.618773] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.bash\n'}
+[39.619050] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.sh\n'}
+[39.619322] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.zsh\n'}
+[39.619590] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/local_setup.dsv\n'}
+[39.619862] (line_tracking) StdoutLine: {'line': b'-- Installing: /home/luuk/linetracking/install/line_tracking/share/line_tracking/package.dsv\n'}
+[39.620298] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/ament_index/resource_index/packages/line_tracking\n'}
+[39.620857] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_cExport.cmake\n'}
+[39.621774] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_cExport-noconfig.cmake\n'}
+[39.624448] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[39.625355] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[39.625807] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_cppExport.cmake\n'}
+[39.626116] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[39.626708] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[39.627204] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cExport.cmake\n'}
+[39.627950] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[39.628264] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cExport.cmake\n'}
+[39.628619] (-) TimerEvent: {}
+[39.629087] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[39.629409] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[39.629824] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[39.630167] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cppExport.cmake\n'}
+[39.630475] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_tracking__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[39.630845] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_pyExport.cmake\n'}
+[39.631281] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/export_line_tracking__rosidl_generator_pyExport-noconfig.cmake\n'}
+[39.636695] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/rosidl_cmake-extras.cmake\n'}
+[39.637785] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[39.638552] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[39.639230] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[39.639776] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[39.640296] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[39.640871] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[39.641432] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig.cmake\n'}
+[39.642162] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/cmake/line_trackingConfig-version.cmake\n'}
+[39.642746] (line_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/luuk/linetracking/install/line_tracking/share/line_tracking/package.xml\n'}
+[39.643289] (line_tracking) CommandEnded: {'returncode': 0}
+[39.728973] (-) TimerEvent: {}
+[39.829728] (-) TimerEvent: {}
+[39.930372] (-) TimerEvent: {}
+[40.031528] (-) TimerEvent: {}
+[40.133014] (-) TimerEvent: {}
+[40.234268] (-) TimerEvent: {}
+[40.335190] (-) TimerEvent: {}
+[40.436220] (-) TimerEvent: {}
+[40.553269] (-) TimerEvent: {}
+[40.654506] (-) TimerEvent: {}
+[40.680798] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 0}
+[40.690120] (-) EventReactorShutdown: {}

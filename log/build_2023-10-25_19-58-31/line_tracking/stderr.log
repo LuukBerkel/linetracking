@@ -1,0 +1,15 @@
+In file included from [01m[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:1[m[K:
+[01m[K/home/luuk/linetracking/src/line_detection/include/vision_process.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kline_tracking/msg/point_blob.hpp: No such file or directory
+    9 | #include [01;31m[K<line_tracking/msg/point_blob.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:104: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kline_tracking/msg/point_blob.hpp: No such file or directory
+    6 | #include [01;31m[K<line_tracking/msg/point_blob.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/line_detection.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

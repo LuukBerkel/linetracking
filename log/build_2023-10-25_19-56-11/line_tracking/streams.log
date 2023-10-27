@@ -1,0 +1,46 @@
+[0.051s] Invoking command in '/home/luuk/linetracking/build/line_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8
+[0.195s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_generator_c[0m
+[0.231s] [  2%] Built target line_tracking__cpp
+[0.243s] [ 11%] Built target line_tracking__rosidl_generator_c
+[0.314s] [ 13%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o[0m
+[0.348s] [ 15%] [32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o[0m
+[0.348s] [ 20%] Built target compressed_viewer
+[0.348s] [ 20%] Built target ament_cmake_python_copy_line_tracking
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_fastrtps_cpp[0m
+[0.406s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_introspection_cpp[0m
+[0.427s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_fastrtps_c[0m
+[0.428s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_cpp[0m
+[0.582s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_c[0m
+[0.628s] [35m[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_introspection_c[0m
+[0.643s] [ 28%] Built target line_tracking__rosidl_typesupport_introspection_cpp
+[0.684s] [ 37%] Built target line_tracking__rosidl_typesupport_fastrtps_c
+[0.714s] [ 48%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp
+[0.714s] [ 55%] Built target line_tracking__rosidl_typesupport_cpp
+[0.850s] [ 64%] Built target line_tracking__rosidl_typesupport_c
+[0.866s] [ 73%] Built target line_tracking__rosidl_typesupport_introspection_c
+[1.104s] [ 73%] Built target line_tracking
+[1.348s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.694s] In file included from [01m[K/home/luuk/linetracking/src/line_detection/vision_process.cpp:1[m[K:
+[1.695s] [01m[K/home/luuk/linetracking/src/line_detection/include/vision_process.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kline_tracking/msg/point_blob.hpp: No such file or directory
+[1.695s]     9 | #include [01;31m[K<line_tracking/msg/point_blob.hpp>[m[K
+[1.696s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.696s] compilation terminated.
+[1.701s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:104: CMakeFiles/line_detection.dir/src/line_detection/vision_process.cpp.o] Error 1
+[1.701s] gmake[2]: *** Waiting for unfinished jobs....
+[2.092s] running egg_info
+[2.095s] writing line_tracking.egg-info/PKG-INFO
+[2.095s] writing dependency_links to line_tracking.egg-info/dependency_links.txt
+[2.096s] writing top-level names to line_tracking.egg-info/top_level.txt
+[2.102s] reading manifest file 'line_tracking.egg-info/SOURCES.txt'
+[2.105s] writing manifest file 'line_tracking.egg-info/SOURCES.txt'
+[2.165s] [ 75%] Built target ament_cmake_python_build_line_tracking_egg
+[2.172s] [01m[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kline_tracking/msg/point_blob.hpp: No such file or directory
+[2.172s]     6 | #include [01;31m[K<line_tracking/msg/point_blob.hpp>[m[K
+[2.172s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.173s] compilation terminated.
+[2.176s] gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1
+[2.177s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/line_detection.dir/all] Error 2
+[2.177s] gmake[1]: *** Waiting for unfinished jobs....
+[2.510s] [ 75%] Built target line_tracking__py
+[2.512s] gmake: *** [Makefile:146: all] Error 2
+[2.517s] Invoked command in '/home/luuk/linetracking/build/line_tracking' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luuk/linetracking/build/line_tracking -- -j8 -l8

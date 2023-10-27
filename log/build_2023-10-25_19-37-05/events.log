@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.025086] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.025375] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.135444] (-) TimerEvent: {}
+[0.237608] (-) TimerEvent: {}
+[0.285005] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.343218] (-) TimerEvent: {}
+[0.387521] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.396678] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1373,unix/luuk-virtual-machine:/tmp/.ICE-unix/1373'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d65b74b_d96e_44dc_bd22_2676c4a5a008'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YD26C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.477491] (-) TimerEvent: {}
+[0.604765] (-) TimerEvent: {}
+[0.719798] (-) TimerEvent: {}
+[0.864067] (-) TimerEvent: {}
+[0.995030] (-) TimerEvent: {}
+[1.099560] (-) TimerEvent: {}
+[1.201062] (-) TimerEvent: {}
+[1.302270] (-) TimerEvent: {}
+[1.410779] (-) TimerEvent: {}
+[1.451413] (line_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.518211] (-) TimerEvent: {}
+[1.619229] (-) TimerEvent: {}
+[1.727496] (-) TimerEvent: {}
+[1.857442] (-) TimerEvent: {}
+[1.958015] (-) TimerEvent: {}
+[2.065945] (-) TimerEvent: {}
+[2.187291] (-) TimerEvent: {}
+[2.316712] (-) TimerEvent: {}
+[2.430729] (-) TimerEvent: {}
+[2.576250] (-) TimerEvent: {}
+[2.693869] (-) TimerEvent: {}
+[2.795107] (-) TimerEvent: {}
+[3.058732] (-) TimerEvent: {}
+[3.187881] (-) TimerEvent: {}
+[3.364681] (-) TimerEvent: {}
+[3.528629] (-) TimerEvent: {}
+[3.629407] (-) TimerEvent: {}
+[3.819553] (-) TimerEvent: {}
+[3.942577] (-) TimerEvent: {}
+[4.056186] (-) TimerEvent: {}
+[4.238822] (-) TimerEvent: {}
+[4.366520] (-) TimerEvent: {}
+[4.513913] (-) TimerEvent: {}
+[4.631012] (-) TimerEvent: {}
+[4.746934] (-) TimerEvent: {}
+[4.857418] (-) TimerEvent: {}
+[4.976610] (-) TimerEvent: {}
+[5.077578] (-) TimerEvent: {}
+[5.192582] (-) TimerEvent: {}
+[5.317588] (-) TimerEvent: {}
+[5.423062] (-) TimerEvent: {}
+[5.550204] (-) TimerEvent: {}
+[5.659776] (-) TimerEvent: {}
+[5.772097] (-) TimerEvent: {}
+[5.900180] (-) TimerEvent: {}
+[6.042357] (-) TimerEvent: {}
+[6.159770] (-) TimerEvent: {}
+[6.294614] (-) TimerEvent: {}
+[6.428017] (-) TimerEvent: {}
+[6.585637] (-) TimerEvent: {}
+[6.729464] (-) TimerEvent: {}
+[6.837911] (-) TimerEvent: {}
+[6.977095] (-) TimerEvent: {}
+[7.038407] (line_tracking) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.077530] (-) TimerEvent: {}
+[7.178649] (-) TimerEvent: {}
+[7.362499] (-) TimerEvent: {}
+[7.490101] (-) TimerEvent: {}
+[7.626430] (-) TimerEvent: {}
+[7.830001] (-) TimerEvent: {}
+[7.961774] (-) TimerEvent: {}
+[8.064115] (-) TimerEvent: {}
+[8.170869] (-) TimerEvent: {}
+[8.287331] (-) TimerEvent: {}
+[8.408730] (-) TimerEvent: {}
+[8.531598] (-) TimerEvent: {}
+[8.642198] (-) TimerEvent: {}
+[8.773937] (-) TimerEvent: {}
+[8.915929] (-) TimerEvent: {}
+[9.021625] (-) TimerEvent: {}
+[9.146291] (-) TimerEvent: {}
+[9.248428] (-) TimerEvent: {}
+[9.366980] (-) TimerEvent: {}
+[9.487823] (-) TimerEvent: {}
+[9.604879] (-) TimerEvent: {}
+[9.705500] (-) TimerEvent: {}
+[9.806253] (-) TimerEvent: {}
+[9.907661] (-) TimerEvent: {}
+[10.031261] (-) TimerEvent: {}
+[10.140756] (-) TimerEvent: {}
+[10.246889] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.247354] (-) TimerEvent: {}
+[10.348058] (-) TimerEvent: {}
+[10.448741] (-) TimerEvent: {}
+[10.491911] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.592392] (-) TimerEvent: {}
+[10.717081] (-) TimerEvent: {}
+[10.838696] (-) TimerEvent: {}
+[10.865412] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.945086] (-) TimerEvent: {}
+[11.046518] (-) TimerEvent: {}
+[11.148386] (-) TimerEvent: {}
+[11.257472] (-) TimerEvent: {}
+[11.368014] (-) TimerEvent: {}
+[11.473271] (-) TimerEvent: {}
+[11.596729] (-) TimerEvent: {}
+[11.644532] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.699165] (-) TimerEvent: {}
+[11.825663] (-) TimerEvent: {}
+[11.972523] (-) TimerEvent: {}
+[12.086876] (-) TimerEvent: {}
+[12.234425] (-) TimerEvent: {}
+[12.362351] (-) TimerEvent: {}
+[12.464000] (-) TimerEvent: {}
+[12.508646] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.576533] (-) TimerEvent: {}
+[12.681885] (-) TimerEvent: {}
+[12.817812] (-) TimerEvent: {}
+[12.937149] (-) TimerEvent: {}
+[13.062412] (-) TimerEvent: {}
+[13.171584] (-) TimerEvent: {}
+[13.277151] (-) TimerEvent: {}
+[13.391411] (-) TimerEvent: {}
+[13.536436] (-) TimerEvent: {}
+[13.650874] (-) TimerEvent: {}
+[13.779677] (-) TimerEvent: {}
+[13.898311] (-) TimerEvent: {}
+[14.051819] (-) TimerEvent: {}
+[14.158367] (-) TimerEvent: {}
+[14.318976] (-) TimerEvent: {}
+[14.437368] (-) TimerEvent: {}
+[14.544398] (-) TimerEvent: {}
+[14.668137] (-) TimerEvent: {}
+[14.782308] (-) TimerEvent: {}
+[14.896436] (-) TimerEvent: {}
+[14.998559] (-) TimerEvent: {}
+[15.152357] (-) TimerEvent: {}
+[15.279566] (-) TimerEvent: {}
+[15.421464] (-) TimerEvent: {}
+[15.557486] (-) TimerEvent: {}
+[15.677885] (-) TimerEvent: {}
+[15.815272] (line_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.816579] (-) TimerEvent: {}
+[15.861253] (line_tracking) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.917550] (-) TimerEvent: {}
+[16.031635] (-) TimerEvent: {}
+[16.146355] (-) TimerEvent: {}
+[16.247198] (-) TimerEvent: {}
+[16.402158] (-) TimerEvent: {}
+[16.527435] (-) TimerEvent: {}
+[16.646336] (-) TimerEvent: {}
+[16.765414] (-) TimerEvent: {}
+[16.866228] (-) TimerEvent: {}
+[17.017568] (-) TimerEvent: {}
+[17.143256] (-) TimerEvent: {}
+[17.270872] (-) TimerEvent: {}
+[17.395818] (-) TimerEvent: {}
+[17.513171] (-) TimerEvent: {}
+[17.658947] (-) TimerEvent: {}
+[17.797912] (-) TimerEvent: {}
+[17.931839] (-) TimerEvent: {}
+[18.032824] (-) TimerEvent: {}
+[18.136310] (-) TimerEvent: {}
+[18.244475] (-) TimerEvent: {}
+[18.345947] (-) TimerEvent: {}
+[18.397370] (line_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.446227] (-) TimerEvent: {}
+[18.547287] (-) TimerEvent: {}
+[18.648138] (-) TimerEvent: {}
+[18.749674] (-) TimerEvent: {}
+[18.852327] (-) TimerEvent: {}
+[18.953815] (-) TimerEvent: {}
+[19.054682] (-) TimerEvent: {}
+[19.155594] (-) TimerEvent: {}
+[19.256607] (-) TimerEvent: {}
+[19.314868] (line_tracking) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[19.357237] (-) TimerEvent: {}
+[19.462164] (-) TimerEvent: {}
+[19.574907] (-) TimerEvent: {}
+[19.698273] (-) TimerEvent: {}
+[19.885832] (-) TimerEvent: {}
+[20.077651] (-) TimerEvent: {}
+[20.178525] (-) TimerEvent: {}
+[20.247007] (line_tracking) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[20.278825] (-) TimerEvent: {}
+[20.328032] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[20.374824] (line_tracking) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[20.375720] (line_tracking) StdoutLine: {'line': b'See also "/home/luuk/linetracking/build/line_tracking/CMakeFiles/CMakeOutput.log".\n'}
+[20.383841] (line_tracking) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[20.384351] (-) TimerEvent: {}
+[20.384643] (line_tracking) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/PointMatrixWithEnum.msg'\n"}
+[20.385072] (line_tracking) StderrLine: {'line': b"  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR\n"}
+[20.385473] (line_tracking) StderrLine: {'line': b"  '/home/luuk/linetracking'\n"}
+[20.385833] (line_tracking) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[20.386162] (line_tracking) StderrLine: {'line': b'  CMakeLists.txt:23 (rosidl_generate_interfaces)\n'}
+[20.386430] (line_tracking) StderrLine: {'line': b'\n'}
+[20.387063] (line_tracking) StderrLine: {'line': b'\x1b[0m\n'}
+[20.394468] (line_tracking) StderrLine: {'line': b'gmake: *** [Makefile:1099: cmake_check_build_system] Error 1\n'}
+[20.410014] (line_tracking) CommandEnded: {'returncode': 2}
+[20.484673] (-) TimerEvent: {}
+[20.588144] (-) TimerEvent: {}
+[20.690998] (-) TimerEvent: {}
+[20.793666] (-) TimerEvent: {}
+[20.899148] (-) TimerEvent: {}
+[21.000461] (-) TimerEvent: {}
+[21.104656] (-) TimerEvent: {}
+[21.207071] (-) TimerEvent: {}
+[21.308255] (-) TimerEvent: {}
+[21.409884] (-) TimerEvent: {}
+[21.511320] (-) TimerEvent: {}
+[21.612978] (-) TimerEvent: {}
+[21.689566] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 2}
+[21.702155] (-) EventReactorShutdown: {}

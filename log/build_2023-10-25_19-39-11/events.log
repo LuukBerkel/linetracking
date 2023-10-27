@@ -1,0 +1,704 @@
+[0.000000] (-) TimerEvent: {}
+[0.149501] (line_tracking) JobQueued: {'identifier': 'line_tracking', 'dependencies': OrderedDict()}
+[0.149680] (-) TimerEvent: {}
+[0.150077] (line_tracking) JobStarted: {'identifier': 'line_tracking'}
+[0.296703] (-) TimerEvent: {}
+[0.417598] (-) TimerEvent: {}
+[0.660309] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'cmake'}
+[0.660552] (-) TimerEvent: {}
+[0.661266] (line_tracking) JobProgress: {'identifier': 'line_tracking', 'progress': 'build'}
+[0.661686] (line_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luuk/linetracking/build/line_tracking', '--', '-j8', '-l8'], 'cwd': '/home/luuk/linetracking/build/line_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'luuk'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luuk'), ('OLDPWD', '/home/luuk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luuk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luuk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luuk-virtual-machine:@/tmp/.ICE-unix/1373,unix/luuk-virtual-machine:/tmp/.ICE-unix/1373'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d65b74b_d96e_44dc_bd22_2676c4a5a008'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YD26C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luuk/linetracking/build/line_tracking'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.820445] (-) TimerEvent: {}
+[1.215931] (-) TimerEvent: {}
+[1.216922] (line_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.336782] (-) TimerEvent: {}
+[1.448297] (-) TimerEvent: {}
+[1.587781] (-) TimerEvent: {}
+[1.723034] (-) TimerEvent: {}
+[1.851899] (-) TimerEvent: {}
+[2.036543] (-) TimerEvent: {}
+[2.186325] (-) TimerEvent: {}
+[2.291355] (-) TimerEvent: {}
+[2.408387] (-) TimerEvent: {}
+[2.657733] (-) TimerEvent: {}
+[2.810971] (-) TimerEvent: {}
+[2.924689] (-) TimerEvent: {}
+[3.028791] (-) TimerEvent: {}
+[3.136331] (-) TimerEvent: {}
+[3.274845] (-) TimerEvent: {}
+[3.376007] (-) TimerEvent: {}
+[3.582084] (-) TimerEvent: {}
+[3.703024] (-) TimerEvent: {}
+[3.816566] (-) TimerEvent: {}
+[3.943600] (-) TimerEvent: {}
+[4.054558] (-) TimerEvent: {}
+[4.183854] (-) TimerEvent: {}
+[4.410340] (line_tracking) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.411380] (-) TimerEvent: {}
+[4.518274] (-) TimerEvent: {}
+[4.668218] (-) TimerEvent: {}
+[4.816495] (-) TimerEvent: {}
+[4.941198] (-) TimerEvent: {}
+[5.108339] (-) TimerEvent: {}
+[5.232719] (-) TimerEvent: {}
+[5.267167] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.357533] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.358107] (-) TimerEvent: {}
+[5.496063] (-) TimerEvent: {}
+[5.512902] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.625198] (-) TimerEvent: {}
+[5.766147] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.766995] (-) TimerEvent: {}
+[5.879571] (-) TimerEvent: {}
+[6.019787] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.021512] (-) TimerEvent: {}
+[6.135540] (-) TimerEvent: {}
+[6.288963] (-) TimerEvent: {}
+[6.474169] (-) TimerEvent: {}
+[6.646278] (-) TimerEvent: {}
+[6.756108] (-) TimerEvent: {}
+[6.898323] (-) TimerEvent: {}
+[7.031970] (-) TimerEvent: {}
+[7.157155] (-) TimerEvent: {}
+[7.383994] (line_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.384464] (-) TimerEvent: {}
+[7.384755] (line_tracking) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.545248] (-) TimerEvent: {}
+[7.713752] (-) TimerEvent: {}
+[7.886055] (-) TimerEvent: {}
+[7.990345] (-) TimerEvent: {}
+[8.139047] (-) TimerEvent: {}
+[8.285751] (-) TimerEvent: {}
+[8.443714] (-) TimerEvent: {}
+[8.618480] (-) TimerEvent: {}
+[8.807977] (-) TimerEvent: {}
+[8.959219] (-) TimerEvent: {}
+[9.078599] (-) TimerEvent: {}
+[9.201886] (-) TimerEvent: {}
+[9.315013] (-) TimerEvent: {}
+[9.438602] (-) TimerEvent: {}
+[9.540625] (-) TimerEvent: {}
+[9.641295] (-) TimerEvent: {}
+[9.788120] (-) TimerEvent: {}
+[9.961924] (-) TimerEvent: {}
+[9.976695] (line_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.128020] (-) TimerEvent: {}
+[10.289099] (-) TimerEvent: {}
+[10.416254] (-) TimerEvent: {}
+[10.517019] (-) TimerEvent: {}
+[10.654381] (-) TimerEvent: {}
+[10.815633] (-) TimerEvent: {}
+[10.935950] (-) TimerEvent: {}
+[11.040251] (-) TimerEvent: {}
+[11.204846] (-) TimerEvent: {}
+[11.358906] (-) TimerEvent: {}
+[11.520079] (-) TimerEvent: {}
+[11.627580] (-) TimerEvent: {}
+[11.747429] (-) TimerEvent: {}
+[11.892544] (-) TimerEvent: {}
+[12.017364] (-) TimerEvent: {}
+[12.137978] (-) TimerEvent: {}
+[12.256365] (line_tracking) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[12.256792] (-) TimerEvent: {}
+[12.529196] (-) TimerEvent: {}
+[12.658255] (-) TimerEvent: {}
+[12.847409] (-) TimerEvent: {}
+[13.016779] (-) TimerEvent: {}
+[13.169615] (-) TimerEvent: {}
+[13.277706] (-) TimerEvent: {}
+[13.389136] (-) TimerEvent: {}
+[13.549129] (-) TimerEvent: {}
+[13.710205] (-) TimerEvent: {}
+[13.815589] (-) TimerEvent: {}
+[13.948290] (-) TimerEvent: {}
+[14.056439] (-) TimerEvent: {}
+[14.225491] (-) TimerEvent: {}
+[14.437103] (-) TimerEvent: {}
+[14.574775] (-) TimerEvent: {}
+[14.705124] (-) TimerEvent: {}
+[14.812974] (line_tracking) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[14.813440] (-) TimerEvent: {}
+[14.965292] (-) TimerEvent: {}
+[15.083176] (-) TimerEvent: {}
+[15.200087] (line_tracking) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[15.205807] (-) TimerEvent: {}
+[15.312885] (-) TimerEvent: {}
+[15.435330] (-) TimerEvent: {}
+[15.581418] (-) TimerEvent: {}
+[15.722324] (-) TimerEvent: {}
+[15.823636] (-) TimerEvent: {}
+[15.926211] (-) TimerEvent: {}
+[16.046316] (-) TimerEvent: {}
+[16.176211] (-) TimerEvent: {}
+[16.310318] (-) TimerEvent: {}
+[16.456311] (-) TimerEvent: {}
+[16.576464] (-) TimerEvent: {}
+[16.709153] (-) TimerEvent: {}
+[16.820024] (-) TimerEvent: {}
+[16.957602] (-) TimerEvent: {}
+[17.090022] (-) TimerEvent: {}
+[17.235344] (-) TimerEvent: {}
+[17.370335] (-) TimerEvent: {}
+[17.520814] (-) TimerEvent: {}
+[17.775116] (-) TimerEvent: {}
+[17.896218] (-) TimerEvent: {}
+[18.016391] (-) TimerEvent: {}
+[18.191494] (-) TimerEvent: {}
+[18.316878] (-) TimerEvent: {}
+[18.476763] (-) TimerEvent: {}
+[18.645583] (-) TimerEvent: {}
+[18.798569] (-) TimerEvent: {}
+[18.919291] (-) TimerEvent: {}
+[19.039193] (-) TimerEvent: {}
+[19.157721] (-) TimerEvent: {}
+[19.262495] (-) TimerEvent: {}
+[19.428623] (-) TimerEvent: {}
+[19.577756] (-) TimerEvent: {}
+[19.737603] (-) TimerEvent: {}
+[19.838529] (-) TimerEvent: {}
+[19.939291] (-) TimerEvent: {}
+[20.040823] (-) TimerEvent: {}
+[20.171395] (-) TimerEvent: {}
+[20.298775] (-) TimerEvent: {}
+[20.399742] (-) TimerEvent: {}
+[20.535086] (-) TimerEvent: {}
+[20.677440] (-) TimerEvent: {}
+[20.865999] (-) TimerEvent: {}
+[21.005728] (-) TimerEvent: {}
+[21.165689] (-) TimerEvent: {}
+[21.266496] (-) TimerEvent: {}
+[21.428415] (-) TimerEvent: {}
+[21.584434] (-) TimerEvent: {}
+[21.737226] (-) TimerEvent: {}
+[21.852510] (-) TimerEvent: {}
+[21.975504] (-) TimerEvent: {}
+[22.092694] (-) TimerEvent: {}
+[22.148354] (line_tracking) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[22.216066] (-) TimerEvent: {}
+[22.339170] (-) TimerEvent: {}
+[22.440619] (-) TimerEvent: {}
+[22.549600] (-) TimerEvent: {}
+[22.698233] (-) TimerEvent: {}
+[22.822907] (-) TimerEvent: {}
+[22.935730] (-) TimerEvent: {}
+[23.059474] (-) TimerEvent: {}
+[23.160406] (-) TimerEvent: {}
+[23.296090] (-) TimerEvent: {}
+[23.416934] (-) TimerEvent: {}
+[23.520206] (-) TimerEvent: {}
+[23.622345] (-) TimerEvent: {}
+[23.750994] (-) TimerEvent: {}
+[23.869921] (-) TimerEvent: {}
+[23.978539] (-) TimerEvent: {}
+[24.108219] (-) TimerEvent: {}
+[24.212802] (-) TimerEvent: {}
+[24.313550] (-) TimerEvent: {}
+[24.478279] (-) TimerEvent: {}
+[24.587787] (-) TimerEvent: {}
+[24.779719] (-) TimerEvent: {}
+[24.887310] (-) TimerEvent: {}
+[24.988271] (-) TimerEvent: {}
+[25.121784] (-) TimerEvent: {}
+[25.225871] (-) TimerEvent: {}
+[25.337656] (-) TimerEvent: {}
+[25.480807] (-) TimerEvent: {}
+[25.581420] (-) TimerEvent: {}
+[25.752380] (-) TimerEvent: {}
+[25.876315] (-) TimerEvent: {}
+[26.030562] (-) TimerEvent: {}
+[26.131508] (-) TimerEvent: {}
+[26.245514] (-) TimerEvent: {}
+[26.346566] (-) TimerEvent: {}
+[26.457591] (-) TimerEvent: {}
+[26.564877] (-) TimerEvent: {}
+[26.772278] (-) TimerEvent: {}
+[26.951086] (-) TimerEvent: {}
+[27.052865] (-) TimerEvent: {}
+[27.171125] (-) TimerEvent: {}
+[27.274408] (-) TimerEvent: {}
+[27.395877] (-) TimerEvent: {}
+[27.503166] (-) TimerEvent: {}
+[27.603845] (-) TimerEvent: {}
+[27.714323] (-) TimerEvent: {}
+[27.815322] (-) TimerEvent: {}
+[27.947184] (-) TimerEvent: {}
+[28.063599] (-) TimerEvent: {}
+[28.164376] (-) TimerEvent: {}
+[28.277502] (-) TimerEvent: {}
+[28.382854] (-) TimerEvent: {}
+[28.484379] (-) TimerEvent: {}
+[28.594502] (-) TimerEvent: {}
+[28.620029] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[28.708544] (-) TimerEvent: {}
+[28.907443] (-) TimerEvent: {}
+[29.012798] (-) TimerEvent: {}
+[29.364118] (-) TimerEvent: {}
+[29.465036] (-) TimerEvent: {}
+[29.627405] (-) TimerEvent: {}
+[29.728424] (-) TimerEvent: {}
+[29.845327] (-) TimerEvent: {}
+[29.954841] (-) TimerEvent: {}
+[30.088918] (-) TimerEvent: {}
+[30.205218] (-) TimerEvent: {}
+[30.388230] (-) TimerEvent: {}
+[30.521382] (-) TimerEvent: {}
+[30.649296] (-) TimerEvent: {}
+[30.809627] (-) TimerEvent: {}
+[30.917320] (-) TimerEvent: {}
+[31.019328] (-) TimerEvent: {}
+[31.048270] (line_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[31.122382] (-) TimerEvent: {}
+[31.219648] (line_tracking) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[31.222561] (-) TimerEvent: {}
+[31.327253] (-) TimerEvent: {}
+[31.400355] (line_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[31.401096] (line_tracking) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[31.401392] (line_tracking) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[31.440516] (-) TimerEvent: {}
+[31.554537] (-) TimerEvent: {}
+[31.673687] (-) TimerEvent: {}
+[31.775153] (-) TimerEvent: {}
+[31.880021] (-) TimerEvent: {}
+[31.982425] (-) TimerEvent: {}
+[32.000004] (line_tracking) StdoutLine: {'line': b'-- Configuring done\n'}
+[32.082906] (-) TimerEvent: {}
+[32.189790] (-) TimerEvent: {}
+[32.291644] (-) TimerEvent: {}
+[32.410943] (-) TimerEvent: {}
+[32.512314] (-) TimerEvent: {}
+[32.622883] (-) TimerEvent: {}
+[32.723732] (-) TimerEvent: {}
+[32.829498] (-) TimerEvent: {}
+[32.930627] (-) TimerEvent: {}
+[33.031889] (-) TimerEvent: {}
+[33.089781] (line_tracking) StdoutLine: {'line': b'-- Generating done\n'}
+[33.113854] (line_tracking) StdoutLine: {'line': b'-- Build files have been written to: /home/luuk/linetracking/build/line_tracking\n'}
+[33.140590] (-) TimerEvent: {}
+[33.266331] (-) TimerEvent: {}
+[33.380322] (-) TimerEvent: {}
+[33.438640] (line_tracking) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[33.499149] (line_tracking) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[33.499766] (-) TimerEvent: {}
+[33.600382] (-) TimerEvent: {}
+[33.724061] (-) TimerEvent: {}
+[33.824761] (-) TimerEvent: {}
+[33.927740] (-) TimerEvent: {}
+[34.032836] (-) TimerEvent: {}
+[34.147146] (-) TimerEvent: {}
+[34.249318] (-) TimerEvent: {}
+[34.357742] (-) TimerEvent: {}
+[34.461991] (-) TimerEvent: {}
+[34.571442] (-) TimerEvent: {}
+[34.678539] (-) TimerEvent: {}
+[34.820574] (-) TimerEvent: {}
+[34.926617] (-) TimerEvent: {}
+[35.028486] (-) TimerEvent: {}
+[35.137632] (-) TimerEvent: {}
+[35.242236] (-) TimerEvent: {}
+[35.276864] (line_tracking) StdoutLine: {'line': b'[  4%] Built target line_tracking__cpp\n'}
+[35.354185] (-) TimerEvent: {}
+[35.444485] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_generator_c\x1b[0m\n'}
+[35.455018] (-) TimerEvent: {}
+[35.500846] (line_tracking) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_blob__functions.c.o\x1b[0m\n'}
+[35.555764] (-) TimerEvent: {}
+[35.657371] (-) TimerEvent: {}
+[35.759128] (-) TimerEvent: {}
+[35.865256] (-) TimerEvent: {}
+[35.979661] (-) TimerEvent: {}
+[36.082782] (-) TimerEvent: {}
+[36.113220] (line_tracking) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_generator_c.dir/rosidl_generator_c/line_tracking/msg/detail/point_array__functions.c.o\x1b[0m\n'}
+[36.183279] (-) TimerEvent: {}
+[36.283949] (-) TimerEvent: {}
+[36.329594] (line_tracking) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking C shared library libline_tracking__rosidl_generator_c.so\x1b[0m\n'}
+[36.384501] (-) TimerEvent: {}
+[36.506678] (-) TimerEvent: {}
+[36.608245] (-) TimerEvent: {}
+[36.710129] (-) TimerEvent: {}
+[36.756604] (line_tracking) StdoutLine: {'line': b'[ 11%] Built target line_tracking__rosidl_generator_c\n'}
+[36.812124] (-) TimerEvent: {}
+[36.819195] (line_tracking) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[36.916978] (-) TimerEvent: {}
+[37.018283] (-) TimerEvent: {}
+[37.119453] (-) TimerEvent: {}
+[37.220234] (-) TimerEvent: {}
+[37.321246] (-) TimerEvent: {}
+[37.426336] (-) TimerEvent: {}
+[37.527704] (-) TimerEvent: {}
+[37.633695] (-) TimerEvent: {}
+[37.737507] (-) TimerEvent: {}
+[37.839402] (-) TimerEvent: {}
+[37.918242] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[37.940170] (-) TimerEvent: {}
+[37.995154] (line_tracking) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/line_tracking/msg/detail/point_blob__type_support.cpp.o\x1b[0m\n'}
+[38.040429] (-) TimerEvent: {}
+[38.141351] (-) TimerEvent: {}
+[38.243755] (-) TimerEvent: {}
+[38.346599] (-) TimerEvent: {}
+[38.447678] (-) TimerEvent: {}
+[38.549380] (-) TimerEvent: {}
+[38.650330] (-) TimerEvent: {}
+[38.751311] (-) TimerEvent: {}
+[38.899264] (-) TimerEvent: {}
+[39.003192] (-) TimerEvent: {}
+[39.124752] (-) TimerEvent: {}
+[39.285398] (-) TimerEvent: {}
+[39.398859] (-) TimerEvent: {}
+[39.563392] (-) TimerEvent: {}
+[39.664900] (-) TimerEvent: {}
+[39.792139] (-) TimerEvent: {}
+[39.935337] (-) TimerEvent: {}
+[40.037205] (-) TimerEvent: {}
+[40.179261] (-) TimerEvent: {}
+[40.272046] (line_tracking) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[40.284944] (-) TimerEvent: {}
+[40.405215] (-) TimerEvent: {}
+[40.526644] (-) TimerEvent: {}
+[40.630879] (-) TimerEvent: {}
+[40.789348] (-) TimerEvent: {}
+[40.904591] (-) TimerEvent: {}
+[41.021462] (-) TimerEvent: {}
+[41.182340] (-) TimerEvent: {}
+[41.295814] (-) TimerEvent: {}
+[41.396788] (-) TimerEvent: {}
+[41.590238] (line_tracking) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[41.590976] (-) TimerEvent: {}
+[41.716540] (-) TimerEvent: {}
+[41.818923] (-) TimerEvent: {}
+[41.920471] (-) TimerEvent: {}
+[42.081956] (-) TimerEvent: {}
+[42.221346] (-) TimerEvent: {}
+[42.326123] (-) TimerEvent: {}
+[42.466609] (-) TimerEvent: {}
+[42.576503] (-) TimerEvent: {}
+[42.707157] (-) TimerEvent: {}
+[42.828737] (-) TimerEvent: {}
+[42.937180] (-) TimerEvent: {}
+[43.109751] (-) TimerEvent: {}
+[43.299114] (-) TimerEvent: {}
+[43.406222] (-) TimerEvent: {}
+[43.517032] (-) TimerEvent: {}
+[43.652725] (-) TimerEvent: {}
+[43.785662] (-) TimerEvent: {}
+[43.847396] (line_tracking) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[43.928033] (-) TimerEvent: {}
+[44.050915] (-) TimerEvent: {}
+[44.211592] (-) TimerEvent: {}
+[44.330202] (-) TimerEvent: {}
+[44.506534] (-) TimerEvent: {}
+[44.656845] (-) TimerEvent: {}
+[44.758253] (-) TimerEvent: {}
+[44.859149] (-) TimerEvent: {}
+[44.928858] (line_tracking) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[45.003488] (-) TimerEvent: {}
+[45.119632] (-) TimerEvent: {}
+[45.221949] (-) TimerEvent: {}
+[45.324674] (-) TimerEvent: {}
+[45.337004] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[45.480445] (-) TimerEvent: {}
+[45.621067] (-) TimerEvent: {}
+[45.673366] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_detection\x1b[0m\n'}
+[45.866694] (-) TimerEvent: {}
+[45.979140] (-) TimerEvent: {}
+[46.080482] (-) TimerEvent: {}
+[46.197169] (line_tracking) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/line_tracking/msg/detail/point_blob__type_support.c.o\x1b[0m\n'}
+[46.203493] (-) TimerEvent: {}
+[46.275429] (line_tracking) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/line_tracking/msg/detail/point_array__type_support.cpp.o\x1b[0m\n'}
+[46.450827] (-) TimerEvent: {}
+[46.581928] (-) TimerEvent: {}
+[46.714860] (-) TimerEvent: {}
+[46.859833] (-) TimerEvent: {}
+[47.008642] (-) TimerEvent: {}
+[47.126636] (-) TimerEvent: {}
+[47.143063] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target compressed_viewer\x1b[0m\n'}
+[47.284466] (-) TimerEvent: {}
+[47.285184] (line_tracking) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o\x1b[0m\n'}
+[47.476505] (-) TimerEvent: {}
+[47.626493] (-) TimerEvent: {}
+[47.793785] (-) TimerEvent: {}
+[47.847058] (line_tracking) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/line_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/line_tracking/msg/detail/point_array__type_support.c.o\x1b[0m\n'}
+[47.951435] (-) TimerEvent: {}
+[47.951960] (line_tracking) StdoutLine: {'line': b'[ 37%] Built target compressed_viewer\n'}
+[48.076611] (-) TimerEvent: {}
+[48.196439] (-) TimerEvent: {}
+[48.322087] (-) TimerEvent: {}
+[48.478526] (-) TimerEvent: {}
+[48.589291] (-) TimerEvent: {}
+[48.707755] (-) TimerEvent: {}
+[48.823703] (-) TimerEvent: {}
+[48.824389] (line_tracking) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[48.951886] (-) TimerEvent: {}
+[48.978463] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[49.097589] (-) TimerEvent: {}
+[49.230795] (-) TimerEvent: {}
+[49.338095] (-) TimerEvent: {}
+[49.455795] (-) TimerEvent: {}
+[49.457390] (line_tracking) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/line_tracking/msg/detail/point_blob__type_support_c.cpp.o\x1b[0m\n'}
+[49.583813] (line_tracking) StdoutLine: {'line': b'[ 42%] Built target ament_cmake_python_copy_line_tracking\n'}
+[49.597954] (-) TimerEvent: {}
+[49.711110] (-) TimerEvent: {}
+[49.823663] (-) TimerEvent: {}
+[49.963761] (-) TimerEvent: {}
+[50.102876] (-) TimerEvent: {}
+[50.222765] (-) TimerEvent: {}
+[50.335686] (line_tracking) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libline_tracking__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[50.338516] (-) TimerEvent: {}
+[50.480699] (-) TimerEvent: {}
+[50.505655] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_cpp\x1b[0m\n'}
+[50.646834] (-) TimerEvent: {}
+[50.775888] (-) TimerEvent: {}
+[50.876922] (-) TimerEvent: {}
+[50.998201] (-) TimerEvent: {}
+[51.098853] (-) TimerEvent: {}
+[51.200688] (-) TimerEvent: {}
+[51.306748] (-) TimerEvent: {}
+[51.449785] (-) TimerEvent: {}
+[51.619281] (-) TimerEvent: {}
+[51.638734] (line_tracking) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/line_tracking/msg/point_blob__type_support.cpp.o\x1b[0m\n'}
+[51.778132] (-) TimerEvent: {}
+[51.879285] (-) TimerEvent: {}
+[51.977196] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[51.979440] (-) TimerEvent: {}
+[52.163154] (-) TimerEvent: {}
+[52.317980] (-) TimerEvent: {}
+[52.370229] (line_tracking) StdoutLine: {'line': b'[ 46%] Built target line_tracking__rosidl_typesupport_introspection_c\n'}
+[52.458003] (-) TimerEvent: {}
+[52.562007] (-) TimerEvent: {}
+[52.666720] (-) TimerEvent: {}
+[52.790075] (-) TimerEvent: {}
+[52.911131] (-) TimerEvent: {}
+[52.926295] (line_tracking) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/line_tracking/msg/detail/dds_fastrtps/point_blob__type_support.cpp.o\x1b[0m\n'}
+[53.026293] (-) TimerEvent: {}
+[53.208142] (-) TimerEvent: {}
+[53.336128] (-) TimerEvent: {}
+[53.568665] (-) TimerEvent: {}
+[53.713968] (-) TimerEvent: {}
+[53.818075] (-) TimerEvent: {}
+[54.027332] (-) TimerEvent: {}
+[54.166153] (-) TimerEvent: {}
+[54.622408] (-) TimerEvent: {}
+[54.642660] (line_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_tracking__rosidl_typesupport_c\x1b[0m\n'}
+[54.757527] (-) TimerEvent: {}
+[54.978150] (-) TimerEvent: {}
+[55.276304] (-) TimerEvent: {}
+[55.379694] (-) TimerEvent: {}
+[55.439204] (line_tracking) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/line_tracking/msg/point_blob__type_support.cpp.o\x1b[0m\n'}
+[55.554052] (-) TimerEvent: {}
+[55.668667] (-) TimerEvent: {}
+[55.793786] (-) TimerEvent: {}
+[55.907382] (-) TimerEvent: {}
+[56.116313] (-) TimerEvent: {}
+[56.380383] (-) TimerEvent: {}
+[56.558321] (-) TimerEvent: {}
+[56.775191] (-) TimerEvent: {}
+[56.971775] (-) TimerEvent: {}
+[57.107539] (line_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luuk/linetracking/src/line_detection/line_detection.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kline_tracking/msg/point_matrix_with_enum.hpp: No such file or directory\n'}
+[57.108189] (-) TimerEvent: {}
+[57.108640] (line_tracking) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<line_tracking/msg/point_matrix_with_enum.hpp>\x1b[m\x1b[K\n'}
+[57.108842] (line_tracking) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[57.109008] (line_tracking) StderrLine: {'line': b'compilation terminated.\n'}
+[57.241971] (-) TimerEvent: {}
+[57.260392] (line_tracking) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/line_tracking/msg/point_array__type_support.cpp.o\x1b[0m\n'}
+[57.302983] (line_tracking) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_detection.dir/build.make:76: CMakeFiles/line_detection.dir/src/line_detection/line_detection.cpp.o] Error 1\n'}
+[57.471203] (-) TimerEvent: {}
+[57.471473] (line_tracking) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/line_detection.dir/all] Error 2\n'}
+[57.471693] (line_tracking) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[57.588605] (-) TimerEvent: {}
+[57.706738] (-) TimerEvent: {}
+[57.827979] (-) TimerEvent: {}
+[58.010148] (-) TimerEvent: {}
+[58.125981] (-) TimerEvent: {}
+[58.274055] (-) TimerEvent: {}
+[58.469044] (line_tracking) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_c.so\x1b[0m\n'}
+[58.469957] (-) TimerEvent: {}
+[58.838051] (-) TimerEvent: {}
+[59.120540] (-) TimerEvent: {}
+[59.221704] (-) TimerEvent: {}
+[59.334519] (-) TimerEvent: {}
+[59.466133] (-) TimerEvent: {}
+[59.573932] (-) TimerEvent: {}
+[59.701442] (-) TimerEvent: {}
+[59.816676] (-) TimerEvent: {}
+[59.948851] (-) TimerEvent: {}
+[60.101346] (-) TimerEvent: {}
+[60.191725] (line_tracking) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[60.205977] (-) TimerEvent: {}
+[60.349085] (-) TimerEvent: {}
+[60.465532] (-) TimerEvent: {}
+[60.597050] (-) TimerEvent: {}
+[60.744500] (-) TimerEvent: {}
+[60.832854] (line_tracking) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/line_tracking/msg/point_array__type_support.cpp.o\x1b[0m\n'}
+[60.833260] (line_tracking) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/line_tracking/msg/detail/point_array__type_support_c.cpp.o\x1b[0m\n'}
+[60.844836] (-) TimerEvent: {}
+[60.977974] (-) TimerEvent: {}
+[61.097814] (-) TimerEvent: {}
+[61.220914] (-) TimerEvent: {}
+[61.343852] (-) TimerEvent: {}
+[61.470223] (-) TimerEvent: {}
+[61.700331] (-) TimerEvent: {}
+[61.850386] (-) TimerEvent: {}
+[61.967592] (-) TimerEvent: {}
+[62.119222] (-) TimerEvent: {}
+[62.220686] (-) TimerEvent: {}
+[62.316585] (line_tracking) StdoutLine: {'line': b'[ 62%] Built target line_tracking__rosidl_typesupport_c\n'}
+[62.320854] (-) TimerEvent: {}
+[62.422892] (-) TimerEvent: {}
+[62.569255] (-) TimerEvent: {}
+[62.690296] (-) TimerEvent: {}
+[62.837971] (-) TimerEvent: {}
+[62.960687] (-) TimerEvent: {}
+[63.061676] (-) TimerEvent: {}
+[63.178968] (-) TimerEvent: {}
+[63.279655] (-) TimerEvent: {}
+[63.380680] (-) TimerEvent: {}
+[63.499029] (-) TimerEvent: {}
+[63.623052] (-) TimerEvent: {}
+[63.736870] (-) TimerEvent: {}
+[63.856954] (-) TimerEvent: {}
+[63.972246] (-) TimerEvent: {}
+[64.085321] (-) TimerEvent: {}
+[64.218565] (-) TimerEvent: {}
+[64.354203] (-) TimerEvent: {}
+[64.455509] (-) TimerEvent: {}
+[64.688972] (-) TimerEvent: {}
+[64.887814] (-) TimerEvent: {}
+[65.150581] (line_tracking) StdoutLine: {'line': b'[ 62%] Built target line_tracking__rosidl_typesupport_introspection_cpp\n'}
+[65.151576] (-) TimerEvent: {}
+[65.284769] (-) TimerEvent: {}
+[65.476483] (-) TimerEvent: {}
+[65.602007] (-) TimerEvent: {}
+[65.721876] (-) TimerEvent: {}
+[65.840941] (-) TimerEvent: {}
+[65.961377] (-) TimerEvent: {}
+[66.110302] (-) TimerEvent: {}
+[66.259389] (-) TimerEvent: {}
+[66.416228] (-) TimerEvent: {}
+[66.660564] (-) TimerEvent: {}
+[66.795972] (-) TimerEvent: {}
+[66.949925] (-) TimerEvent: {}
+[67.051004] (-) TimerEvent: {}
+[67.152209] (-) TimerEvent: {}
+[67.259915] (-) TimerEvent: {}
+[67.379922] (-) TimerEvent: {}
+[67.494253] (-) TimerEvent: {}
+[67.613760] (line_tracking) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/line_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/line_tracking/msg/detail/dds_fastrtps/point_array__type_support.cpp.o\x1b[0m\n'}
+[67.639316] (-) TimerEvent: {}
+[67.781697] (-) TimerEvent: {}
+[67.932711] (-) TimerEvent: {}
+[68.045688] (-) TimerEvent: {}
+[68.176475] (-) TimerEvent: {}
+[68.298008] (-) TimerEvent: {}
+[68.477373] (-) TimerEvent: {}
+[68.602123] (-) TimerEvent: {}
+[68.610018] (line_tracking) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[68.721531] (-) TimerEvent: {}
+[68.838035] (-) TimerEvent: {}
+[68.958368] (-) TimerEvent: {}
+[69.086043] (-) TimerEvent: {}
+[69.215896] (-) TimerEvent: {}
+[69.410162] (-) TimerEvent: {}
+[69.562560] (-) TimerEvent: {}
+[69.677523] (-) TimerEvent: {}
+[69.797897] (-) TimerEvent: {}
+[69.950194] (-) TimerEvent: {}
+[70.069573] (-) TimerEvent: {}
+[70.219453] (-) TimerEvent: {}
+[70.377981] (-) TimerEvent: {}
+[70.507645] (-) TimerEvent: {}
+[70.630719] (-) TimerEvent: {}
+[70.786883] (-) TimerEvent: {}
+[70.914067] (-) TimerEvent: {}
+[71.066402] (-) TimerEvent: {}
+[71.076504] (line_tracking) StdoutLine: {'line': b'[ 66%] Built target line_tracking__rosidl_typesupport_cpp\n'}
+[71.179028] (-) TimerEvent: {}
+[71.301735] (-) TimerEvent: {}
+[71.424306] (-) TimerEvent: {}
+[71.526303] (-) TimerEvent: {}
+[71.630189] (line_tracking) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[71.630761] (-) TimerEvent: {}
+[71.748547] (-) TimerEvent: {}
+[71.870425] (-) TimerEvent: {}
+[72.045635] (-) TimerEvent: {}
+[72.200620] (-) TimerEvent: {}
+[72.318905] (-) TimerEvent: {}
+[72.465666] (-) TimerEvent: {}
+[72.590432] (-) TimerEvent: {}
+[72.767757] (-) TimerEvent: {}
+[72.917110] (-) TimerEvent: {}
+[73.102460] (-) TimerEvent: {}
+[73.218445] (-) TimerEvent: {}
+[73.337656] (-) TimerEvent: {}
+[73.463231] (-) TimerEvent: {}
+[73.606429] (-) TimerEvent: {}
+[73.778750] (-) TimerEvent: {}
+[73.905329] (-) TimerEvent: {}
+[74.032577] (-) TimerEvent: {}
+[74.059791] (line_tracking) StdoutLine: {'line': b'[ 68%] Built target line_tracking__rosidl_typesupport_fastrtps_c\n'}
+[74.133271] (-) TimerEvent: {}
+[74.263664] (-) TimerEvent: {}
+[74.385125] (-) TimerEvent: {}
+[74.590392] (-) TimerEvent: {}
+[74.690937] (-) TimerEvent: {}
+[74.791559] (-) TimerEvent: {}
+[74.896800] (-) TimerEvent: {}
+[74.984424] (line_tracking) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libline_tracking__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[75.014139] (-) TimerEvent: {}
+[75.168694] (-) TimerEvent: {}
+[75.286575] (-) TimerEvent: {}
+[75.447881] (-) TimerEvent: {}
+[75.564280] (-) TimerEvent: {}
+[75.699696] (-) TimerEvent: {}
+[75.801237] (-) TimerEvent: {}
+[75.922657] (-) TimerEvent: {}
+[76.037697] (-) TimerEvent: {}
+[76.187744] (-) TimerEvent: {}
+[76.307412] (-) TimerEvent: {}
+[76.461164] (-) TimerEvent: {}
+[76.610168] (-) TimerEvent: {}
+[76.727041] (-) TimerEvent: {}
+[76.728180] (line_tracking) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[76.732994] (line_tracking) StdoutLine: {'line': b'[ 71%] Built target line_tracking__rosidl_typesupport_fastrtps_cpp\n'}
+[76.827792] (-) TimerEvent: {}
+[76.849646] (line_tracking) CommandEnded: {'returncode': 2}
+[76.928329] (-) TimerEvent: {}
+[77.054314] (-) TimerEvent: {}
+[77.198688] (-) TimerEvent: {}
+[77.304925] (-) TimerEvent: {}
+[77.492576] (-) TimerEvent: {}
+[77.605601] (-) TimerEvent: {}
+[77.737716] (-) TimerEvent: {}
+[77.867976] (-) TimerEvent: {}
+[77.988322] (-) TimerEvent: {}
+[78.136969] (-) TimerEvent: {}
+[78.257165] (-) TimerEvent: {}
+[78.379294] (-) TimerEvent: {}
+[78.496839] (-) TimerEvent: {}
+[78.600906] (-) TimerEvent: {}
+[78.708052] (-) TimerEvent: {}
+[78.837373] (-) TimerEvent: {}
+[78.959992] (-) TimerEvent: {}
+[79.065522] (-) TimerEvent: {}
+[79.180147] (-) TimerEvent: {}
+[79.283059] (-) TimerEvent: {}
+[79.399256] (-) TimerEvent: {}
+[79.517348] (-) TimerEvent: {}
+[79.638170] (-) TimerEvent: {}
+[79.783481] (-) TimerEvent: {}
+[79.905555] (-) TimerEvent: {}
+[80.023379] (-) TimerEvent: {}
+[80.144325] (-) TimerEvent: {}
+[80.298093] (-) TimerEvent: {}
+[80.449099] (-) TimerEvent: {}
+[80.597942] (-) TimerEvent: {}
+[80.758306] (-) TimerEvent: {}
+[80.896143] (-) TimerEvent: {}
+[81.009240] (-) TimerEvent: {}
+[81.121573] (-) TimerEvent: {}
+[81.233594] (-) TimerEvent: {}
+[81.348643] (-) TimerEvent: {}
+[81.459855] (-) TimerEvent: {}
+[81.618081] (-) TimerEvent: {}
+[81.728231] (-) TimerEvent: {}
+[81.928208] (-) TimerEvent: {}
+[82.022378] (line_tracking) JobEnded: {'identifier': 'line_tracking', 'rc': 2}
+[82.110087] (-) TimerEvent: {}
+[82.110654] (-) EventReactorShutdown: {}

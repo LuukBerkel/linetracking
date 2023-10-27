@@ -1,6 +1,6 @@
 linetracking:
   debug: true
-  output: "spline"
+  output: "contour"
   profiles:
     blue:
       hue_up: 140
